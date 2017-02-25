@@ -166,10 +166,17 @@ ul.course_catalogue{
 }
 
 ul.course_catalogue li{
-  padding: 25px;
-  width: 20%;
+  padding: 15px;
+  width: 23%;
   text-align: center;
-  float:left;
+  float: left;
+  background: #FFFFFF;
+  margin: 0 15px 15px 0px;
+}
+
+ul.course_catalogue li h2{
+  font-size: 20px;
+  color: #73849a;
 }
 
 ul.course_catalogue li .headerc img{
