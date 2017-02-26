@@ -18,3 +18,19 @@ li{
 .course-curriculum{
 	float: left;
 }
+
+.instructor-section img{
+    background-image: url(http://fullhdpictures.com/wp-content/uploads/2016/08/Businessman-HD-Wallpapers.jpg);
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 70px;
+    border: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.instructor-section .container{
+    padding-bottom: 10px;
+}
