@@ -35,7 +35,6 @@ body
 
 button{
   color: white!important;
-  border-color: #faaf40!important;
   font-size: 14px;
   font-style: normal;
   font-weight: 700!important;
@@ -108,7 +107,7 @@ form input,form textarea{
 
 .featuredContents .fa-chevron-left, .featuredContents .fa-chevron-right{
   position: absolute;
-  top: 34%;
+  top: 60%;
 
 }
 .featuredContents .fa-chevron-left{
@@ -500,4 +499,9 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
 }
 body{
   overflow: auto;
+}
+
+.btn-primary{
+  background-color: #224f75;
+  border-color: #224f75;
 }
