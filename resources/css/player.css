@@ -1,0 +1,51 @@
+
+.course-curriculum{   
+    text-align: center;
+    padding-right: 25px;
+}
+.course-curriculum h1{
+	text-align: left;
+}
+.left-menu-back{
+    background-color: gainsboro; 
+}
+.left-menu{
+	padding-left: 25px;
+}
+.mainView{
+	margin-top: 0;
+}
+.mainView .left-menu{	
+	margin-top: 120px;
+}
+.course-player{
+	margin: 0 12px;
+}
+.mainView .course-curriculum{
+	padding-top: 100px;
+}
+.left-menu .progress-bar{
+	width: 100%;
+    background-color: #c5c5c5;
+    height: 14px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.left-menu .progress-text{
+	text-align: center;
+    font-size: 12px;
+    color: #337ab7;
+}
+.left-menu .progress-text .percentage{
+	font-size: 18px;
+}
+.course-player i{
+	padding: 0 10px 0 15px;
+}
+.video{
+	width: 500px;
+    height: 325px;
+    background-image: url(http://www.technologytell.com/gadgets/files/2012/07/hulu-web-player-640.jpeg);
+    background-size: cover;
+    background-position-x: -38px;
+}
