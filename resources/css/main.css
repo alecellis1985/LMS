@@ -101,12 +101,61 @@ form input,form textarea{
 .featuredContents{
   margin-top: 150px;
   float: left;
+  height: 300px;
   width: 100%;
+  position: relative;
 }
+
+.featuredContents .fa-chevron-left, .featuredContents .fa-chevron-right{
+  position: absolute;
+  top: 34%;
+
+}
+.featuredContents .fa-chevron-left{
+  left: -35px;
+}
+.featuredContents .fa-chevron-right{
+  right: -35px;
+}
+
+
 
 .mainView, .searchBar{
   margin-top: 50px;
   float: left;
+}
+
+.card {
+  width: 100%;
+  height: 250px;
+}
+
+.course-link>a{
+  padding: 10px;
+  display: block;
+}
+
+.front{
+  background: #7F7F7F;
+  color:#FFFFFF;  
+}
+
+.coin{
+  color: #00c521;
+  font-weight: bold;
+}
+
+ul.course_catalogue{
+  margin: 0;
+}
+
+.back{
+  background: #FFFFFF;
+  color: #7F7F7F;
+  padding: 10px;
+  border: 1px solid #8797bb;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mainView{
@@ -214,6 +263,12 @@ ul.course_catalogue li .c_body
   padding: 10px;
 }
 
+.c_btm{
+  color: #8797bb;
+  font-weight: bold;
+  line-height: 30px;
+}
+
 ul.course_catalogue li .c_btm img{
   border-radius: 100%;
 }
@@ -224,8 +279,8 @@ ul.course_catalogue li .c_btm .coin{
 
 ul.course_catalogue li h2{
   font-size: 20px;
-  color: #73849a;
-  margin-top: 10px;
+  margin: 10px;
+  text-align: center;
 }
 
 ul.course_catalogue li .headerc img{

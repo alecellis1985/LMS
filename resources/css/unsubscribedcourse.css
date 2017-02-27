@@ -1,83 +1,87 @@
 ul{
-	list-style: none;
+  list-style: none;
 }
 li{
-	list-style: none;
+  list-style: none;
 }
 
 .container.row.full-heigth{
-  	width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .instructor-section{
-	background-color: azure;
+  background-color: azure;
 }
 
 .course-curriculum{
-	float: left;
+  float: left;
 }
 
 .instructor-section img{
-    background-image: url(http://fullhdpictures.com/wp-content/uploads/2016/08/Businessman-HD-Wallpapers.jpg);
-    vertical-align: middle;
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    border-radius: 70px;
-    border: none;
-    float: left;
-    margin-right: 10px;
+  background-image: url(http://fullhdpictures.com/wp-content/uploads/2016/08/Businessman-HD-Wallpapers.jpg);
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 70px;
+  border: none;
+  float: left;
+  margin-right: 10px;
 }
 
 .instructor-section .container{
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .course-curriculum h1{
-	text-align: left;
+  text-align: left;
+}
+
+.mainView.unsubscribed{
+  width: 100%;
 }
 
 .mainView ul{
-	list-style: none;
-	text-align: left;
-	padding-left: 0;
-	margin-top: 10px;
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  margin-top: 10px;
 }
 .mainView li{
-	list-style: none;
-	background-color: darkgray;
-    color: #464545;    
-    padding: 0;
+  list-style: none;
+  background-color: darkgray;
+  color: #464545;    
+  padding: 0;
 }
 .mainView ul li h4{
-	padding: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
 }
 .mainView ul ul{
-	padding: 0px;
-	background-color: azure;
+  padding: 0px;
+  background-color: azure;
 }
 .mainView ul ul li{
-	border-top: #e3e6e6 1px solid;
-    background-color: #c2c3c3;
-	padding-left: 10px;
-    padding-right: 10px;
-    overflow: hidden;
+  border-top: #e3e6e6 1px solid;
+  background-color: #c2c3c3;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
 }
 .mainView ul ul li i{
-	font-size: 23px;
-    position: relative;
-    top: 3px;    
-    margin: 2px 3px;
-    padding: 0px 2px 0px 2px;
+  font-size: 23px;
+  position: relative;
+  top: 3px;    
+  margin: 2px 3px;
+  padding: 0px 2px 0px 2px;
 }
 .mainView ul ul li button{
-	max-height: 35px;
-	float: right;
+  max-height: 35px;
+  float: right;
 }
 .unsubscribed .title{
-	padding: 15px 25px;
-    margin: auto;
-    text-align: center;
+  padding: 15px 25px;
+  margin: auto;
+  text-align: center;
 }
