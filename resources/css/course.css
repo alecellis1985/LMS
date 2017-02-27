@@ -57,3 +57,18 @@
 .mainView .course-curriculum{
 	padding-top: 100px;
 }
+.left-menu .progress-bar{
+	width: 100%;
+    background-color: #c5c5c5;
+    height: 14px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.left-menu .progress-text{
+	text-align: center;
+    font-size: 12px;
+    color: #337ab7;
+}
+.left-menu .progress-text .percentage{
+	font-size: 18px;
+}
