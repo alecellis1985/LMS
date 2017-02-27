@@ -45,7 +45,15 @@
 	max-height: 35px;
 	float: right;
 }
-
 .left-menu{
 	padding-left: 25px;
+}
+.mainView{
+	margin-top: 0;
+}
+.mainView .left-menu{
+	margin-top: 120px;
+}
+.mainView .course-curriculum{
+	padding-top: 100px;
 }
