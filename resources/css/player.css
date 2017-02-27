@@ -7,7 +7,11 @@
 	text-align: left;
 }
 .left-menu-back{
-    background-color: gainsboro; 
+    background-color: gainsboro;
+    padding-right: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 3px;
 }
 .left-menu{
 	padding-left: 25px;
@@ -25,7 +29,7 @@
 	padding-top: 100px;
 }
 .left-menu .progress-bar{
-	width: 100%;
+    width: 93%;
     background-color: #c5c5c5;
     height: 14px;
     border-radius: 20px;
@@ -35,6 +39,7 @@
 	text-align: center;
     font-size: 12px;
     color: #337ab7;
+    padding-right: 6%;
 }
 .left-menu .progress-text .percentage{
 	font-size: 18px;
@@ -48,4 +53,51 @@
     background-image: url(http://www.technologytell.com/gadgets/files/2012/07/hulu-web-player-640.jpeg);
     background-size: cover;
     background-position-x: -38px;
+}
+.mainView ul{
+	list-style: none;
+	text-align: left;
+	padding-left: 0;
+    margin: -5px -5px 15px -13px;
+}
+.mainView li{
+	list-style: none;
+	background-color: darkgray;
+    color: #464545;   
+    padding: 0;    
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+}
+.mainView ul li h4{
+	padding: 10px 10px 0px 10px;
+}
+.mainView ul ul{
+	padding: 0px;
+	background-color: azure;
+}
+.mainView ul ul li{
+	border-top: #e3e6e6 1px solid;
+    background-color: #c2c3c3;
+	padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    margin: 0px 9px 0px 14px;
+    font-size: 12px;
+}
+.mainView ul ul li i{
+    font-size: 19px;
+    position: relative;
+    top: 3px;
+    margin: 1px 3px;
+}
+.mainView ul ul li button{
+	max-height: 35px;
+	font-size: 12px;
+    width: 100px;
+    padding: 1px !important;
+}
+.mainView{
+    overflow-x: hidden;
 }
