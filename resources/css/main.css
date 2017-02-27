@@ -98,8 +98,40 @@ form input,form textarea{
   position:relative;
 }
 
+.featuredContents{
+  margin-top: 150px;
+  float: left;
+  width: 100%;
+}
+
+.mainView, .searchBar{
+  margin-top: 50px;
+  float: left;
+}
+
 .mainView{
-  margin-top: 200px;
+  width: 80%;
+}
+.searchBar{
+  width: 20%;
+}
+
+.searchBar .list-group-item{
+  border:none;
+  background: none;
+}
+
+.searchBar >ul >li{
+  padding: 0;
+}
+
+.searchBar >ul >li h3{
+  margin-top: 0;
+}
+.list-group-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0;
 }
 
 .title_subtitle_holder{
@@ -117,6 +149,7 @@ form input,form textarea{
   font-family: 'Open Sans',sans-serif;
   height: 90px;
   line-height: 90px;
+  transition: all 0.4 ease;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
@@ -166,17 +199,33 @@ ul.course_catalogue{
 }
 
 ul.course_catalogue li{
-  padding: 15px;
-  width: 23%;
-  text-align: center;
+  width: 25%;
+  text-align: left;
   float: left;
+}
+
+ul.course_catalogue li >div{
+  margin: 5px;
   background: #FFFFFF;
-  margin: 0 15px 15px 0px;
+}
+
+ul.course_catalogue li .c_body
+{
+  padding: 10px;
+}
+
+ul.course_catalogue li .c_btm img{
+  border-radius: 100%;
+}
+
+ul.course_catalogue li .c_btm .coin{
+  color:#23474F;
 }
 
 ul.course_catalogue li h2{
   font-size: 20px;
   color: #73849a;
+  margin-top: 10px;
 }
 
 ul.course_catalogue li .headerc img{
