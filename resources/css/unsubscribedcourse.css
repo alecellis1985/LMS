@@ -69,7 +69,8 @@ li{
 	font-size: 23px;
     position: relative;
     top: 3px;    
-    margin: 2px 5px;
+    margin: 2px 3px;
+    padding: 0px 2px 0px 2px;
 }
 .mainView ul ul li button{
 	max-height: 35px;
