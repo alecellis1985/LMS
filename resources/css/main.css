@@ -421,3 +421,17 @@ ul.course_catalogue li .headerc img{
 .header-and-body-container .container .info span .fa {
   color: #EF3B3A;
 }
+.mainView{
+  margin-top: 105px;
+}
+html,body { height: 100%; margin: 0px; padding: 0px; }
+.full-heigth { height: 100% }
+.navbar-default .navbar-nav>li>a.highlighted{
+  color: blanchedalmond;
+}
+.container.row.full-heigth{
+  margin: auto;
+}
+body{
+  overflow: auto;
+}

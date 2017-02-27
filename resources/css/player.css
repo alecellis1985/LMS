@@ -1,0 +1,119 @@
+
+.course-curriculum{   
+
+}
+.course-curriculum h1{
+  text-align: left;
+}
+.left-menu-back{
+  background-color: gainsboro; 
+  padding: 0;
+}
+.left-menu{
+  padding-left: 25px;
+}
+.course-curriculum{
+  padding:0;
+}
+.course-player{
+
+}
+.settings{
+  background: #000000;
+  color: #FFFFFF;
+}
+.settings h2{
+  text-align: center;
+}
+
+.settings .btms{
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 63px;
+}
+
+.white{
+  color: #FFFFFF;
+}
+
+
+a.white:hover{
+  color: #FFFFFF;
+}
+
+a.white:hover{
+  text-decoration: none;
+}
+
+.icon_sec, .info_s{
+
+}
+
+.icon_sec{
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+}
+
+.info_s{
+  display: inline-block;
+}
+
+.c_header_S>h2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  color: #FFFFFF;
+  background: #a4a4a4;
+  padding-left: 15px;
+}
+
+.list-group-item {  
+  padding-left: 0;
+  padding: 0;
+  border: 0;
+}
+
+.course-sections ul{
+  margin-bottom: 0;
+}
+
+.course-sections ul ul>li{
+  padding: 15px 0;
+}
+
+
+
+.list-group .list-group-item:not(:last-child){
+  border-bottom: 2px solid #cecece;
+}
+
+iframe{
+  height: 100%;
+  width: 100%;
+}
+.left-menu .progress-bar{
+  width: 100%;
+  background-color: #c5c5c5;
+  height: 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.left-menu .progress-text{
+  text-align: center;
+  font-size: 12px;
+  color: #337ab7;
+}
+.left-menu .progress-text .percentage{
+  font-size: 18px;
+}
+.course-player i{
+  padding: 0 10px 0 15px;
+}
+.video{
+  width: 500px;
+  height: 325px;
+  background-image: url(http://www.technologytell.com/gadgets/files/2012/07/hulu-web-player-640.jpeg);
+  background-size: cover;
+  background-position-x: -38px;
+}
