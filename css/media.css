@@ -1,0 +1,2011 @@
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    section.my-account ul.nav-l li a {
+        font-size: 20px;
+    }
+
+    section.youth h1 {
+        font-size: 40px;
+    }
+
+    nav.navbar ul.navbar-right li a {
+        font-size: 11px;
+        padding: 2px 2px;
+    }
+
+    section.glazier div.glazier-items div.glazier-item span {
+        font-size: 75px;
+    }
+
+    section.clinics div.clinics-info a.find-clinic {
+        font-size: 14px;
+    }
+
+    section.clinics div.clinics-info h2 {
+        font-size: 60px;
+    }
+
+    section.programs-train h2 {
+        font-size: 25px;
+    }
+
+    section.programs-train div.train-info span {
+        font-size: 25px;
+    }
+
+    section.championship h2 {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    section.championship div.championship-items div.championship-item p {
+        font-size: 14px;
+    }
+
+    section.championship div.championship-items div.championship-item div.championship-item-person div.championship-item-person-right p {
+        font-size: 12px;
+    }
+
+    section.vault h3 {
+        font-size: 30px;
+    }
+
+    section.vault p {
+        font-size: 14px;
+    }
+
+    section.help h2 {
+        font-size: 60px;
+    }
+
+    section.about div.about-slider-indicators ul li {
+        margin: 0px 30px;
+    }
+
+    section.football-drills div.free-football div.free-football-grid a.free-football-item h3 {
+        font-size: 17px;
+    }
+
+    div.football-sign-up ul li {
+        padding: 0px 4px;
+    }
+
+        div.football-sign-up ul li input[type="submit"] {
+            margin-top: 15px;
+        }
+
+    section.offensive-drills div.offensive div.offensive-grid div.offensive-item h3 {
+        font-size: 16px;
+    }
+
+    section.denver-meetups div.meetups-grid div.meetups-item h3 {
+        font-size: 30px;
+    }
+
+    section.denver-meetups div.meetups-grid div.meetups-item h4 {
+        font-size: 20px;
+    }
+
+    section.denver-meetups div.meetups-grid div.meetups-item h5 {
+        font-size: 17px;
+    }
+
+    section.denver-clinic-schedule div.about-slider-indicators ul li {
+        margin: 0px 70px;
+    }
+
+    section.season-pass h1 {
+        font-size: 35px;
+    }
+
+    section.pass h3 {
+        font-size: 30px;
+    }
+
+    section.season-pass a {
+        width: 250px;
+        height: 250px;
+        line-height: 250px;
+        font-size: 110px;
+    }
+    section.season-pass {
+        height: 650px;
+    }
+        section.season-pass div.video-buttons {
+            width: 660px;
+            height: 500px;
+        }
+        section.season-pass div.pause {
+            width: 660px;
+        }
+
+    section.season-pass div.video-buttons button {
+        margin-top: 35%;
+        margin-bottom: 53%;
+        margin-left: 20%;
+        margin-right:20%;
+        width: 12%;
+    }
+
+    section.season-pass iframe {
+        margin-top: 0;
+        width: 660px;
+        height: 530px
+    }
+
+    section.top-speakers div.top-speakers-grid div.top-speakers-imgs div.row img {
+        width: 40%;
+    }
+
+    section.p-benefits div.benef-grid div.benef-item h3 {
+        font-size: 32px;
+    }
+
+    section.unlimited-clinics div.unlimited-grid div.unlimited-detail h2 {
+        font-size: 30px;
+    }
+
+    section.top-speakers h2 {
+        font-size: 30px;
+    }
+
+    section.top-speakers div.top-speakers-grid div.top-speakers-info h4 {
+        font-size: 38px;
+    }
+
+    section.search-clinics div.search-options b.option-item span.option-name {
+        font-size: 25px;
+    }
+
+    section.search-clinics div.search-clinics-grid div.search-clinics-item div.search-clinics-item-info h4 {
+        font-size: 14px;
+    }
+
+    section.search-clinics div.search-clinics-grid div.search-clinics-item div.search-clinics-item-info h3 {
+        font-size: 16px;
+    }
+
+    section.youth-coach h3 {
+        font-size: 20px;
+    }
+
+    section.youth-coach a {
+        font-size: 20px;
+    }
+
+    section.season-pass-registration h1 {
+        font-size: 44px;
+    }
+
+    section.season-pass-registration div.registration-grid div.registration-info div.registration-inputs.g-3 span.registration-input,
+    section.season-pass-registration div.registration-grid div.registration-info div.registration-inputs.g-3 span.registration-dropdown {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section.add-clinics h1 {
+        font-size: 44px;
+    }
+
+    section.add-clinics div.add-clinics-grid div.add-clinics-item div.add-clinics-info h3,
+    section.add-clinics div.add-clinics-grid div.add-clinics-item div.add-clinics-info h4 {
+        font-size: 16px;
+    }
+
+    section.add-new-coaches h1 {
+        font-size: 36px;
+    }
+
+    section.add-new-coaches table tr td,
+    section.add-new-coaches table tr th {
+        font-size: 16px;
+    }
+
+    section.notifications-references h1 {
+        font-size: 44px;
+        margin-bottom: 50px !important;
+    }
+
+    section.notifications-references h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    section.notifications-references h3 {
+        font-size: 25px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    .navbar-inverse .navbar-toggle {
+        border-color: #00ADEF;
+        border-radius: 0px;
+        border-width: 2px;
+        margin-top: 0px;
+        background: none;
+    }
+
+        .navbar-inverse .navbar-toggle:hover {
+            background: #fff;
+        }
+
+        .navbar-inverse .navbar-toggle span.icon-bar {
+            background: #00ADEF;
+        }
+
+    section.pass h1 {
+        font-size: 45px;
+    }
+
+    section.pass h3 {
+        font-size: 25px;
+    }
+
+    section.pass ul li a {
+        font-size: 18px;
+        padding: 1px 5px;
+    }
+
+    section.what-new {
+        text-align: center;
+    }
+
+        section.what-new div.new-info {
+            text-align: center !important;
+            margin-bottom: 20px;
+        }
+
+    section.glazier h2 {
+        font-size: 30px;
+    }
+
+    section.glazier div.glazier-item {
+        margin-bottom: 30px;
+    }
+
+    section.programs-train h2 {
+        font-size: 20px;
+    }
+
+    section.programs-train div.train-video img {
+        width: 100%;
+    }
+
+    .train-video iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    section.championship h2 {
+        font-size: 25px;
+    }
+
+    section.championship div.championship-item {
+        margin-top: 30px;
+        overflow: hidden;
+    }
+
+    section.vault img {
+        width: 35%
+    }
+
+    section.vault a {
+        margin-bottom: 30px;
+    }
+
+    section.new-service div.service {
+        margin-top: 30px;
+    }
+
+    section.help h2 {
+        font-size: 40px;
+    }
+
+    section.season-pass h1 {
+        font-size: 27px;
+        margin-top: 0;
+    }
+
+    section.season-pass iframe {
+        margin-top: 30px;
+        width: 75%;
+    }
+
+    section.pass h3 {
+        font-size: 22px;
+    }
+
+    section.vault {
+        padding: 10px 0 35px;
+    }
+
+    section.prices {
+        padding: 25px 0;
+    }
+
+        section.prices h2 {
+            font-size: 30px;
+        }
+
+    section.p-benefits {
+        padding: 15px 0;
+    }
+
+        section.p-benefits div.benef-grid div.benef-item {
+            margin-bottom: 23px;
+        }
+
+            section.p-benefits div.benef-grid div.benef-item h3 {
+                margin-bottom: 18px;
+                margin-top: 0;
+            }
+
+        section.p-benefits h2 {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+    section.all-coaches {
+        padding: 10px 0 25px 0;
+    }
+
+        section.all-coaches h6 {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+    /* fgag*/
+
+    footer div.footer-top div.footer-links,
+    footer div.footer-top div.glazier-clinics {
+        border-right: none;
+        margin-bottom: 30px;
+    }
+
+        footer div.footer-top div.glazier-clinics div.sign-clinic {
+            text-align: center;
+        }
+
+            footer div.footer-top div.glazier-clinics div.sign-clinic span {
+                display: block;
+            }
+
+    section.about h1 {
+        font-size: 44px;
+    }
+
+    section.about div.about-slider-indicators ul li {
+        margin: 0px 15px;
+    }
+
+    body section.no-bk {
+        padding: 130px 0px 30px 0px;
+    }
+
+        body section.no-bk h1 {
+            line-height: 1.5em;
+            margin-bottom: 5px;
+        }
+
+    body section.bk_ h1 {
+        line-height: 1.5em;
+    }
+
+    section.about div.about-slider-indicators div.carousel-inner div.item div.carousel-caption {
+        padding: 0;
+    }
+
+    section.email-signup h1 {
+        font-size: 31px;
+    }
+
+    section.email-signup h2 {
+        font-size: 20px;
+    }
+
+    section.email-signup p {
+        font-size: 16px;
+    }
+
+    section.notifications-references h2 {
+        font-size: 30px;
+        margin-bottom: 26px;
+    }
+
+    section.notifications-references h3 {
+        font-size: 23px;
+    }
+
+    section.football-drills div.football-background h1 {
+        font-size: 42px
+    }
+
+    section.football-drills div.free-football div.free-football-grid a.free-football-item {
+        margin-bottom: 30px;
+    }
+
+    div.x ul li span {
+        font-size: 22px;
+        display: block;
+        padding-top: 5px;
+    }
+
+    div.football-sign-up ul li span {
+        font-size: 27px;
+    }
+
+    div.football-sign-up ul li input[type="email"] {
+        width: 250px;
+        height: 33px;
+    }
+
+    div.football-sign-up ul li input[type="submit"] {
+        font-size: 20px;
+    }
+
+    div.rogers-drills div.rogers p {
+        font-size: 16px;
+    }
+
+    section.offensive-drills div.offensive-background h1 {
+        font-size: 42px;
+    }
+
+    section.Rogers-drills-detail div.prices div.price.two {
+        border-right: 0px;
+    }
+
+    section.Rogers-drills-detail div.prices div.price.one,
+    section.Rogers-drills-detail div.prices div.price.two {
+        margin-bottom: 30px;
+    }
+
+    section.city-detail-background h1 {
+        font-size: 55px;
+    }
+
+    section.new-service div.city-new-service li {
+        margin-right: 60px;
+    }
+
+        section.new-service div.city-new-service li a {
+            font-size: 25px;
+        }
+
+    section.denver-features div.denver-item {
+        margin-bottom: 30px;
+    }
+
+        section.denver-features div.denver-item:last-child {
+            margin-bottom: 0px;
+        }
+
+    section.denver-clinic-schedule div.about-slider-indicators ul li {
+        margin: 0px 30px;
+    }
+
+    section.the-hotel div.hotel-detail-grid div.hotel-grid-address,
+    section.the-hotel div.hotel-detail-grid div.hotel-grid-roomrate {
+        margin-bottom: 30px;
+    }
+
+    section.the-hotel div.hotel-images-grid div.hotel-images-grid-image:first-child {
+        margin-bottom: 30px;
+    }
+
+    section.the-hotel div.hotel-images-grid div.hotel-images-grid-image img {
+        width: 100%;
+    }
+
+    section.the-hotel div.hotel-contact-grid div.hotel-direction,
+    section.the-hotel div.hotel-contact-grid div.hotel-parking {
+        margin-bottom: 30px;
+    }
+
+    section.season-pass h1 {
+        font-size: 35px;
+    }
+    section.season-pass {
+        height: 650px;
+    }
+    section.season-pass div.video-buttons {
+        width: 660px;
+        height: 500px;
+        margin-top: 65px;
+    }
+        section.season-pass div.pause {
+            width: 660px;
+        }
+
+    section.season-pass div.video-buttons button {
+        margin-top: 27%;
+        margin-bottom: 61%;
+        margin-left: 8%;
+        margin-right:8%;
+        width: 12%;
+    }
+
+    section.season-pass iframe {
+        margin-top: 0px;
+        width: 660px;
+        height: 550px;
+    }
+
+    section.pass h3 {
+        font-size: 19px;
+    }
+
+    section.season-pass a {
+        width: 220px;
+        height: 220px;
+        line-height: 220px;
+        font-size: 100px;
+    }
+
+    section.prices div.price.two {
+        border-right: 0px;
+    }
+
+    section.prices div.price.one,
+    section.prices div.price.two {
+        margin-bottom: 30px;
+    }
+
+    section.p-benefits div.benef-grid div.benef-item {
+        margin-bottom: 30px;
+    }
+
+    section.all-coaches div.all-coaches-grid div.all-coaches-details {
+        margin-bottom: 30px;
+    }
+
+    section.unlimited-clinics div.unlimited-grid div.unlimited-detail h2 {
+        font-size: 25px;
+    }
+
+    section.unlimited-clinics div.unlimited-grid div.unlimited-detail h4 {
+        font-size: 20px;
+    }
+
+    section.unlimited-clinics div.clinics-grid div.clinics-item {
+        margin-bottom: 30px;
+    }
+
+    section.top-speakers div.top-speakers-grid div.top-speakers-imgs div.row img {
+        display: block;
+        width: 23%;
+        margin: 1% 10%;
+    }
+
+    section.choose-season h1 {
+        font-size: 44px;
+    }
+
+    section.season-includes ul li {
+        font-size: 24px;
+    }
+
+    section.youth-coach h3,
+    section.youth-coach h3 a {
+        font-size: 18px;
+    }
+
+    section.season-pass-registration h1 {
+        font-size: 35px;
+    }
+
+    section.season-pass-registration h2 {
+        font-size: 35px;
+    }
+
+    section.season-pass-registration div.registration-grid div.registration-info {
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
+
+    section.season-pass-registration div.registration-grid div.testimon div.money-back {
+        margin-top: 30px;
+    }
+
+    section.add-clinics h1 {
+        font-size: 35px;
+    }
+
+    section.add-clinics h2 {
+        font-size: 30px;
+    }
+
+    section.search-clinics div.search-options b.option-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+        section.search-clinics div.search-options b.option-item span.option-name {
+            font-size: 18px;
+        }
+
+    section.login div.google-chrome-message {
+        font-size: 20px;
+    }
+
+    section.login div.login-content div.login-grid div.login-clinics {
+        border-right: 0px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    section.email-signup div.check span label {
+        font-size: 35px;
+    }
+
+    section.contact-us div.contact-faq {
+        border-right: none;
+    }
+
+    section.add-new-coaches div.add-new-fields.g-3 div.add-new-check {
+        width: 49%;
+    }
+
+    section.notifications-references div.notifications-grid {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+
+        section.notifications-references div.notifications-grid div.col-xs-12:nth-child(2) {
+            border-right: 0px;
+        }
+
+        section.notifications-references div.notifications-grid div.col-xs-12:nth-child(1),
+        section.notifications-references div.notifications-grid div.col-xs-12:nth-child(2) {
+            margin-bottom: 0;
+        }
+
+    section.add-new-coaches h2 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+
+    section.add-new-coaches h3 {
+        font-size: 25px;
+    }
+
+    footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-one ul {
+        float: left;
+    }
+
+    footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-two {
+        float: left;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    section.notifications-references div.devider {
+        margin: 0 0 26px 0;
+    }
+
+    section.notifications-references div.additional-ways tr th,
+    section.add-new-coaches table tr th {
+        font-size: 15px;
+        white-space: normal !important;
+    }
+
+    section.notifications-references div.additional-ways tr td,
+    section.add-new-coaches table tr td {
+        font-size: 14px;
+        white-space: normal !important;
+    }
+
+        section.notifications-references div.additional-ways tr td label i,
+        section.add-new-coaches table tr td label i {
+            width: 15px;
+            height: 15px;
+            margin-left: 3px;
+        }
+
+            section.notifications-references div.additional-ways tr td label i:before,
+            section.add-new-coaches table tr td label i:before {
+                width: 15px;
+                height: 15px;
+                line-height: 16px;
+            }
+
+    section.add-new-coaches h2 {
+        font-size: 25px;
+    }
+
+    section.add-new-coaches h3 {
+        font-size: 20px;
+    }
+
+    section.programs-train div.train-info span,
+    section.programs-train div.train-info span i {
+        font-size: 20px;
+    }
+
+    section.pass h1 {
+        font-size: 35px;
+    }
+
+    section.pass h3 {
+        font-size: 16px;
+    }
+
+    section.pass ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+        section.pass ul li a {
+            font-size: 20px;
+            display: inline-block
+        }
+
+        section.pass ul li:first-child {
+            margin-right: 10px;
+        }
+
+    section.what-new div.new-info {
+        font-size: 18px;
+    }
+
+    section.what-new div.new-button a {
+        font-size: 16px;
+    }
+
+    section.partners h2 {
+        font-size: 25px;
+    }
+
+    section.partners ul.partners-links li a {
+        font-size: 16px;
+    }
+
+    section.partners ul.partners-links li:first-child {
+        margin-right: 10px;
+    }
+
+    section.vault img {
+        width: 50%
+    }
+
+    section.glazier h2 {
+        font-size: 25px;
+    }
+
+    section.help h2 {
+        line-height: 1.5;
+        font-size: 30px;
+    }
+
+    section.my-account h1 {
+        font-size: 40px;
+    }
+
+    section.my-account h2 {
+        font-size: 35px;
+        margin: 30px 0px 35px 0px;
+    }
+
+    section.my-account ul.nav-l li {
+        padding: 0px 5px;
+    }
+
+        section.my-account ul.nav-l li a {
+            font-size: 25px;
+        }
+
+    section.my-account div.myaccount-content div.order-summary div.summary span i {
+        font-size: 14px;
+    }
+
+    section.my-account div.myaccount-content div.order-summary div.summary span b {
+        font-size: 15px;
+    }
+
+    section.my-account div.myaccount-content div.order-summary div.summary ul li a {
+        font-size: 20px;
+    }
+
+    section.my-account div.myaccount-content div.order-summary div.summary ul li:first-child {
+        margin-right: 10px;
+    }
+
+    section.my-account div.myaccount-content div.coaches a.add,
+    section.my-account div.myaccount-content div.clinic-table a.add {
+        font-size: 20px;
+    }
+
+    section.eclinics h1 {
+        font-size: 40px;
+    }
+
+    section.eclinics div.schedual a.eclinic-register {
+        border: 2px solid #00ADEF;
+        padding: 3px 8px;
+        font-size: 17px;
+    }
+
+    section.youth h1 {
+        font-size: 20px;
+    }
+
+    section.youth div.youth-left div.made-possible {
+        margin-bottom: 30px;
+    }
+
+        section.youth div.youth-left div.made-possible img {
+            display: block;
+            margin: 10px 0px;
+        }
+
+    section.about {
+        padding: 140px 0 30px 0;
+    }
+
+        section.about h1 {
+            font-size: 34px;
+        }
+
+        section.about div.about-slider-indicators ul {
+            display: none;
+        }
+
+        section.about div.about-slider-indicators div.time-line {
+            display: none;
+        }
+
+        section.about div.about-slider-indicators {
+            margin-top: 0px;
+            height: 350px;
+        }
+
+            section.about div.about-slider-indicators div.carousel-inner div.item {
+                height: 350px;
+            }
+
+        section.about div.who-values h2 {
+            font-size: 25px;
+        }
+
+        section.about div.who-values p {
+            font-size: 14px;
+        }
+
+    section.experience-clinic h2 {
+        font-size: 25px;
+    }
+
+    section.email-signup div.check span label {
+        font-size: 35px;
+    }
+
+    section.email-signup div.check span i {
+        margin-top: 12px;
+    }
+
+    section.email-signup h1 {
+        font-size: 25px;
+    }
+
+    section.email-signup h2 {
+        font-size: 18px;
+    }
+
+    section.email-signup p {
+        font-size: 14px;
+    }
+
+    section.email-signup div.enter-email input {
+        width: 200px;
+    }
+
+    section.email-signup div.enter-email span {
+        font-size: 20px;
+    }
+
+    section.email-signup div.check span label {
+        font-size: 24px;
+    }
+
+    section.email-signup div.check span i {
+        margin-top: 6px;
+    }
+
+    section.email-signup div.check a {
+        font-size: 25px;
+    }
+
+    section.football-drills div.free-football p {
+        font-size: 16px;
+    }
+
+    div.football-sign-up ul li {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 4px 0px;
+    }
+
+        div.football-sign-up ul li input[type="email"] {
+            width: 65%;
+        }
+
+    section.football-drills div.rogers-drills div.rogers p {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    section.football-drills div.rogers-drills div.rogers-grid {
+        width: 270px;
+    }
+
+    section.offensive-drills div.offensive-background h1 {
+        font-size: 32px;
+    }
+
+    section.offensive-drills div.offensive h2 {
+        font-size: 25px;
+    }
+
+    section.offensive-lineman div.lineman-background h1 {
+        font-size: 45px;
+    }
+
+    section.offensive-lineman div.lineman ul.bread-crumb li {
+        font-size: 16px;
+        padding-right: 5px;
+    }
+
+    section.Rogers-drills-detail div.Rogers-detail-background h1 {
+        font-size: 42px;
+    }
+
+    section.Rogers-drills-detail div.season-includes ul li {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    section.new-service div.city-new-service li {
+        margin-right: 0px;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    section.denver-clinic-schedule div.about-slider-indicators div.carousel-inner div.item {
+        height: 1800px;
+    }
+
+    section.denver-clinic-schedule div.about-slider-indicators ul {
+        display: none;
+    }
+
+    section.denver-clinic-schedule div.about-slider-indicators div.time-line {
+        display: none;
+    }
+
+    section.season-pass h1 {
+        line-height: 1.5;
+        font-size: 25px;
+    }
+    section.season-pass {
+        height: 435px;
+    }
+    section.season-pass div.video-buttons {
+        width: 340px;
+        height: 280px;
+        padding-top: 55px;
+        margin-top: 0;
+
+    }
+    section.season-pass div.pause {
+        width: 340px;
+        height: 270px;
+        left: 0;
+        margin-left: 15%;
+    }
+
+    section.season-pass div.video-buttons button {
+        width: 20%;
+    }
+
+    section.season-pass iframe {
+        height: 330px;
+        width: 340px;
+    }
+
+    section.pass h3 {
+        font-size: 15.1px;
+    }
+
+
+    section.top-speakers div.top-speakers-grid div.top-speakers-imgs div.row img {
+        width: 30%;
+    }
+
+    section.prices div.price {
+        margin-bottom: 30px;
+        border-color: #fff;
+    }
+
+    section.unlimited-clinics div.ul-contain ul li {
+        margin-right: 10px;
+    }
+
+    section.unlimited-clinics {
+        padding: 30px;
+    }
+
+        section.unlimited-clinics div.ul-contain {
+            margin-top: 20px;
+        }
+
+        section.unlimited-clinics div.clinics-grid div.clinics-item {
+            margin: 0;
+        }
+
+        section.unlimited-clinics div.unlimited-grid {
+            margin-bottom: 10px;
+        }
+
+            section.unlimited-clinics div.unlimited-grid div.unlimited-detail h2 {
+                font-size: 20px;
+            }
+
+        section.unlimited-clinics div.ul-contain ul li {
+            font-size: 18px;
+        }
+
+    section.top-speakers div.top-speakers-grid div.top-speakers-info h4 {
+        font-size: 26px;
+    }
+
+    section.find-clinic h1 {
+        font-size: 45px;
+    }
+
+    section.find-clinic {
+        padding: 130px 0px 0px 0px;
+    }
+
+    section.search-clinics h2 {
+        font-size: 25px;
+    }
+
+    section.search-clinics div.search-options {
+        margin-bottom: 50px;
+    }
+
+    section.search-clinics div.search-clinics-grid div.search-clinics-item div.search-clinics-item-img div.search-clinics-item-overlay a {
+        margin-top: 120px;
+    }
+
+    section.find-clinic h1 {
+        font-size: 30px;
+    }
+
+    section.search-clinics div.search-options {
+        margin-bottom: 0px;
+    }
+
+    section.search-clinics div.search-clinics-grid div.search-clinics-item div.search-clinics-item-img div.search-clinics-item-overlay a {
+        margin-top: 50px;
+    }
+
+    section.choose-season h1 {
+        font-size: 40px;
+    }
+
+    section.season-includes h2 {
+        font-size: 25px;
+    }
+
+    section.season-includes ul {
+        display: block;
+    }
+
+        section.season-includes ul li {
+            width: 100%;
+            text-align: left;
+        }
+
+    section.youth-coach a {
+        display: block;
+        margin-top: 20px;
+    }
+
+    section.season-pass-registration h1 {
+        font-size: 25px;
+    }
+
+    section.season-pass-registration h2 {
+        font-size: 25px;
+    }
+
+    section.season-pass-registration div.registration-grid div.registration-info h3 {
+        font-size: 25px;
+    }
+
+    section.season-pass-registration h1 {
+        line-height: 1.5;
+    }
+
+    section.season-pass-registration h2 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    section.season-pass-registration div.registration-grid div.registration-info h3 {
+        font-size: 20px;
+    }
+
+    section.season-pass-registration div.registration-grid div.registration-info h4,
+    section.season-pass-registration div.registration-grid div.registration-info a {
+        font-size: 18px;
+    }
+
+    section.season-pass-registration div.registration-grid div.registration-info div.registration-inputs span.registration-input label,
+    section.season-pass-registration div.registration-grid div.registration-info div.registration-inputs span.registration-dropdown label {
+        font-size: 16px;
+    }
+
+    section.season-pass-registration div.registration-grid div.registration-info h5 {
+        font-size: 25px;
+        margin-top: 11px;
+    }
+
+    section.season-pass-registration span.devider {
+        margin: 20px 0 20px 0;
+    }
+
+    section.season-pass-registration div.registration-grid div.testimon div.testi-one div.testi-img, section.season-pass-registration div.registration-grid div.testimon div.testi-two div.testi-img {
+        margin-top: 0;
+    }
+
+    section.season-pass-registration b.next-step {
+        font-size: 20px;
+    }
+
+    section.add-clinics h1 {
+        font-size: 25px;
+    }
+
+    section.add-clinics h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    section.add-clinics div.add-clinics-grid div.add-clinics-item div.add-clinics-img div.add-clinics-overlay a {
+        margin-top: 110px;
+    }
+
+    section.contact-us h1 {
+        font-size: 40px;
+    }
+
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-heading h4 a {
+        font-size: 20px;
+    }
+
+    section.add-new-coaches h1 {
+        font-size: 40px;
+    }
+
+    section.add-new-coaches h2 {
+        font-size: 25px;
+    }
+
+    section.add-new-coaches div.add-new-fields.g-2 div.add-new-field {
+        width: 100%;
+    }
+
+        section.add-new-coaches div.add-new-fields.g-2 div.add-new-field:last-child {
+            width: 100%;
+        }
+
+    section.add-new-coaches div.add-new-fields.g-3 div.add-new-check {
+        width: 100%;
+    }
+
+    section.top-speakers {
+        padding: 20px 0 30px 0;
+    }
+
+    section.youth div.youth-left h3 {
+        margin: 0;
+    }
+
+    section.top-speakers h2 {
+        margin-bottom: 10px;
+    }
+
+    section.new-in {
+        padding: 10px 0 20px 0;
+    }
+
+        section.new-in div.new-in-grid div.new-in-item h3 {
+            margin: 0;
+        }
+
+    section.notifications-references h1 {
+        font-size: 40px;
+    }
+
+    section.notifications-references div.notifications-grid {
+        margin-top: 20px;
+    }
+
+    section.notifications-references h2 {
+        font-size: 25px;
+    }
+
+    section.notifications-references h3 {
+        font-size: 20px;
+    }
+
+    section.notifications-references p {
+        font-size: 16px;
+    }
+
+    section.notifications-references div.notifications-grid div.notifications-item h3 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    section.notifications-references div.notifications-grid div.notifications-item a.subscribe,
+    section.notifications-references div.notifications-grid div.notifications-item a.cancel {
+        margin-top: 5px;
+    }
+
+    section.notifications-references div.notifications-grid {
+        margin-bottom: 20px;
+    }
+
+        section.notifications-references div.notifications-grid div.col-xs-12 {
+            margin-bottom: 30px;
+            border-right: 0px;
+        }
+
+    section.my-account .seasonconf-h2.h2 {
+        font-size: 30px;
+        margin: 35px 0 0 0;
+    }
+
+    footer div.footer-bottom div.footer-bottom-right {
+        text-align: left;
+    }
+
+        footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-one ul {
+            float: left;
+        }
+
+
+
+    section.Rogers-drills-detail div.Rogers-detail {
+        padding: 39px 0px 40px 0px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    section.pass ul li a {
+        font-size: 14px;
+        padding: 1px 5px;
+    }
+
+    section.vault img {
+        width: 60%
+    }
+
+    section.notifications-references div.additional-ways tr th {
+        font-size: 14px;
+    }
+
+    section.add-new-coaches div.devider {
+        margin: 15px 0 15px 0;
+    }
+
+    section.add-new-coaches table tr td a {
+        font-size: 15px;
+    }
+
+    section.notifications-references div.additional-ways tr td,
+    section.add-new-coaches table tr td,
+    section.add-new-coaches table td a.postion {
+        font-size: 11px;
+        white-space: normal !important;
+    }
+
+        section.add-new-coaches table tr td:not(:last-child) {
+            padding-right: 0;
+        }
+
+        section.notifications-references div.additional-ways tr td label i,
+        section.notifications-references div.additional-ways tr td label i:before,
+        section.add-new-coaches table tr td label i,
+        section.notifications-references div.additional-ways tr td label i:before {
+            width: 15px;
+            height: 15px;
+            line-height: 16px;
+        }
+
+    section.all-coaches {
+        padding: 10px 0 25px 0;
+    }
+
+        section.all-coaches h2 {
+            font-size: 30px;
+        }
+
+        section.all-coaches h6 {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+    section.add-new-coaches h2 {
+        font-size: 20px;
+    }
+
+    section.add-new-coaches h3 {
+        font-size: 18px;
+    }
+
+    section.my-account .seasonconf-h2.h2 {
+        font-size: 25px;
+        margin: 20px 0 0 0;
+    }
+
+    body section.no-bk {
+        padding: 110px 0px 30px 0px;
+    }
+
+    nav.navbar ul.aside-logo {
+        font-size: 12px;
+        display: inline-block;
+        top: -6px;
+        position: relative;
+    }
+
+    .navbar-brand {
+        padding-left: 8px;
+    }
+
+    nav.navbar img.coachcomm {
+        float: left;
+        margin-top: 7px;
+        width: 81px;
+    }
+
+    .nav.navbar span.divide {
+        margin: 0 5px 0 5px;
+        position: relative;
+    }
+
+    section.pass h1 {
+        font-size: 25px;
+    }
+
+    section.pass h3 {
+        font-size: 14px;
+    }
+
+
+    section.football-drills div.free-football {
+        padding: 15px 0 0;
+    }
+
+
+    section.football-drills div.rogers-drills {
+        padding: 0;
+    }
+
+    section.what-new div.new-info {
+        font-size: 14px;
+    }
+
+    section.partners {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+        section.partners h2 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        section.partners div.partners-carousel {
+            margin-top: 35px;
+        }
+
+        section.partners ul.partners-links {
+            margin: 30px auto 0px auto;
+        }
+
+        section.partners ul.partners-links {
+            display: block;
+        }
+
+            section.partners ul.partners-links li {
+                margin-bottom: 20px;
+                margin: 20px 40px;
+            }
+
+                section.partners ul.partners-links li a {
+                    font-size: 14px;
+                }
+
+    section.glazier div.glazier-item {
+        margin-bottom: 15px;
+    }
+
+    section.glazier h2 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    section.glazier ul.glazier-links li:first-child {
+        margin-right: 5px;
+    }
+
+    section.help ul li a {
+        font-size: 14px;
+        margin-top: 5px;
+        padding: 3px 5px;
+    }
+
+    section.my-account h1, section.choose-season h1 {
+        font-size: 30px;
+    }
+
+    section.my-account ul.nav-l li {
+        text-align: left;
+        width: 100%;
+    }
+
+    section.my-account div.myaccount-content div.myaccount-content-left h3 {
+        font-size: 18px;
+    }
+
+    section.my-account div.myaccount-content div.myaccount-content-left p {
+        font-size: 14px;
+    }
+
+    section.my-account div.myaccount-content div.myaccount-content-left div.fields input {
+        width: 100% !important;
+    }
+
+    .btn-group.bootstrap-select {
+        width: 100% !important;
+    }
+
+    section.my-account div.myaccount-content div.myaccount-content-left div.opt a.print {
+        display: block !important;
+        margin: 20px 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    section.my-account div.myaccount-content div.myaccount-content-left div.fields {
+        width: 100%;
+    }
+
+    section.my-account div.myaccount-content div.myaccount-content-left input[type="submit"] {
+        width: 100%;
+    }
+
+    section.my-account div.myaccount-content div.myaccount-content-right div.details span {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    section.my-account div.myaccount-content div.order-summary div.summary ul li:first-child {
+        margin-right: 0px;
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section.eclinics h1 {
+        font-size: 25px;
+    }
+
+    section.eclinics div.schedual h2 {
+        font-size: 16px;
+    }
+
+    section.eclinics div.schedual p {
+        font-size: 16px;
+    }
+
+    section.youth div.youth-left ul li:first-child {
+        margin-right: 0px;
+    }
+
+    section.youth div.youth-left {
+        overflow: hidden;
+    }
+
+        section.youth div.youth-left ul li {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+    section.about {
+        padding: 130px 0 30px 0;
+    }
+
+        section.about h1 {
+            font-size: 22px;
+        }
+
+        section.about div.about-slider-indicators {
+            margin-top: 0px;
+            height: 300px;
+        }
+
+            section.about div.about-slider-indicators div.carousel-inner div.item {
+                height: 300px;
+                margin-top: 0px;
+            }
+
+                section.about div.about-slider-indicators div.carousel-inner div.item div.caption-info h2 {
+                    font-size: 20px;
+                }
+
+            section.about div.about-slider-indicators .fa-angle-left {
+                font-size: 79px;
+                left: -21%;
+                position: relative;
+            }
+
+            section.about div.about-slider-indicators .fa-angle-right {
+                font-size: 79px;
+                left: 21%;
+                position: relative;
+            }
+
+    section.championship h2 {
+        margin-bottom: 0;
+    }
+
+    section.experience-clinic {
+        padding: 0px 0px 35px 0px;
+    }
+
+    section.offensive-drills div.offensive ul li a {
+        font-size: 16px;
+    }
+
+    section.offensive-drills div.offensive ul li {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    section.offensive-drills div.offensive h2 {
+        font-size: 20px;
+    }
+
+    section.offensive-lineman div.lineman-background h1 {
+        font-size: 32px;
+    }
+
+    div.Rogers-drill div.Rogers-info {
+        width: 100%;
+    }
+
+        div.Rogers-drill div.Rogers-info h2 {
+            font-size: 25px;
+        }
+
+        div.Rogers-drill div.Rogers-info h4 {
+            font-size: 16px;
+        }
+
+    section.Rogers-drills-detail div.Rogers-detail-background h1 {
+        font-size: 32px;
+    }
+
+    section.Rogers-drills-detail div.prices div.price.one,
+    section.Rogers-drills-detail div.prices div.price {
+        border-right: 0px;
+    }
+
+    section.Rogers-drills-detail div.Rogers-detail div.Rogers-grid div.Rogers-grid-left div.Rogers div.Rogers-info {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section.city-detail-background h1 {
+        font-size: 40px;
+    }
+
+    section.new-service h2 {
+        font-size: 30px;
+    }
+
+    section.denver-features h2 {
+        font-size: 30px;
+    }
+
+    section.denver-speaker h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    section.denver-meetups h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    section.denver-clinic-schedule h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    section.denver-clinic-schedule a {
+        font-size: 20px;
+    }
+
+    div.football-sign-up ul li input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    section.denver-clinic-schedule div.about-slider-indicators ul {
+        display: none;
+    }
+
+    section.denver-clinic-schedule div.about-slider-indicators div.time-line {
+        display: none;
+    }
+
+    section.denver-clinic-schedule div.about-slider-indicators div.carousel-inner div.item div.table-margin h2 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    section.denver-clinic-schedule div.about-slider-indicators div.carousel-inner div.item {
+        height: 1840px;
+    }
+
+    section.the-hotel h2 {
+        font-size: 30px;
+    }
+
+    section.season-pass h1 {
+        font-size: 16px;
+    }
+
+    section.season-pass iframe {
+        height: 180px;
+        width: 100%;
+    }
+
+    section.pass h3 {
+        font-size: 9.78px;
+    }
+
+
+    section.vault {
+        padding: 10px 0 35px;
+    }
+
+    section.prices {
+        padding: 25px 0;
+    }
+
+        section.prices h2 {
+            font-size: 30px;
+        }
+
+    section.p-benefits {
+        padding: 10px 0;
+    }
+
+        section.p-benefits div.benef-grid div.benef-item {
+            margin-bottom: 23px;
+        }
+
+            section.p-benefits div.benef-grid div.benef-item h3 {
+                margin-bottom: 18px;
+                margin-top: 0;
+            }
+
+        section.p-benefits h2 {
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+
+    section.unlimited-clinics {
+        padding: 30px;
+    }
+
+        section.unlimited-clinics div.ul-contain {
+            margin-top: 20px;
+        }
+
+        section.unlimited-clinics div.clinics-grid div.clinics-item {
+            margin: 0;
+        }
+
+        section.unlimited-clinics div.unlimited-grid {
+            margin-bottom: 10px;
+        }
+
+            section.unlimited-clinics div.unlimited-grid div.unlimited-detail h2 {
+                font-size: 20px;
+            }
+
+        section.unlimited-clinics div.ul-contain ul li {
+            font-size: 18px;
+        }
+
+    section.top-speakers div.top-speakers-grid div.top-speakers-info h3 {
+        font-size: 30px;
+    }
+
+    section.top-speakers div.top-speakers-grid div.top-speakers-info h4 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    section.top-speakers div.top-speakers-grid div.top-speakers-imgs {
+        padding-top: 10px;
+    }
+
+        section.top-speakers div.top-speakers-grid div.top-speakers-imgs div.row img {
+            width: 48%;
+            float: none;
+        }
+
+        section.top-speakers div.top-speakers-grid div.top-speakers-imgs img:nth-child(1),
+        section.top-speakers div.top-speakers-grid div.top-speakers-imgs img:nth-child(2) {
+            margin-bottom: 5px;
+        }
+
+    section.vault h3 {
+        font-size: 20px;
+    }
+
+    section.season-pass {
+        height: 385px;
+    }
+
+        section.season-pass div.video-buttons {
+            width: 100%;
+            height: 230px;
+            left: 0;
+        }
+
+        section.season-pass div.pause {
+            height: 170px;
+            left: 0;
+            margin-left: 0%;
+            margin-top: 60px;
+        }
+
+        section.season-pass div.video-buttons button {
+            width: 90px;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 48px;
+            display: inline;
+        }
+
+        section.season-pass iframe {
+            height: 300px;
+            margin-top: -8px;
+            width: 300px;
+        }
+    section.choose-season h1 span {
+        padding: 2px 5px;
+    }
+
+    section.season-pass-registration div.registration-grid div.registration-info div.registration-inputs.g-2 span.registration-input,
+    section.season-pass-registration div.registration-grid div.registration-info div.registration-inputs.g-2 span.registration-dropdown {
+        width: 100%;
+    }
+
+    section.add-clinics h1 {
+        line-height: 1.5;
+    }
+
+    section.add-clinics div.add-clinics-grid div.add-clinics-item div.add-clinics-img div.add-clinics-overlay a {
+        margin-top: 60px;
+    }
+
+    section.add-clinics a.view-clinics,
+    section.add-clinics a.continue {
+        font-size: 18px;
+    }
+
+    section.login div.login-content div.login-grid div.login-clinics div.login-forget-password a.forget,
+    section.login div.login-content div.login-grid div.login-vault div.login-forget-password a.forget {
+        display: block;
+        margin-top: 20px;
+    }
+
+    section.login div.login-content div.login-grid div.renew {
+        width: 100% !important;
+    }
+
+    section.login div.login-content h1.renew-h {
+        font-size: 40px;
+    }
+
+    section.contact-us h1 {
+        font-size: 35px;
+    }
+
+    section.contact-us div.contact-faq h2 {
+        font-size: 25px;
+    }
+
+    section.contact-us div.contact-faq div.contact-form div.contact-fields.g-2 div.contact-field {
+        width: 100%;
+        margin: 0px;
+    }
+
+        section.contact-us div.contact-faq div.contact-form div.contact-fields.g-2 div.contact-field:last-child {
+            width: 100%;
+            margin: 20px 0px;
+        }
+
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-body {
+        margin-left: 0px;
+    }
+
+    section.add-new-coaches h1 {
+        line-height: 1.5;
+    }
+
+    section.notifications-references h1 {
+        line-height: 1.5 !important;
+        margin-bottom: 25px !important;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    section.pass ul li a {
+        font-size: 13px;
+        padding: 1px 5px;
+    }
+
+    section.pass h3 {
+        font-size: 9px;
+    }
+
+    section.vault img {
+        width: 70%
+    }
+
+    section.help ul li a {
+        font-size: 14px;
+    }
+
+    section .eclinics h1 {
+        font-size: 20px;
+    }
+
+    section.football-drills div.football-background h1 span {
+        font-size: 35px;
+    }
+
+    section.Rogers-drills-detail div.Rogers-detail-background h1 {
+        font-size: 22px;
+    }
+
+    section.city-detail-background h1 {
+        font-size: 30px;
+    }
+
+    section.city-detail-background a.buyurpass {
+        font-size: 20px;
+    }
+
+    section.city-detail-background a.addtocalendar {
+        font-size: 20px;
+    }
+
+    section.denver-meetups div.meetups-grid div.meetups-item h3 {
+        font-size: 25px;
+    }
+
+    section.denver-clinic-schedule a {
+        font-size: 17px;
+    }
+
+    section.all-coaches h2 {
+        font-size: 30px;
+    }
+
+    section.unlimited-clinics div.ul-contain ul li {
+        font-size: 16px;
+        margin-right: 9px;
+    }
+
+    section.new-in h2 {
+        font-size: 30px;
+    }
+
+    section.top-speakers h2 {
+        line-height: 1.5;
+    }
+
+    section.choose-season h1 span {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    section.choose-season p {
+        font-size: 16px;
+    }
+
+    section.contact-us h1 {
+        line-height: 1.5;
+    }
+
+    section.contact-us div.contact-faq div.contact-questions h2 {
+        font-size: 25px;
+    }
+
+    section.contact-us div.contact-us-info p {
+        font-size: 16px;
+    }
+
+    .about-header {
+        margin-top: 53px;
+    }
+
+    .about-logo {
+        display: inline-block;
+    }
+
+    section.vault div.vault-video iframe, .train-video iframe {
+        width: 100%;
+        height: 230px;
+    }
+}

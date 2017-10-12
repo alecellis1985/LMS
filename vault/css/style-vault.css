@@ -1,0 +1,508 @@
+.navbar-brand img {
+    width: 340px;
+    margin-top: -10px;
+}
+
+nav.navbar ul.navbar-right {
+    margin-top: 15px;
+}
+
+    nav.navbar ul.navbar-right li {
+        padding: 0 17px;
+        font-size: 15px;
+    }
+
+        nav.navbar ul.navbar-right li:last-child {
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-left: -9px;
+        }
+
+        nav.navbar ul.navbar-right li.buy-pass a {
+            padding: 2px 9px;
+            border-radius: 4px;
+        }
+
+        nav.navbar ul.navbar-right li.login a {
+            padding: 0px 9px;
+            border-radius: 4px;
+        }
+
+/*// header */
+
+
+/* pass section */
+section.pass-offer {
+    background-color: #000000;
+    margin-top: 111px;
+    color: #fff;
+    font-weight: 400;
+    text-align: right;
+}
+
+    section.pass-offer div.container {
+        padding-right: 0;
+    }
+
+        section.pass-offer div.container div {
+            padding-right: 0;
+        }
+
+            section.pass-offer div.container div p {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                margin: 5px;
+            }
+
+            section.pass-offer div.container div b {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 600;
+            }
+
+            section.pass-offer div.container div a {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 600;
+                color: #fff;
+            }
+
+section .pass {
+    background-image: url('../../imgs/grows.jpg');
+    padding: 115px 0 60px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    section.pass h1 {
+        color: #fff;
+        font-size: 74px;
+        line-height: 1.3;
+        font-weight: bolder;
+        margin-top: -50px;
+    }
+
+        section.pass h1 span {
+            background: #00ADEF;
+            padding: 0 5px;
+        }
+
+    section.pass h3 {
+        font-family: 'Archivo Narrow', sans-serif;
+        color: #fff;
+        font-size: 25px;
+        line-height: 1.1;
+        font-weight: 500;
+        text-transform: none;
+    }
+
+    section.pass ul {
+        margin-top: 20px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+        section.pass ul li {
+            float: left;
+            margin-top: 10px;
+        }
+
+            section.pass ul li:first-child {
+                margin-right: 30px;
+            }
+
+            section.pass ul li a {
+                color: #fff;
+                border: 2px solid #fff;
+                padding: 3px 10px;
+                font-size: 24px;
+                border-radius: 4px;
+                transition: all ease-in-out 0.3s;
+                -webkit-transition: all ease-in-out 0.3s;
+                -moz-transition: all ease-in-out 0.3s;
+                -o-transition: all ease-in-out 0.3s;
+                -ms-transition: all ease-in-out 0.3s;
+            }
+
+                section.pass ul li a:hover {
+                    background: #00ADEF;
+                    border-color: #00ADEF;
+                }
+
+section.clinics-sports div.clinics-sports-item div {
+    text-align: center;
+}
+
+section.clinics-sports div.clinics-sports-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 35px;
+}
+
+    section.clinics-sports div.clinics-sports-item img {
+        border-radius: 10px;
+        width: 100%;
+        height: 170px;
+    }
+
+    section.clinics-sports div.clinics-sports-item p {
+        width: 90%;
+        position: absolute;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        top: 40%;
+    }
+
+section.vault-benefits {
+    margin-top: 50px;
+    text-align: center;
+}
+
+    section.vault-benefits div.item {
+        height: 300px;
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+
+        section.vault-benefits div.item h1 {
+            font-size: 22px;
+            text-transform: none;
+        }
+
+        section.vault-benefits div.item p {
+            font-size: 20px;
+            font-family: 'Archivo Narrow', sans-serif;
+        }
+
+footer div.footer-top div.footer-links a.buy-your-pass {
+    float: left;
+    margin-top: 37px;
+    border: 2px solid #00ADEF;
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 18px;
+}
+
+footer div.footer-top div.glazier-clinics a.footer-logo {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    text-align: center;
+}
+
+    footer div.footer-top div.glazier-clinics a.footer-logo img {
+        width: 60%;
+    }
+
+footer div.footer-top div.glazier-clinics div.sign-clinic input {
+    align-items: center;
+    margin-top: 5px;
+    padding: 6px;
+    height: 35px;
+    width: 240px;
+    top: -1px;
+}
+
+section.library {
+    background-image: url('../../imgs/pass-background.png');
+    padding: 115px 0 60px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    section.library h1 {
+        color: #fff;
+        font-size: 74px;
+        line-height: 1.0;
+        font-weight: bolder;
+        margin-top: -35px;
+    }
+
+        section.library h1 span {
+            background: #00ADEF;
+            padding: 0 5px;
+        }
+
+    section.library h3 {
+        font-family: 'Archivo Narrow', sans-serif;
+        color: #fff;
+        font-size: 24px;
+        line-height: 1.1;
+        font-weight: 500;
+        text-transform: none;
+    }
+
+    section.library ul {
+        margin-top: 20px;
+        display: inline-block;
+        margin-bottom: -20px;
+    }
+
+        section.library ul li {
+            float: left;
+            margin-top: 10px;
+        }
+
+            section.library ul li:first-child {
+                margin-right: 30px;
+            }
+
+            section.library ul li a {
+                color: #fff;
+                border: 2px solid #fff;
+                padding: 3px 10px;
+                font-size: 24px;
+                border-radius: 4px;
+                transition: all ease-in-out 0.3s;
+                -webkit-transition: all ease-in-out 0.3s;
+                -moz-transition: all ease-in-out 0.3s;
+                -o-transition: all ease-in-out 0.3s;
+                -ms-transition: all ease-in-out 0.3s;
+            }
+
+                section.library ul li a:hover {
+                    background: #00ADEF;
+                    border-color: #00ADEF;
+                }
+
+section.library-featured ul.nav-tabs {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+    section.library-featured ul.nav-tabs li.nav-tabs a.nav-link {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: 500;
+        color: #000;
+    }
+
+        section.library-featured ul.nav-tabs li.nav-tabs a.nav-link:hover {
+            background: lightgray;
+            text-decoration: underline;
+        }
+
+    section.library-featured ul.nav-tabs li.nav-tabs a.active {
+        text-decoration: underline;
+    }
+
+section.library-featured-videos {
+    margin-bottom: 30px;
+}
+
+    section.library-featured-videos div.item div.video div.card-body {
+        margin-top: 10px;
+    }
+
+        section.library-featured-videos div.item div.video div.card-body a div.modal-content div.modal-header h4 {
+            display: inline;
+        }
+
+        section.library-featured-videos div.item div.video div.card-body a div.modal-content div.modal-header {
+            padding-bottom: 5px;
+        }
+
+    section.library-featured-videos div.item div.video div.card-header {
+        display: inline;
+    }
+
+    section.library-featured-videos div.item div.video div.card-header {
+        display: inline;
+    }
+
+        section.library-featured-videos div.item div.video div.card-header img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        section.library-featured-videos div.item div.video div.card-header button {
+            position: absolute;
+            width: 30%;
+            top: 15%;
+            left: 34%;
+            border: none;
+            background: none;
+            opacity: 0.8;
+        }
+
+    section.library-featured-videos div.item div.video div.card-body h4.card-title {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: 600;
+        color: #000;
+        display: inline;
+    }
+
+    section.library-featured-videos div.item div.video div.card-body p.card-text {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: 500;
+        color: #000;
+    }
+
+
+    section.library-featured-videos div.item div.video div.card-body a.video-detail-btn {
+        border: 2px solid #00ADEF;
+        padding: 3px 10px;
+        float: right;
+        border-radius: 5px;
+        background: none;
+        border-color: #00ADEF;
+        color: #00ADEF;
+    }
+
+        section.library-featured-videos div.item div.video div.card-body button.video-detail-btn:hover {
+            background: #00ADEF;
+            color: #fff;
+        }
+
+    section.library-featured-videos div.modal div.modal-content div.modal-body img {
+        width: 100%;
+    }
+
+    section.library-featured-videos div.modal div.modal-content div.modal-body button.play {
+        position: absolute;
+        border: none;
+        background: none;
+        width: 20%;
+        top: 124px;
+        left: 238px;
+        opacity: 0.8;
+    }
+
+.owl-theme .owl-nav [class*=owl-] {
+    font-size: 17px;
+    padding: 4px 15px;
+    background: #00ADEF;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #00bfff;
+}
+section.library-featured-videos div.modal div.modal-header {
+    padding: 5px 10px 0 0;
+}
+
+    section.library-featured-videos div.modal div.modal-header h4 {
+        display: inline-block;
+        margin-left: 17px;
+    }
+
+section.library-featured-videos div.modal div.modal-body {
+    padding-top: 0px
+}
+
+div.modal div.modal-body p.card-text {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+section.library-featured-videos div.modal div.modal-footer button {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 16px;
+}
+
+section.video-explorer {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+    section.video-explorer div.topic-header h1 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        color: #00ADEF;
+    }
+
+        section.video-explorer div.topic-header h1:first-child {
+            margin-top: 0;
+        }
+
+    section.video-explorer div.topic-content ul li.topic a {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.6;
+        color: #000;
+    }
+        section.video-explorer div.topic-content ul li.topic a span {
+            color: #898989;
+            font-family: 'Archivo Narrow', sans-serif;
+        }
+
+        section.video-explorer div.topic-content ul li.topic a:hover {
+            text-decoration: underline;
+        }
+
+    section.video-explorer div.topic-content ul li.topic:last-child {
+        margin-bottom: 15px;
+    }
+
+    section.video-explorer div.video-result {
+        background-color: whitesmoke;
+    }
+
+        section.video-explorer div.video-result div.details-filter p {
+            float: left;
+        }
+
+        section.video-explorer div.video-result div.details-filter span {
+            font-family: 'Archivo Narrow', sans-serif;
+            font-weight: 500;
+        }
+
+        section.video-explorer div.video-result div.details-filter div.filter {
+            float: right;
+        }
+
+            section.video-explorer div.video-result div.details-filter div.filter span {
+                margin-right: 5px;
+            }
+
+        section.video-explorer div.video-result div.details-filter span:first-child {
+            margin-right: 25px;
+        }
+
+        section.video-explorer div.video-result div.results div.card-body {
+            margin-bottom: 40px;
+        }
+
+            section.video-explorer div.video-result div.results div.card-body a img.video-thumbnail {
+                width: 21%;
+                float: left;
+                margin-right: 19px;
+                border-radius: 8px;
+            }
+
+            section.video-explorer div.video-result div.results div.card-body a div.play {
+                width: 9%;
+                position: absolute;
+                margin-top: 21px;
+                left: 6%;
+                border: none;
+                background: none;
+                opacity: 0.8;
+            }
+
+        section.video-explorer div.video-result div.results h4.card-title {
+            font-family: 'Archivo Narrow', sans-serif;
+            margin-bottom: 15px;
+            margin-top: 10px;
+            font-weight: 600;
+            color: #000;
+        }
+
+        section.video-explorer div.video-result div.results p.card-text {
+            font-family: 'Archivo Narrow', sans-serif;
+            font-weight: 500;
+            color: #000;
+        }
+
+        section.video-explorer div.video-result div.results p.card-details {
+            font-family: 'Archivo Narrow', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 15px;
+            color: #000;
+        }
