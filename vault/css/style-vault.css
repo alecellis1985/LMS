@@ -443,6 +443,11 @@ section.video-explorer {
         background-color: whitesmoke;
     }
 
+        section.video-explorer div.video-result div.details-filter {
+            padding-top:5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
         section.video-explorer div.video-result div.details-filter p {
             float: left;
         }
@@ -463,7 +468,10 @@ section.video-explorer {
         section.video-explorer div.video-result div.details-filter span:first-child {
             margin-right: 25px;
         }
-
+        section.video-explorer div.video-result div.results {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
         section.video-explorer div.video-result div.results div.card-body {
             margin-bottom: 40px;
         }
