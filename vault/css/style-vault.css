@@ -514,3 +514,133 @@ section.video-explorer {
             margin-top: 15px;
             color: #000;
         }
+
+       /*Course detail*/
+section.course-detail {
+    background-image: url('../../imgs/Coach-Whiteboard-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ebebeb;
+}
+    section.course-detail div.container {
+        background-color: rgba(0, 0, 0, 0.6);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    section.course-detail div.course-data h1 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 30px;
+        text-transform: none;
+    }
+    section.course-detail div.course-data span {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 17px;
+        text-transform: none;
+    }
+    section.course-detail div.course-data h3 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 18px;
+        text-transform: none;
+        line-height: 1.4;
+    }
+    section.course-detail div.video-preview iframe {
+        margin-top: 10%;
+        padding: 2%;
+        width: 100%;
+        float: none;
+        display: inline;
+    }
+    section.course-detail div.course-data a {
+        margin-top: 50px;
+        border: 2px solid #00ADEF;
+        padding: 3px 10px;
+        float: left;
+        border-radius: 5px;
+        background: none;
+        border-color: #00ADEF;
+        color: #ebebeb;
+    }
+
+        section.course-detail div.course-data a:hover {
+            background: #00ADEF;
+            color: #fff;
+        }
+
+    section.course-detail div.video-preview h3 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 25px;
+        text-transform: none;
+        line-height: 1.4;
+    }
+
+    section.course-detail h4 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 27px;
+        text-transform: none;
+    }
+    section.course-detail h4 span {
+        font-family: 'Archivo Narrow', sans-serif;
+        padding: 0px 6px;
+        font-size: 27px;
+        background-color: #00ADEF;
+        margin-left: 10px;
+    }
+
+    section.course-detail div.topic h1 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 20px;
+        text-transform: none;
+        font-weight: 600;
+    }
+
+    section.course-detail div.topic p {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 18px;
+        text-transform: none;
+        line-height: 1.4;
+    }
+section.details {
+    background-color: #DCDDDE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section.details i{
+    font-size: 40px;
+    margin-right: 10px;
+    float: left;
+}
+    section.details p {
+        font-size: 15px;
+        padding-top: 9px;
+    }
+
+section.course-content div.left-menu h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    text-transform: none;
+}
+
+section.course-content div.left-menu h3 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    text-transform: none;
+}
+
+section.course-content div.left-menu div.comment div.championship-item div.championship-item-person img {
+    float: left;
+    margin-right: 10px;
+}
+section.course-content div.left-menu div.comment div.championship-item {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+section.course-content div.course-curriculum button {
+    float: right;
+    padding: 3px 4px 3px 4px;
+}
+section.course-content div.course-curriculum ul li {
+    line-height: 2;
+}
