@@ -27,7 +27,13 @@ nav.navbar ul.navbar-right {
             padding: 0px 9px;
             border-radius: 4px;
         }
-
+.nav-tabs {
+    border-bottom: none;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: none
+}
 /*// header */
 
 

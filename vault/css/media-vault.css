@@ -17,6 +17,10 @@
         section.vault-benefits div.item p {
             font-size: 18px;
         }
+
+    footer div.footer-top div.glazier-clinics div.sign-clinic input {
+        width: 192px;
+     }
 }
 
 
@@ -64,78 +68,126 @@
         padding: 0 17px;
         margin-left: 0;
     }
-}
 
-/* Small Devices, Tablets */
-
-@media only screen and (max-width: 768px) {
-    section.pass-offer div.container div {
-        font-size: 11px;
+    section.video-explorer div.video-result div.results div.card-body a div.play {
+        margin-top: 32px;
+        left: 92px;
     }
 
-    section.pass h1 {
-        margin-top: -87px;
+    section.video-explorer div.video-result div.results div.card-body a img.video-thumbnail {
+        width: 33%;
     }
-
-    section.pass h3 {
-        font-size: 15px;
-    }
-
-    section.pass ul li a {
-        font-size: 20px;
-    }
-
-    section.pass {
-        padding: 115px 0 0px 0;
-    }
-    section.clinics-sports div.clinics-sports-item p {
-        font-size: 23px;
-    }
-    section.vault-benefits div.item p {
-        font-size: 17px;
-    }
-    section.vault-benefits div.item {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 480px) {
-    .navbar-brand img {
-        width: 252px;
-    }
-    section.pass-offer div.container div {
-        font-size: 10px;
-    }
-    section.pass h1 {
-        font-size: 34px;
-    }
-    section.pass h3 {
-        margin-bottom: 0;
-    }
-    section.pass ul {
+    section.video-explorer div.video-result div.results p.card-details {
+        font-size: 14px;
+        float: right;
         margin-top: 0px;
-        margin-bottom: 12px;
+        margin-bottom: 0px;
     }
-    section.pass ul li a {
-        font-size: 15px;
-    }
-    section.pass ul li:first-child {
-        padding-bottom: 34px;
-    }
-    section.clinics-sports div.clinics-sports-item p {
-        font-size: 25px;
+    section.video-explorer div.video-result div.results div.card-body {
+        margin-bottom: 50px;
     }
 }
 
+    /* Small Devices, Tablets */
+    @media only screen and (max-width: 768px) {
+        section.pass-offer div.container div {
+            font-size: 11px;
+        }
 
-/* Custom, iPhone Retina */
+        section.pass h1 {
+            margin-top: -87px;
+        }
 
-@media only screen and (max-width: 320px) {
-    .navbar-brand img {
-        width: 230px;
+        section.pass h3 {
+            font-size: 15px;
+        }
+
+        section.pass ul li a {
+            font-size: 20px;
+        }
+
+        section.pass {
+            padding: 115px 0 0px 0;
+        }
+
+        section.clinics-sports div.clinics-sports-item p {
+            font-size: 23px;
+        }
+
+        section.vault-benefits div.item p {
+            font-size: 17px;
+        }
+
+        section.vault-benefits div.item {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        section.clinics-sports div.clinics-sports-item p {
+            width: 97%;
+        }
+
+        section.clinics-sports div.clinics-sports-item img {
+            width: 70%;
+            display: inline;
+        }
+        section.library-featured ul.nav-tabs li.nav-tabs a.nav-link {
+            padding: 5px;
+            font-size: 18px;
+        }
+        section.video-explorer div.topic-header, section.video-explorer div.topic-content {
+            text-align: center;
+        }
     }
-}
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width: 480px) {
+        .navbar-brand img {
+            width: 252px;
+        }
+
+        section.pass-offer div.container div {
+            font-size: 10px;
+        }
+
+        section.pass h1 {
+            font-size: 34px;
+        }
+
+        section.pass h3 {
+            margin-bottom: 0;
+        }
+
+        section.pass ul {
+            margin-top: 0px;
+            margin-bottom: 12px;
+        }
+
+            section.pass ul li a {
+                font-size: 15px;
+            }
+
+            section.pass ul li:first-child {
+                padding-bottom: 34px;
+            }
+
+        section.clinics-sports div.clinics-sports-item p {
+            font-size: 21px;
+            width: 92%;
+        }
+
+        footer div.footer-top div.glazier-clinics div.sign-clinic span {
+            font-size: 18px;
+        }
+
+        footer div.footer-top div.glazier-clinics div.sign-clinic input {
+            margin-bottom: 15px;
+        }
+
+
+        /* Custom, iPhone Retina */
+
+        @media only screen and (max-width: 320px) {
+            .navbar-brand img {
+                width: 230px;
+            }
+        }
