@@ -637,10 +637,81 @@ section.course-content div.left-menu div.comment div.championship-item {
     margin-top: 10px;
     margin-bottom: 80px;
 }
+
+section.course-content div.course-curriculum h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 45px;
+    text-transform: none;
+}
+
+section.course-content div.course-curriculum ul li h4{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 23px;
+    text-transform: none;
+    margin-bottom:0px;
+}
 section.course-content div.course-curriculum button {
     float: right;
     padding: 3px 4px 3px 4px;
 }
 section.course-content div.course-curriculum ul li {
-    line-height: 2;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    padding: 5px 20px;
+    padding-right: 5px;
+}
+
+section.course-content div.course-curriculum ul li i:first-child{
+    font-size: 18px;
+}
+    section.course-content div.course-curriculum ul li span {
+        font-family: 'Archivo Narrow', sans-serif;  
+        font-size: 13px;
+    }
+
+    section.course-content div.course-curriculum ul li:nth-child(2n-1) {
+        background-color: rgba(220, 221, 222, 0.5);
+    }
+    section.course-content div.course-curriculum ul li:hover {
+        background-color: rgba(0, 173, 239, 0.2);
+    }
+    section.course-content div.course-curriculum ul li a.btn-play {
+        border: 2px solid #00ADEF;
+        padding: 0px 10px;
+        float: right;
+        font-size: 90%;
+        border-radius: 5px;
+        background: none;
+        color: #00ADEF;
+    }
+
+        section.course-content div.course-curriculum ul li a.btn-play:hover {
+            color: #FFFFFF;
+            background-color: #00ADEF;
+        }
+
+
+section.course-content div.modal div.modal-header {
+    padding: 5px 10px 0 0;
+}
+
+    section.course-content div.modal div.modal-header h4 {
+        display: inline-block;
+        margin-left: 17px;
+    }
+
+section.course-content div.modal div.modal-body {
+    padding-top: 0px
+}
+
+section.course-content div.modal div.modal-body p.card-text {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+section.course-content div.modal div.modal-footer button {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 16px;
 }
