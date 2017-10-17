@@ -1552,7 +1552,6 @@ section.eclinics {
                 width: 200px;
                 height: 200px;
                 background: #333;
-                border-radius: 50%;
                 color: #fff;
                 font-size: 100px;
                 text-align: center;
@@ -1792,7 +1791,6 @@ section.about {
                     height: 30px;
                     display: block;
                     background: #00ADEF;
-                    border-radius: 50%;
                     margin: 10px auto;
                     border: 5px solid #fff;
                 }
@@ -1808,7 +1806,6 @@ section.about {
                         height: 12px;
                         background: #fff;
                         position: absolute;
-                        border-radius: 50%;
                         top: 4px;
                         left: 4px;
                     }
@@ -1990,7 +1987,6 @@ section.email-signup {
             margin-left: 0;
             margin-right: 34px;
             margin-top: 20px;
-            border-radius: 5px;
             position: relative;
         }
 
@@ -2003,7 +1999,6 @@ section.email-signup {
                 left: 2px;
                 top: 2px;
                 background: #00ADEF;
-                border-radius: 10px;
                 visibility: hidden;
             }
 
@@ -3119,7 +3114,6 @@ section.denver-clinic-schedule {
                     height: 30px;
                     display: block;
                     background: #00ADEF;
-                    border-radius: 50%;
                     margin: 30px auto;
                     border: 5px solid #fff;
                 }
@@ -3135,7 +3129,6 @@ section.denver-clinic-schedule {
                         height: 12px;
                         background: #fff;
                         position: absolute;
-                        border-radius: 50%;
                         top: 4px;
                         left: 4px;
                     }
@@ -3362,7 +3355,6 @@ section.season-pass div.video-buttons button {
         line-height: 294px;
         color: #fff;
         font-size: 150px;
-        border-radius: 50%;
         margin: 0 auto;
     }
 
@@ -4733,7 +4725,6 @@ section.login div.login-content {
                         width: 26px;
                         height: 26px;
                         float: left;
-                        border-radius: 5px;
                         border: 2px solid #92929D;
                         margin-right: 18px;
                         position: relative;
@@ -4754,7 +4745,6 @@ section.login div.login-content {
                             position: absolute;
                             left: -2px;
                             top: -2px;
-                            border-radius: 5px;
                             visibility: hidden;
                         }
 
@@ -5068,7 +5058,6 @@ section.add-new-coaches {
                 border: 2px solid #92929D;
                 float: left;
                 margin-top: 3px;
-                border-radius: 5px;
                 position: relative;
             }
 
@@ -5081,7 +5070,6 @@ section.add-new-coaches {
                     position: absolute;
                     left: -2px;
                     top: -2px;
-                    border-radius: 5px;
                     text-align: center;
                     line-height: 24px;
                     color: #fff;
@@ -5192,7 +5180,6 @@ section.add-new-coaches {
             width: 24px;
             height: 24px;
             border: 2px solid #92929D;
-            border-radius: 5px;
             position: relative;
         }
 
@@ -5201,7 +5188,6 @@ section.add-new-coaches {
                 display: block;
                 width: 24px;
                 height: 24px;
-                border-radius: 5px;
                 background: #00ADEF;
                 color: #fff;
                 position: absolute;
@@ -5349,7 +5335,6 @@ section.notifications-references {
                 width: 24px;
                 height: 24px;
                 border: 2px solid #58595B;
-                border-radius: 5px;
                 margin-left: 12px;
                 position: relative;
             }
@@ -5366,7 +5351,6 @@ section.notifications-references {
                     top: -2px;
                     left: -2px;
                     background: #00ADEF;
-                    border-radius: 5px;
                     visibility: hidden;
                 }
 

@@ -1,6 +1,10 @@
+.btn {
+    border-radius: 0px;
+}
+
 .navbar-brand img {
     width: 340px;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 nav.navbar ul.navbar-right {
@@ -20,16 +24,16 @@ nav.navbar ul.navbar-right {
 
         nav.navbar ul.navbar-right li.buy-pass a {
             padding: 2px 9px;
-            border-radius: 4px;
         }
 
         nav.navbar ul.navbar-right li.login a {
             padding: 0px 9px;
-            border-radius: 4px;
         }
+
 .nav-tabs {
     border-bottom: none;
 }
+
 .modal-header {
     padding: 15px;
     border-bottom: none
@@ -121,7 +125,6 @@ section .pass {
                 border: 2px solid #fff;
                 padding: 3px 10px;
                 font-size: 24px;
-                border-radius: 4px;
                 transition: all ease-in-out 0.3s;
                 -webkit-transition: all ease-in-out 0.3s;
                 -moz-transition: all ease-in-out 0.3s;
@@ -134,33 +137,48 @@ section .pass {
                     border-color: #00ADEF;
                 }
 
-section.clinics-sports div.clinics-sports-item div {
-    text-align: center;
+section.clinics-sports {
+    background: #DCDDDE;
+    padding-bottom: 25px;
 }
 
-section.clinics-sports div.clinics-sports-item {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 35px;
-}
-
-    section.clinics-sports div.clinics-sports-item img {
-        border-radius: 10px;
-        width: 100%;
-        height: 170px;
-    }
-
-    section.clinics-sports div.clinics-sports-item p {
-        width: 90%;
-        position: absolute;
-        font-size: 30px;
-        color: #fff;
+    section.clinics-sports div.clinics-sports-item div {
         text-align: center;
-        top: 40%;
     }
+
+    section.clinics-sports div.clinics-sports-item {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 35px;
+    }
+
+        section.clinics-sports div.clinics-sports-item div {
+            -moz-transition: all .4s;
+            -o-transition: all .4s;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+        }
+
+            section.clinics-sports div.clinics-sports-item div:hover {
+                box-shadow: 0 0 2px 2px #00ADEF;
+            }
+
+        section.clinics-sports div.clinics-sports-item img {
+            width: 100%;
+            height: 170px;
+        }
+
+        section.clinics-sports div.clinics-sports-item p {
+            width: 90%;
+            position: absolute;
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            top: 40%;
+        }
 
 section.vault-benefits {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -179,6 +197,13 @@ section.vault-benefits {
             font-size: 20px;
             font-family: 'Archivo Narrow', sans-serif;
         }
+
+section.championship {
+    background: #DCDDDE;
+}
+section.partners {
+    background: #FFFFFF;
+}
 
 footer div.footer-top div.footer-links a.buy-your-pass {
     float: left;
@@ -211,16 +236,16 @@ footer div.footer-top div.glazier-clinics div.sign-clinic input {
 
 section.library {
     background-image: url('../../imgs/pass-background.png');
-    padding: 115px 0 60px 0;
-    text-align: center;
+    padding: 75px 15px 60px 45px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /*float: left;*/
 }
 
     section.library h1 {
         color: #fff;
-        font-size: 74px;
+        font-size: 30px;
         line-height: 1.0;
         font-weight: bolder;
         margin-top: -35px;
@@ -234,10 +259,11 @@ section.library {
     section.library h3 {
         font-family: 'Archivo Narrow', sans-serif;
         color: #fff;
-        font-size: 24px;
+        font-size: 19px;
         line-height: 1.1;
-        font-weight: 500;
+        font-weight: 400;
         text-transform: none;
+        width: 60%;
     }
 
     section.library ul {
@@ -260,7 +286,6 @@ section.library {
                 border: 2px solid #fff;
                 padding: 3px 10px;
                 font-size: 24px;
-                border-radius: 4px;
                 transition: all ease-in-out 0.3s;
                 -webkit-transition: all ease-in-out 0.3s;
                 -moz-transition: all ease-in-out 0.3s;
@@ -319,8 +344,6 @@ section.library-featured-videos {
 
         section.library-featured-videos div.item div.video div.card-header img {
             width: 100%;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
         }
 
         section.library-featured-videos div.item div.video div.card-header button {
@@ -351,16 +374,15 @@ section.library-featured-videos {
         border: 2px solid #00ADEF;
         padding: 3px 10px;
         float: right;
-        border-radius: 5px;
         background: none;
         border-color: #00ADEF;
         color: #00ADEF;
     }
 
-        section.library-featured-videos div.item div.video div.card-body button.video-detail-btn:hover {
-            background: #00ADEF;
-            color: #fff;
-        }
+    section.library-featured-videos div.item div.video div.card-body button.video-detail-btn:hover {
+        background: #00ADEF;
+        color: #fff;
+    }
 
     section.library-featured-videos div.modal div.modal-content div.modal-body img {
         width: 100%;
@@ -382,9 +404,10 @@ section.library-featured-videos {
     background: #00ADEF;
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background: #00bfff;
-}
+    .owl-theme .owl-nav [class*=owl-]:hover {
+        background: #00bfff;
+    }
+
 section.library-featured-videos div.modal div.modal-header {
     padding: 5px 10px 0 0;
 }
@@ -407,6 +430,17 @@ div.modal div.modal-body p.card-text {
 section.library-featured-videos div.modal div.modal-footer button {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 16px;
+}
+
+section.library-featured-videos div.modal div.modal-footer a {
+    font-size: 16px;
+    border: 2px solid #00ADEF;
+    padding: 3px 10px;
+    margin-left: 10px;
+}
+section.library-featured-videos div.modal div.modal-footer a:hover {
+    background-color: #00ADEF;
+    color: #ffffff;
 }
 
 section.video-explorer {
@@ -432,6 +466,7 @@ section.video-explorer {
         line-height: 1.6;
         color: #000;
     }
+
         section.video-explorer div.topic-content ul li.topic a span {
             color: #898989;
             font-family: 'Archivo Narrow', sans-serif;
@@ -450,78 +485,90 @@ section.video-explorer {
     }
 
         section.video-explorer div.video-result div.details-filter {
-            padding-top:5px;
+            padding-top: 5px;
             padding-left: 20px;
             padding-right: 20px;
         }
-        section.video-explorer div.video-result div.details-filter p {
-            float: left;
-        }
 
-        section.video-explorer div.video-result div.details-filter span {
-            font-family: 'Archivo Narrow', sans-serif;
-            font-weight: 500;
-        }
-
-        section.video-explorer div.video-result div.details-filter div.filter {
-            float: right;
-        }
-
-            section.video-explorer div.video-result div.details-filter div.filter span {
-                margin-right: 5px;
+            section.video-explorer div.video-result div.details-filter p {
+                float: left;
             }
 
-        section.video-explorer div.video-result div.details-filter span:first-child {
-            margin-right: 25px;
-        }
+            section.video-explorer div.video-result div.details-filter span {
+                font-family: 'Archivo Narrow', sans-serif;
+                font-weight: 500;
+            }
+
+            section.video-explorer div.video-result div.details-filter div.filter {
+                float: right;
+            }
+
+                section.video-explorer div.video-result div.details-filter div.filter span {
+                    margin-right: 5px;
+                }
+
+            section.video-explorer div.video-result div.details-filter span:first-child {
+                margin-right: 25px;
+            }
+
         section.video-explorer div.video-result div.results {
             padding-left: 20px;
             padding-right: 20px;
         }
-        section.video-explorer div.video-result div.results div.card-body {
-            margin-bottom: 40px;
-        }
 
-            section.video-explorer div.video-result div.results div.card-body a img.video-thumbnail {
-                width: 21%;
-                float: left;
-                margin-right: 19px;
-                border-radius: 8px;
+            section.video-explorer div.video-result div.results div.card-body {
+                margin-bottom: 20px;
+                padding: 2px;
+                -moz-transition: all .4s;
+                -o-transition: all .4s;
+                -webkit-transition: all .4s;
+                transition: all .4s;
             }
 
-            section.video-explorer div.video-result div.results div.card-body a div.play {
-                width: 9%;
-                position: absolute;
-                margin-top: 21px;
-                left: 6%;
-                border: none;
-                background: none;
-                opacity: 0.8;
+                section.video-explorer div.video-result div.results div.card-body:hover {
+                    box-shadow: 0 0 2px 2px #00ADEF;
+                }
+
+                section.video-explorer div.video-result div.results div.card-body a img.video-thumbnail {
+                    width: 21%;
+                    float: left;
+                    margin-right: 19px;
+                }
+
+                section.video-explorer div.video-result div.results div.card-body a div.play {
+                    width: 9%;
+                    position: absolute;
+                    margin-top: 15px;
+                    left: 8%;
+                    border: none;
+                    background: none;
+                    opacity: 0.8;
+                }
+
+            section.video-explorer div.video-result div.results h4.card-title {
+                font-family: 'Archivo Narrow', sans-serif;
+                margin-bottom: 15px;
+                margin-top: 0px;
+                font-weight: 600;
+                color: #000;
             }
 
-        section.video-explorer div.video-result div.results h4.card-title {
-            font-family: 'Archivo Narrow', sans-serif;
-            margin-bottom: 15px;
-            margin-top: 10px;
-            font-weight: 600;
-            color: #000;
-        }
+            section.video-explorer div.video-result div.results p.card-text {
+                font-family: 'Archivo Narrow', sans-serif;
+                font-weight: 500;
+                color: #000;
+            }
 
-        section.video-explorer div.video-result div.results p.card-text {
-            font-family: 'Archivo Narrow', sans-serif;
-            font-weight: 500;
-            color: #000;
-        }
+            section.video-explorer div.video-result div.results p.card-details {
+                font-family: 'Archivo Narrow', sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                margin-top: 15px;
+                color: #000;
+                margin-bottom: 4px;
+            }
 
-        section.video-explorer div.video-result div.results p.card-details {
-            font-family: 'Archivo Narrow', sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            margin-top: 15px;
-            color: #000;
-        }
-
-       /*Course detail*/
+/*Course detail*/
 section.course-detail {
     background-image: url('../../imgs/Coach-Whiteboard-2.png');
     background-position: center;
@@ -529,10 +576,9 @@ section.course-detail {
     background-size: cover;
     color: #ebebeb;
 }
+
     section.course-detail div.container {
         background-color: rgba(0, 0, 0, 0.6);
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
     }
 
     section.course-detail div.course-data h1 {
@@ -540,17 +586,20 @@ section.course-detail {
         font-size: 30px;
         text-transform: none;
     }
+
     section.course-detail div.course-data span {
         font-family: 'Archivo Narrow', sans-serif;
         font-size: 17px;
         text-transform: none;
     }
+
     section.course-detail div.course-data h3 {
         font-family: 'Archivo Narrow', sans-serif;
         font-size: 18px;
         text-transform: none;
         line-height: 1.4;
     }
+
     section.course-detail div.video-preview iframe {
         margin-top: 10%;
         padding: 2%;
@@ -558,12 +607,12 @@ section.course-detail {
         float: none;
         display: inline;
     }
+
     section.course-detail div.course-data a {
         margin-top: 50px;
         border: 2px solid #00ADEF;
         padding: 3px 10px;
         float: left;
-        border-radius: 5px;
         background: none;
         border-color: #00ADEF;
         color: #ebebeb;
@@ -586,13 +635,14 @@ section.course-detail {
         font-size: 27px;
         text-transform: none;
     }
-    section.course-detail h4 span {
-        font-family: 'Archivo Narrow', sans-serif;
-        padding: 0px 6px;
-        font-size: 27px;
-        background-color: #00ADEF;
-        margin-left: 10px;
-    }
+
+        section.course-detail h4 span {
+            font-family: 'Archivo Narrow', sans-serif;
+            padding: 0px 6px;
+            font-size: 27px;
+            background-color: #00ADEF;
+            margin-left: 10px;
+        }
 
     section.course-detail div.topic h1 {
         font-family: 'Archivo Narrow', sans-serif;
@@ -607,17 +657,19 @@ section.course-detail {
         text-transform: none;
         line-height: 1.4;
     }
+
 section.details {
     background-color: #DCDDDE;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-section.details i{
-    font-size: 40px;
-    margin-right: 10px;
-    float: left;
-}
+    section.details i {
+        font-size: 40px;
+        margin-right: 10px;
+        float: left;
+    }
+
     section.details p {
         font-size: 15px;
         padding-top: 9px;
@@ -639,63 +691,72 @@ section.course-content div.left-menu div.comment div.championship-item div.champ
     float: left;
     margin-right: 10px;
 }
+
 section.course-content div.left-menu div.comment div.championship-item {
     margin-top: 10px;
     margin-bottom: 80px;
 }
 
-section.course-content div.course-curriculum h1 {
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 45px;
-    text-transform: none;
+section.course-content div.course-curriculum div.module {
+    background: #DCDDDE;
 }
 
-section.course-content div.course-curriculum ul li h4{
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 23px;
-    text-transform: none;
-    margin-bottom:0px;
-}
-section.course-content div.course-curriculum button {
-    float: right;
-    padding: 3px 4px 3px 4px;
-}
-section.course-content div.course-curriculum ul li {
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 17px;
-    line-height: 1.8;
-    padding: 5px 20px;
-    padding-right: 5px;
-}
-
-section.course-content div.course-curriculum ul li i:first-child{
-    font-size: 18px;
-}
-    section.course-content div.course-curriculum ul li span {
-        font-family: 'Archivo Narrow', sans-serif;  
-        font-size: 13px;
+    section.course-content div.course-curriculum div.module h1 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 45px;
+        text-transform: none;
     }
 
-    section.course-content div.course-curriculum ul li:nth-child(2n-1) {
-        background-color: rgba(220, 221, 222, 0.5);
+    section.course-content div.course-curriculum div.module ul li h4 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 23px;
+        text-transform: none;
+        margin-bottom: 0px;
     }
-    section.course-content div.course-curriculum ul li:hover {
-        background-color: rgba(0, 173, 239, 0.2);
-    }
-    section.course-content div.course-curriculum ul li a.btn-play {
-        border: 2px solid #00ADEF;
-        padding: 0px 10px;
+
+    section.course-content div.course-curriculum div.module button {
         float: right;
-        font-size: 90%;
-        border-radius: 5px;
-        background: none;
-        color: #00ADEF;
+        padding: 3px 4px 3px 4px;
     }
 
-        section.course-content div.course-curriculum ul li a.btn-play:hover {
-            color: #FFFFFF;
-            background-color: #00ADEF;
+    section.course-content div.course-curriculum div.module ul li {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 17px;
+        line-height: 1.8;
+        padding: 5px 20px;
+        padding-right: 5px;
+    }
+
+        section.course-content div.course-curriculum div.module ul li i:first-child {
+            font-size: 18px;
         }
+
+        section.course-content div.course-curriculum div.module ul li span {
+            font-family: 'Archivo Narrow', sans-serif;
+            font-size: 13px;
+        }
+
+        section.course-content div.course-curriculum div.module ul li:nth-child(2n-1) {
+            background-color: rgba(220, 221, 222, 0.5);
+        }
+
+        section.course-content div.course-curriculum div.module ul li:hover {
+            background-color: rgba(0, 173, 239, 0.2);
+        }
+
+        section.course-content div.course-curriculum div.module ul li a.btn-play {
+            border: 2px solid #00ADEF;
+            padding: 0px 10px;
+            float: right;
+            font-size: 90%;
+            background: none;
+            color: #00ADEF;
+        }
+
+            section.course-content div.course-curriculum div.module ul li a.btn-play:hover {
+                color: #FFFFFF;
+                background-color: #00ADEF;
+            }
 
 
 section.course-content div.modal div.modal-header {
@@ -711,11 +772,11 @@ section.course-content div.modal div.modal-body {
     padding-top: 0px
 }
 
-section.course-content div.modal div.modal-body p.card-text {
-    font-family: 'Archivo Narrow', sans-serif;
-    font-weight: 500;
-    color: #000;
-}
+    section.course-content div.modal div.modal-body p.card-text {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-weight: 500;
+        color: #000;
+    }
 
 section.course-content div.modal div.modal-footer button {
     font-family: 'Archivo Narrow', sans-serif;
