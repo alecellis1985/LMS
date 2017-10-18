@@ -1,6 +1,12 @@
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1200px) {
+
+    nav.navbar ul.navbar-left li form input.form-control {
+        font-size: 15px;
+        width: 290px;
+    }
+
     section.pass h1 {
         font-size: 60px;
     }

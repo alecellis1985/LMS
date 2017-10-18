@@ -3,32 +3,60 @@
 }
 
 .navbar-brand img {
-    width: 340px;
+    width: 265px;
     margin-top: 10px;
 }
 
-nav.navbar ul.navbar-right {
-    margin-top: 15px;
+nav.navbar ul.navbar-left {
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 60px;
 }
 
-    nav.navbar ul.navbar-right li {
-        padding: 0 17px;
+    nav.navbar ul.navbar-left li form input.form-control {
         font-size: 15px;
+        width: 450px;
+        border-radius: 0;
+    }
+nav.navbar ul.navbar-left li a.library{
+    padding-bottom: 13px;
+}
+    nav.navbar ul.navbar-left li a {
+        padding-top: 8px;
+        top: 0;
+        position: relative;
+        margin: 0;
+        padding-bottom: 6px;
     }
 
-        nav.navbar ul.navbar-right li:last-child {
-            padding-right: 0px;
-            padding-left: 0px;
-            margin-left: -9px;
-        }
+    nav.navbar ul.navbar-left li form button.search {
+        font-size: 17px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 4px;
+        margin-right: 5px;
+        background: none;
+        border: none;
+    }
 
-        nav.navbar ul.navbar-right li.buy-pass a {
-            padding: 2px 9px;
-        }
+    nav.navbar ul.navbar-left li a {
+        transition: all ease-in-out 0.3s;
+        -webkit-transition: all ease-in-out 0.3s;
+        -moz-transition: all ease-in-out 0.3s;
+        -o-transition: all ease-in-out 0.3s;
+        -ms-transition: all ease-in-out 0.3s;
+    }
 
-        nav.navbar ul.navbar-right li.login a {
-            padding: 0px 9px;
-        }
+
+    nav.navbar ul.navbar-left li.buy-pass a {
+        padding: 2px 9px;
+    }
+
+    nav.navbar ul.navbar-left li.login a {
+        margin-left: 78px;
+        padding: 0px 9px;
+    }
 
 .nav-tabs {
     border-bottom: none;
@@ -44,14 +72,14 @@ nav.navbar ul.navbar-right {
 /* pass section */
 section.pass-offer {
     background-color: #000000;
-    margin-top: 111px;
+    margin-top: 73px;
     color: #fff;
     font-weight: 400;
     text-align: right;
 }
 
     section.pass-offer div.container {
-        padding-right: 0;
+        padding-right: 27px;
     }
 
         section.pass-offer div.container div {
@@ -201,6 +229,7 @@ section.vault-benefits {
 section.championship {
     background: #DCDDDE;
 }
+
 section.partners {
     background: #FFFFFF;
 }
@@ -438,10 +467,11 @@ section.library-featured-videos div.modal div.modal-footer a {
     padding: 3px 10px;
     margin-left: 10px;
 }
-section.library-featured-videos div.modal div.modal-footer a:hover {
-    background-color: #00ADEF;
-    color: #ffffff;
-}
+
+    section.library-featured-videos div.modal div.modal-footer a:hover {
+        background-color: #00ADEF;
+        color: #ffffff;
+    }
 
 section.video-explorer {
     font-family: 'Archivo Narrow', sans-serif;

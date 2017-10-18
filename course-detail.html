@@ -31,31 +31,45 @@
 </head>
 <body>
     <!-- header -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="vault.html"><img src="imgs/Vault-Logo-Header.png" alt="Logo"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="wow fadeInRight delay-01s"><a href="#">ABOUT</a></li>
-                    <li class="wow fadeInRight delay-02s"><a href="#">MISSION</a></li>
-                    <li class="wow fadeInRight delay-03s"><a href="#">LIBRARY</a></li>
-                    <li class="wow fadeInRight delay-04s"><a href="#">SUPPORT</a></li>
-                    <li class="login wow fadeInRight delay-05s"><a href="/#">LOGIN</a></li>
-                    <li class="buy-pass wow fadeInRight delay-06s"><a href="#">SUBSCRIBE</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="vault.html"><img src="imgs/Vault-Logo-Header.png" alt="Logo"></a>
         </div>
-    </nav>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="wow fadeInRight delay-01s">
+                    <a class="library" href="#" data-toggle="dropdown">LIBRARY</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">FOOTBALL</a></li>
+                        <li><a href="#">BASKETBALL</a></li>
+                        <li><a href="#">VOLLEYBALL</a></li>
+                        <li><a href="#">SOCCER</a></li>
+                        <li><a href="#">TRACK & FIELD</a></li>
+                        <li><a href="#">ATHLETIC PERFORMANCE</a></li>
+                        <li><a href="#">HEAD COACH ACADEMY</a></li>
+                    </ul>
+                </li>
+                <li class="wow fadeInRight delay-02s">
+                    <form class="form-inline">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        <button class="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </li>
+                <li class="login wow fadeInRight delay-03s"><a href="/#">LOGIN</a></li>
+                <li class="buy-pass wow fadeInRight delay-04s"><a href="#">SIGN UP</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <!-- Pass Section -->
     <section class="pass-offer">
         <div class="container">
