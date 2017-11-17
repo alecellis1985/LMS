@@ -18,9 +18,11 @@ nav.navbar ul.navbar-left {
         width: 450px;
         border-radius: 0;
     }
-nav.navbar ul.navbar-left li a.library{
-    padding-bottom: 13px;
-}
+
+    nav.navbar ul.navbar-left li a.library {
+        padding-bottom: 13px;
+    }
+
     nav.navbar ul.navbar-left li a {
         padding-top: 8px;
         top: 0;
@@ -68,6 +70,23 @@ nav.navbar ul.navbar-left li a.library{
 }
 /*// header */
 
+div.bread-crumb {
+    padding-top: 15px;
+}
+
+    div.bread-crumb a {
+        font-size: 17px;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: #00ADEF;
+    }
+div.bread-crumb i {
+    font-size: 17px;
+}
+
+        div.bread-crumb a:first-child {
+            margin-left: 0px;
+        }
 
 /* pass section */
 section.pass-offer {
@@ -812,3 +831,87 @@ section.course-content div.modal div.modal-footer button {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 16px;
 }
+
+/*Course Viewer*/
+
+section.video-viewer {
+    background: #DCDDDE;
+}
+section.video-viewer div.panel-group {
+    padding-right: 25px;
+}
+
+    section.video-viewer div.panel-group div.panel-body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+section.video-viewer div.panel {
+    border-radius: 0;
+    margin-top: 0 !important;
+}
+
+section.video-viewer ul.nav-tabs  {
+    margin-top: 20px;
+}
+
+    section.video-viewer ul.nav-tabs li a {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        color: #00ADEF;
+        border-radius: 0;
+    }
+section.video-viewer ul.nav-tabs li a:hover {
+    color: #00ADEF;
+}
+    section.video-viewer div.panel-heading h4 a {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        color: #000000;
+        display: block;
+    }
+    section.video-viewer div.panel-heading h4 i {
+        color: #00ADEF;
+        display: block;
+        float: left;
+        margin-right: 5px;
+    }
+
+section.video-viewer div.panel-body ul li.topic {
+    margin-bottom: 3px;
+}
+
+    section.video-viewer div.panel-body ul li.topic a {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1.6;
+        color: #000;
+    }
+
+        section.video-viewer div.panel-body ul li.topic a span {
+            color: #898989;
+            font-family: 'Archivo Narrow', sans-serif;
+        }
+
+        section.video-viewer div.panel-body ul li.topic a:hover {
+            text-decoration: underline;
+        }
+
+
+section.video-viewer div.course-player div.video {
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 50px
+}
+    section.video-viewer div.course-player div.video iframe {
+        width: 100%;
+        height: 450px;
+    }
