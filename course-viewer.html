@@ -83,7 +83,7 @@
             <div class="container">
                 <a href="#">Home</a> <i class="fa fa-caret-right"></i>
                 <a href="#">Course Title</a> <i class="fa fa-caret-right"></i>
-                <a href="#">Video Title</a>
+                <span>Video Title</span>
                 <h1>Video title</h1>
             </div>
         </div>
@@ -92,7 +92,7 @@
     <section class="video-viewer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="hidden-xs hidden-sm col-md-4">
                     <ul class="nav nav-tabs">
                         <li class="active"><a href="#">Suggested Videos</a></li>
                     </ul>
@@ -102,7 +102,8 @@
                                 <h4 class="panel-title">
                                     <i class="fa fa-caret-down"></i>
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                        TOPIC 1</a>
+                                        TOPIC 1
+                                    </a>
                                 </h4>
                             </div>
                             <div id="collapse1" class="panel-collapse collapse in">
@@ -126,7 +127,8 @@
                                 <h4 class="panel-title">
                                     <i class="fa fa-caret-down"></i>
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                                        TOPIC 2</a>
+                                        TOPIC 2
+                                    </a>
                                 </h4>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse">
@@ -172,13 +174,94 @@
                         </div>
                     </div>
                 </div>
-                <div class="course-player col-sm-8 col-xs-12">
-                    <div class="row">
-                        <div class="video">
-                            <iframe src="https://www.youtube.com/embed/LBnFqt2K4cw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <div class="course-player col-md-8">
+                    <div class="video embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LBnFqt2K4cw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md col-sm-12">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Suggested Videos</a></li>
+                    </ul>
+                    <div class="panel-group" id="accordion2">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <i class="fa fa-caret-down"></i>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse21">
+                                        TOPIC 1
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse21" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <i class="fa fa-caret-down"></i>
+                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapse22">
+                                        TOPIC 2
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse22" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <i class="fa fa-caret-down"></i>
+                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapse23">
+                                        TOPIC 3
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse23" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 1 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 2 <span>(3)</span></a></li>
+                                        <li class="topic"><a href="#">Suggested Video 3 <span>(3)</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>

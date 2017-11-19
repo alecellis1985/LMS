@@ -80,6 +80,15 @@ div.bread-crumb {
         margin-right: 15px;
         color: #00ADEF;
     }
+div.bread-crumb span{
+    font-size: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div.bread-crumb a:hover {
+    text-decoration: underline;
+}
 div.bread-crumb i {
     font-size: 17px;
 }
@@ -882,10 +891,6 @@ section.video-viewer ul.nav-tabs li a:hover {
         margin-right: 5px;
     }
 
-section.video-viewer div.panel-body ul li.topic {
-    margin-bottom: 3px;
-}
-
     section.video-viewer div.panel-body ul li.topic a {
         font-family: 'Archivo Narrow', sans-serif;
         font-size: 17px;
@@ -899,19 +904,26 @@ section.video-viewer div.panel-body ul li.topic {
             font-family: 'Archivo Narrow', sans-serif;
         }
 
-        section.video-viewer div.panel-body ul li.topic a:hover {
-            text-decoration: underline;
-        }
-
 
 section.video-viewer div.course-player div.video {
     width: 100%;
-    height: 450px;
     background-color: black;
     text-align: center;
     margin-bottom: 50px
 }
     section.video-viewer div.course-player div.video iframe {
         width: 100%;
-        height: 450px;
+    }
+
+    section.video-viewer div.panel-body {
+        padding-right: 0;
+        padding-left: 0;
+    }
+section.video-viewer div.panel-body ul li.topic{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+}
+    section.video-viewer div.panel-body ul li.topic:hover {
+        background-color: #DCDDDE;
     }
