@@ -92,6 +92,7 @@ div.bread-crumb {
     }
 
     div.bread-crumb i {
+        color: #00adef;
         font-size: 17px;
     }
 
@@ -890,7 +891,7 @@ section.video-viewer {
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 0px;
-        color: #000000;
+        color: #333333;
         display: block;
     }
 
@@ -906,7 +907,7 @@ section.video-viewer {
         font-size: 17px;
         font-weight: 500;
         line-height: 1.6;
-        color: #000;
+        color: #dcddde;
     }
 
         section.video-viewer div.panel-body ul li.topic a span {
@@ -935,6 +936,9 @@ section.video-viewer {
             padding-right: 15px;
             padding-left: 15px;
             padding-bottom: 3px;
+            border-bottom: 1px solid lightgrey;
+            cursor: pointer;
+            color: #dcddde;
         }
 
             section.video-viewer div.panel-body ul li.topic:hover {
@@ -1052,7 +1056,7 @@ section.testimonials div.carousel ol.carousel-indicators li.active{
 }
 
     section.testimonials div.carousel div.item div {
-        padding-top: 4%;
+        padding-top: 3%;
         height: 350px;
     }
 
