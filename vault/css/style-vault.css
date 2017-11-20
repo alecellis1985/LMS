@@ -80,22 +80,24 @@ div.bread-crumb {
         margin-right: 15px;
         color: #00ADEF;
     }
-div.bread-crumb span{
-    font-size: 17px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
 
-div.bread-crumb a:hover {
-    text-decoration: underline;
-}
-div.bread-crumb i {
-    font-size: 17px;
-}
+    div.bread-crumb span {
+        font-size: 17px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 
-        div.bread-crumb a:first-child {
-            margin-left: 0px;
-        }
+    div.bread-crumb a:hover {
+        text-decoration: underline;
+    }
+
+    div.bread-crumb i {
+        font-size: 17px;
+    }
+
+    div.bread-crumb a:first-child {
+        margin-left: 0px;
+    }
 
 /* pass section */
 section.pass-offer {
@@ -261,6 +263,10 @@ section.championship {
 section.partners {
     background: #FFFFFF;
 }
+
+    section.partners.in-season-pass {
+        background: #DCDDDE;
+    }
 
 footer div.footer-top div.footer-links a.buy-your-pass {
     float: left;
@@ -846,36 +852,39 @@ section.course-content div.modal div.modal-footer button {
 section.video-viewer {
     background: #DCDDDE;
 }
-section.video-viewer div.panel-group {
-    padding-right: 25px;
-}
 
-    section.video-viewer div.panel-group div.panel-body {
-        padding-top: 0;
-        padding-bottom: 0;
+    section.video-viewer div.panel-group {
+        padding-right: 25px;
     }
 
+        section.video-viewer div.panel-group div.panel-body {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
 
-section.video-viewer div.panel {
-    border-radius: 0;
-    margin-top: 0 !important;
-}
 
-section.video-viewer ul.nav-tabs  {
-    margin-top: 20px;
-}
-
-    section.video-viewer ul.nav-tabs li a {
-        font-family: 'Archivo Narrow', sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        margin-bottom: 0px;
-        color: #00ADEF;
+    section.video-viewer div.panel {
         border-radius: 0;
+        margin-top: 0 !important;
     }
-section.video-viewer ul.nav-tabs li a:hover {
-    color: #00ADEF;
-}
+
+    section.video-viewer ul.nav-tabs {
+        margin-top: 20px;
+    }
+
+        section.video-viewer ul.nav-tabs li a {
+            font-family: 'Archivo Narrow', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 0px;
+            color: #00ADEF;
+            border-radius: 0;
+        }
+
+            section.video-viewer ul.nav-tabs li a:hover {
+                color: #00ADEF;
+            }
+
     section.video-viewer div.panel-heading h4 a {
         font-family: 'Archivo Narrow', sans-serif;
         font-size: 20px;
@@ -884,6 +893,7 @@ section.video-viewer ul.nav-tabs li a:hover {
         color: #000000;
         display: block;
     }
+
     section.video-viewer div.panel-heading h4 i {
         color: #00ADEF;
         display: block;
@@ -905,25 +915,196 @@ section.video-viewer ul.nav-tabs li a:hover {
         }
 
 
-section.video-viewer div.course-player div.video {
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    margin-bottom: 50px
-}
-    section.video-viewer div.course-player div.video iframe {
+    section.video-viewer div.course-player div.video {
         width: 100%;
+        background-color: black;
+        text-align: center;
+        margin-bottom: 50px
     }
+
+        section.video-viewer div.course-player div.video iframe {
+            width: 100%;
+        }
 
     section.video-viewer div.panel-body {
         padding-right: 0;
         padding-left: 0;
     }
-section.video-viewer div.panel-body ul li.topic{
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 3px;
+
+        section.video-viewer div.panel-body ul li.topic {
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 3px;
+        }
+
+            section.video-viewer div.panel-body ul li.topic:hover {
+                background-color: #DCDDDE;
+            }
+
+section.plan-selection {
+    padding-top: 85px;
+    padding-bottom: 25px;
+    font-family: 'Archivo Narrow', sans-serif;
+    background-image: url('../../imgs/grass-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-    section.video-viewer div.panel-body ul li.topic:hover {
-        background-color: #DCDDDE;
+
+    section.plan-selection div.plan-header {
+        float: right;
+        width: 50%;
+        padding: 15px;
+        padding-bottom: 0px;
+    }
+
+
+
+        section.plan-selection div.plan-header button {
+            width: 47%;
+            float: right;
+            padding: 23px;
+            margin-bottom: 15px;
+            background-color: #00adef;
+            border: none;
+            letter-spacing: 1px;
+        }
+
+            section.plan-selection div.plan-header button:first-child {
+                float: left;
+            }
+
+    section.plan-selection div.compare-table {
+        background: #FFFFFF;
+        padding: 13px;
+    }
+
+        section.plan-selection div.compare-table table {
+            margin-bottom: 0;
+        }
+
+            section.plan-selection div.compare-table table tr td {
+                text-align: center;
+                width: 25%;
+                font-size: 18px;
+            }
+
+                section.plan-selection div.compare-table table tr td i {
+                    font-size: 22px;
+                }
+
+                section.plan-selection div.compare-table table tr td.benefit {
+                    font-family: 'Archivo Narrow', sans-serif;
+                    font-size: 21px;
+                    text-align: left;
+                    width: 50%;
+                }
+
+                section.plan-selection div.compare-table table tr td span {
+                    font-family: 'Archivo Narrow', sans-serif;
+                    font-size: 16px;
+                }
+
+                section.plan-selection div.compare-table table tr td a {
+                    font-size: 24px;
+                    color: #00ADEF;
+                    border: 2px solid #00ADEF;
+                    padding: 2px 10px;
+                    font-weight: bolder;
+                    transition: all ease-in-out 0.3s;
+                    -webkit-transition: all ease-in-out 0.3s;
+                    -moz-transition: all ease-in-out 0.3s;
+                    -o-transition: all ease-in-out 0.3s;
+                    -ms-transition: all ease-in-out 0.3s;
+                    width: 100%;
+                    display: inline-block;
+                }
+                section.plan-selection div.compare-table table tr td a:hover {
+                    background: #00ADEF;
+                    color: #FFFFFF;
+                    transition: all ease-in-out 0.3s;
+                    -webkit-transition: all ease-in-out 0.3s;
+                    -moz-transition: all ease-in-out 0.3s;
+                    -o-transition: all ease-in-out 0.3s;
+                    -ms-transition: all ease-in-out 0.3s;
+                }
+
+    section.plan-selection div.invite p {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 28px;
+        text-align: center;
+        color: #000000;
+        background: #DCDDDE;
+        margin-bottom: 0;
+        padding: 6px;
+    }
+
+section.testimonials div.carousel div.item {
+    text-align: center;
+}
+
+section.testimonials div.carousel ol.carousel-indicators li {
+    background-color: #DDDDDD;
+}
+
+section.testimonials div.carousel ol.carousel-indicators li.active{
+    background-color: #888888;
+}
+
+    section.testimonials div.carousel div.item div {
+        padding-top: 4%;
+        height: 350px;
+    }
+
+        section.testimonials div.carousel div.item div img {
+            border-radius: 50%;
+            width: 35%;
+        }
+
+        section.testimonials div.carousel div.item div p {
+            text-align: left;
+            padding-right: 200px;
+            font-size: 20px;
+        }
+
+        section.testimonials div.carousel div.item div h3 {
+            margin: 0;
+            margin-bottom: 5px;
+            margin-top: 15px;
+            font-size: 20px;
+            color: #00ADEF;
+            font-weight: bolder;
+            text-align: left;
+        }
+
+            section.testimonials div.carousel div.item div h3 span {
+                font-family: 'Archivo Narrow', sans-serif;
+                color: #000000;
+                font-size: 17px;
+            }
+
+section.testimonials div.carousel div.carousel-inner {
+    height: 350px;
+}
+
+section.offer {
+    padding: 50px;
+    text-align: center;
+}
+    section.offer h1 {
+        font-size: 45px;
+    }
+section.offer p {
+    font-size: 20px;
+    padding: 15px 190px;
+}
+    section.offer a {
+        font-size: 20px;
+        color: #00adef;
+    }
+
+    section.offer img {
+        max-width: 15%;
+        max-height: 150px;
+        margin: 15px;
     }

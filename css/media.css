@@ -67,13 +67,23 @@
         font-size: 17px;
     }
 
+    footer div.footer-top div.glazier-clinics div.sign-clinic h1 {
+        margin-bottom: 10px;
+    }
+
+    footer div.footer-top div.glazier-clinics div.sign-clinic p {
+        margin-bottom: 19px;
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
     div.football-sign-up ul li {
         padding: 0px 4px;
     }
 
-        div.football-sign-up ul li input[type="submit"] {
-            margin-top: 15px;
-        }
+    div.football-sign-up ul li input[type="submit"] {
+        margin-top: 15px;
+    }
 
     section.offensive-drills div.offensive div.offensive-grid div.offensive-item h3 {
         font-size: 16px;
@@ -112,13 +122,13 @@
     section.season-pass {
         height: 650px;
     }
-        section.season-pass div.video-buttons {
-            width: 660px;
-            height: 500px;
-        }
-        section.season-pass div.pause {
-            width: 660px;
-        }
+    section.season-pass div.video-buttons {
+        width: 660px;
+        height: 500px;
+    }
+    section.season-pass div.pause {
+        width: 660px;
+    }
 
     section.season-pass div.video-buttons button {
         margin-top: 35%;
@@ -159,8 +169,11 @@
     }
 
     section.search-clinics div.search-clinics-grid div.search-clinics-item div.search-clinics-item-info h4 {
-        font-size: 14px;
+        font-size: 13px;
+        line-height: 1.2;
+        padding: 5px 4px;
     }
+    
 
     section.search-clinics div.search-clinics-grid div.search-clinics-item div.search-clinics-item-info h3 {
         font-size: 16px;
@@ -239,9 +252,9 @@
         margin-top: 7.5px;
     }
 
-        .navbar-nav > li {
-            float: none;
-        }
+    .navbar-nav > li {
+        float: none;
+    }
 
     .collapse.in {
         display: block !important;
@@ -255,13 +268,13 @@
         border-radius: 0;
     }
 
-        .navbar-inverse .navbar-toggle:hover {
-            background: #fff;
-        }
+    .navbar-inverse .navbar-toggle:hover {
+        background: #fff;
+    }
 
-        .navbar-inverse .navbar-toggle span.icon-bar {
-            background: #00ADEF;
-        }
+    .navbar-inverse .navbar-toggle span.icon-bar {
+        background: #00ADEF;
+    }
 
     section.pass h1 {
         font-size: 45px;
@@ -280,10 +293,10 @@
         text-align: center;
     }
 
-        section.what-new div.new-info {
-            text-align: center !important;
-            margin-bottom: 20px;
-        }
+    section.what-new div.new-info {
+        text-align: center !important;
+        margin-bottom: 20px;
+    }
 
     section.glazier h2 {
         font-size: 30px;
@@ -353,36 +366,36 @@
         padding: 25px 0;
     }
 
-        section.prices h2 {
-            font-size: 30px;
-        }
+    section.prices h2 {
+        font-size: 30px;
+    }
 
     section.p-benefits {
         padding: 15px 0;
     }
 
-        section.p-benefits div.benef-grid div.benef-item {
-            margin-bottom: 23px;
-        }
+    section.p-benefits div.benef-grid div.benef-item {
+        margin-bottom: 23px;
+    }
 
-            section.p-benefits div.benef-grid div.benef-item h3 {
-                margin-bottom: 18px;
-                margin-top: 0;
-            }
+    section.p-benefits div.benef-grid div.benef-item h3 {
+        margin-bottom: 18px;
+        margin-top: 0;
+    }
 
-        section.p-benefits h2 {
-            font-size: 30px;
-            margin-bottom: 5px;
-        }
+    section.p-benefits h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
 
     section.all-coaches {
         padding: 10px 0 25px 0;
     }
 
-        section.all-coaches h6 {
-            font-size: 18px;
-            margin-bottom: 0;
-        }
+    section.all-coaches h6 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
     /* fgag*/
 
     footer div.footer-top div.footer-links,
@@ -391,13 +404,13 @@
         margin-bottom: 30px;
     }
 
-        footer div.footer-top div.glazier-clinics div.sign-clinic {
-            text-align: center;
-        }
+    footer div.footer-top div.glazier-clinics div.sign-clinic {
+        text-align: center;
+    }
 
-            footer div.footer-top div.glazier-clinics div.sign-clinic span {
-                display: block;
-            }
+    footer div.footer-top div.glazier-clinics div.sign-clinic span {
+        display: block;
+    }
 
     section.about h1 {
         font-size: 44px;
@@ -411,10 +424,10 @@
         padding: 130px 0px 30px 0px;
     }
 
-        body section.no-bk h1 {
-            line-height: 1.5em;
-            margin-bottom: 5px;
-        }
+    body section.no-bk h1 {
+        line-height: 1.5em;
+        margin-bottom: 5px;
+    }
 
     body section.bk_ h1 {
         line-height: 1.5em;
@@ -497,17 +510,17 @@
         margin-right: 60px;
     }
 
-        section.new-service div.city-new-service li a {
-            font-size: 25px;
-        }
+    section.new-service div.city-new-service li a {
+        font-size: 25px;
+    }
 
     section.denver-features div.denver-item {
         margin-bottom: 30px;
     }
 
-        section.denver-features div.denver-item:last-child {
-            margin-bottom: 0px;
-        }
+    section.denver-features div.denver-item:last-child {
+        margin-bottom: 0px;
+    }
 
     section.denver-clinic-schedule div.about-slider-indicators ul li {
         margin: 0px 30px;
@@ -542,9 +555,9 @@
         height: 500px;
         margin-top: 65px;
     }
-        section.season-pass div.pause {
-            width: 660px;
-        }
+    section.season-pass div.pause {
+        width: 660px;
+    }
 
     section.season-pass div.video-buttons button {
         margin-top: 27%;
@@ -600,6 +613,35 @@
         margin-bottom: 30px;
     }
 
+    section.system h1 {
+        font-size: 34px;
+    }
+    section.system p.header-description {
+        font-size: 20px;
+    }
+    section.system a {
+        font-size: 20px;
+    }
+    section.system div.item:nth-child(2) {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    section.system div.item div.img-container {
+        height: auto;
+        max-height: 100px;
+    }
+
+    section.system div.item img {
+        max-height: 100px;
+        max-width: 40%;
+        margin: 10px !important;
+    }
+
+    section.system div.item p {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
     section.top-speakers div.top-speakers-grid div.top-speakers-imgs div.row img {
         display: block;
         width: 23%;
@@ -649,10 +691,16 @@
         margin: 10px 0;
     }
 
-        section.search-clinics div.search-options b.option-item span.option-name {
-            font-size: 18px;
-        }
-
+    section.search-clinics div.search-options b.option-item span.option-name {
+        font-size: 18px;
+    }
+    section.search-clinics div.search-clinics-grid div.search-clinics-item div.search-clinics-item-info h4 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    section.search-clinics div.search-options b.option-item a.specialty-btn {
+        margin: 5px 6px 0 0px;
+    }
     section.login div.google-chrome-message {
         font-size: 20px;
     }
@@ -671,6 +719,11 @@
         border-right: none;
     }
 
+
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-heading h4 a i {
+        margin-right: 8px;
+    }
+
     section.add-new-coaches div.add-new-fields.g-3 div.add-new-check {
         width: 49%;
     }
@@ -680,14 +733,14 @@
         margin-bottom: 35px;
     }
 
-        section.notifications-references div.notifications-grid div.col-xs-12:nth-child(2) {
-            border-right: 0px;
-        }
+    section.notifications-references div.notifications-grid div.col-xs-12:nth-child(2) {
+        border-right: 0px;
+    }
 
-        section.notifications-references div.notifications-grid div.col-xs-12:nth-child(1),
-        section.notifications-references div.notifications-grid div.col-xs-12:nth-child(2) {
-            margin-bottom: 0;
-        }
+    section.notifications-references div.notifications-grid div.col-xs-12:nth-child(1),
+    section.notifications-references div.notifications-grid div.col-xs-12:nth-child(2) {
+        margin-bottom: 0;
+    }
 
     section.add-new-coaches h2 {
         font-size: 30px;
@@ -705,6 +758,20 @@
 
     footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-two {
         float: left;
+    }			 
+    footer div.footer-bottom {
+        text-align: center;
+    }
+    footer div.footer-bottom div.footer-bottom-left ul li {
+        float: none; 
+        display: inline;
+    }
+    footer div.footer-bottom div.footer-bottom-right div {
+        text-align: center;
+    }
+    footer div.footer-bottom div.footer-bottom-right ul li {
+        float: none;
+        display: inline;
     }
 }
 
@@ -728,19 +795,19 @@
         white-space: normal !important;
     }
 
-        section.notifications-references div.additional-ways tr td label i,
-        section.add-new-coaches table tr td label i {
-            width: 15px;
-            height: 15px;
-            margin-left: 3px;
-        }
+    section.notifications-references div.additional-ways tr td label i,
+    section.add-new-coaches table tr td label i {
+        width: 15px;
+        height: 15px;
+        margin-left: 3px;
+    }
 
-            section.notifications-references div.additional-ways tr td label i:before,
-            section.add-new-coaches table tr td label i:before {
-                width: 15px;
-                height: 15px;
-                line-height: 16px;
-            }
+    section.notifications-references div.additional-ways tr td label i:before,
+    section.add-new-coaches table tr td label i:before {
+        width: 15px;
+        height: 15px;
+        line-height: 16px;
+    }
 
     section.add-new-coaches h2 {
         font-size: 25px;
@@ -770,14 +837,14 @@
         padding: 10px 0px;
     }
 
-        section.pass ul li a {
-            font-size: 20px;
-            display: inline-block
-        }
+    section.pass ul li a {
+        font-size: 20px;
+        display: inline-block
+    }
 
-        section.pass ul li:first-child {
-            margin-right: 10px;
-        }
+    section.pass ul li:first-child {
+        margin-right: 10px;
+    }
 
     section.what-new div.new-info {
         font-size: 18px;
@@ -807,6 +874,14 @@
         font-size: 25px;
     }
 
+    footer div.footer-top div.glazier-clinics div.sign-clinic h1 {
+        font-size: 28px
+    }
+
+    footer div.footer-top div.glazier-clinics div.sign-clinic p {
+        font-size: 17px;
+    }
+
     section.help h2 {
         line-height: 1.5;
         font-size: 30px;
@@ -825,9 +900,9 @@
         padding: 0px 5px;
     }
 
-        section.my-account ul.nav-l li a {
-            font-size: 25px;
-        }
+    section.my-account ul.nav-l li a {
+        font-size: 25px;
+    }
 
     section.my-account div.myaccount-content div.order-summary div.summary span i {
         font-size: 14px;
@@ -868,43 +943,48 @@
         margin-bottom: 30px;
     }
 
-        section.youth div.youth-left div.made-possible img {
-            display: block;
-            margin: 10px 0px;
-        }
+    section.youth div.youth-left div.made-possible img {
+        display: block;
+        margin: 10px 0px;
+    }
 
     section.about {
         padding: 140px 0 30px 0;
     }
 
-        section.about h1 {
-            font-size: 34px;
-        }
+    section.about h1 {
+        font-size: 34px;
+    }
 
-        section.about div.about-slider-indicators ul {
-            display: none;
-        }
+    section.about div.about-slider-indicators ul {
+        display: none;
+    }
 
-        section.about div.about-slider-indicators div.time-line {
-            display: none;
-        }
+    section.about div.about-slider-indicators div.time-line {
+        display: none;
+    }
 
-        section.about div.about-slider-indicators {
-            margin-top: 0px;
-            height: 350px;
-        }
+    section.about div.about-slider-indicators {
+        margin-top: 0px;
+        height: 350px;
+    }
+    section.about div.about-slider-indicators div.carousel-inner div.item div.caption-info h2 {
+        margin-top: 0;
+    }
 
-            section.about div.about-slider-indicators div.carousel-inner div.item {
-                height: 350px;
-            }
+    section.about div.about-slider-indicators div.carousel-inner div.item div.caption-info p {
+        margin-bottom: 0;
+    }
+    section.about div.who-values {
+        margin-top: 140px;
+    }
+    section.about div.who-values h2 {
+        font-size: 25px;
+    }
 
-        section.about div.who-values h2 {
-            font-size: 25px;
-        }
-
-        section.about div.who-values p {
-            font-size: 14px;
-        }
+    section.about div.who-values p {
+        font-size: 14px;
+    }
 
     section.experience-clinic h2 {
         font-size: 25px;
@@ -961,9 +1041,9 @@
         margin: 4px 0px;
     }
 
-        div.football-sign-up ul li input[type="email"] {
-            width: 65%;
-        }
+    div.football-sign-up ul li input[type="email"] {
+        width: 65%;
+    }
 
     section.football-drills div.rogers-drills div.rogers p {
         width: 100%;
@@ -1072,26 +1152,58 @@
         padding: 30px;
     }
 
-        section.unlimited-clinics div.ul-contain {
-            margin-top: 20px;
-        }
+    section.unlimited-clinics div.ul-contain {
+        margin-top: 20px;
+    }
 
-        section.unlimited-clinics div.clinics-grid div.clinics-item {
-            margin: 0;
-        }
+    section.unlimited-clinics div.clinics-grid div.clinics-item {
+        margin: 0;
+    }
 
-        section.unlimited-clinics div.unlimited-grid {
-            margin-bottom: 10px;
-        }
+    section.unlimited-clinics div.unlimited-grid {
+        margin-bottom: 10px;
+    }
 
-            section.unlimited-clinics div.unlimited-grid div.unlimited-detail h2 {
-                font-size: 20px;
-            }
+    section.unlimited-clinics div.unlimited-grid div.unlimited-detail h2 {
+        font-size: 20px;
+    }
 
-        section.unlimited-clinics div.ul-contain ul li {
-            font-size: 18px;
-        }
+    section.unlimited-clinics div.ul-contain ul li {
+        font-size: 18px;
+    }
 
+    section.system h1 {
+        font-size: 28px;
+    }
+
+    section.system p.header-description {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    section.system a {
+        font-size: 17px;
+    }
+
+    section.system div.item div.img-container {
+        height: auto;
+        max-height: 121px;
+    }
+
+    section.system div.item img {
+        max-height: 110px;
+        max-width: 52%;
+    }
+
+    section.system div.item p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    section.system div.item p {
+        font-size: 16px;
+    }
+    
     section.top-speakers div.top-speakers-grid div.top-speakers-info h4 {
         font-size: 26px;
     }
@@ -1119,6 +1231,9 @@
     section.find-clinic h1 {
         font-size: 30px;
     }
+    section.find-clinic a {
+        font-size: 16px;
+    }
 
     section.search-clinics div.search-options {
         margin-bottom: 0px;
@@ -1140,10 +1255,10 @@
         display: block;
     }
 
-        section.season-includes ul li {
-            width: 100%;
-            text-align: left;
-        }
+    section.season-includes ul li {
+        width: 100%;
+        text-align: left;
+    }
 
     section.youth-coach a {
         display: block;
@@ -1219,8 +1334,43 @@
         font-size: 40px;
     }
 
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-body {
+        padding: 10px;
+        margin-left: 24px;
+        margin-top: 10px;
+    }
+
     section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-heading h4 a {
         font-size: 20px;
+    }
+
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-body {
+        font-size: 16px;
+    }
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-body span {
+        font-size: 16px;
+    }
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-body i {
+        font-size: 16px;
+    }
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-body a {
+        font-size: 16px;
+    }
+
+    section.contact-us div.panel-heading {
+        padding: 8px 0px;
+    }
+
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-heading h4 a {
+        font-size: 16px;
+    }
+
+    section .contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-heading h4 a {
+        font-size: 15px;
+    }
+
+    section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-heading h4 a i {
+        margin-right: 8px;
     }
 
     section.add-new-coaches h1 {
@@ -1235,9 +1385,9 @@
         width: 100%;
     }
 
-        section.add-new-coaches div.add-new-fields.g-2 div.add-new-field:last-child {
-            width: 100%;
-        }
+    section.add-new-coaches div.add-new-fields.g-2 div.add-new-field:last-child {
+        width: 100%;
+    }
 
     section.add-new-coaches div.add-new-fields.g-3 div.add-new-check {
         width: 100%;
@@ -1259,9 +1409,9 @@
         padding: 10px 0 20px 0;
     }
 
-        section.new-in div.new-in-grid div.new-in-item h3 {
-            margin: 0;
-        }
+    section.new-in div.new-in-grid div.new-in-item h3 {
+        margin: 0;
+    }
 
     section.notifications-references h1 {
         font-size: 40px;
@@ -1297,10 +1447,10 @@
         margin-bottom: 20px;
     }
 
-        section.notifications-references div.notifications-grid div.col-xs-12 {
-            margin-bottom: 30px;
-            border-right: 0px;
-        }
+    section.notifications-references div.notifications-grid div.col-xs-12 {
+        margin-bottom: 30px;
+        border-right: 0px;
+    }
 
     section.my-account .seasonconf-h2.h2 {
         font-size: 30px;
@@ -1311,9 +1461,9 @@
         text-align: left;
     }
 
-        footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-one ul {
-            float: left;
-        }
+    footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-one ul {
+        float: left;
+    }
 
 
 
@@ -1330,9 +1480,15 @@
         font-size: 14px;
         padding: 1px 5px;
     }
+    section.clinics div.clinics-info h2 {
+        font-size: 45px;
+    }
 
+    section.clinics div.clinics-info h3 {
+        font-size: 27px;
+    }
     section.vault img {
-        width: 60%
+        width: 60%;
     }
 
     section.notifications-references div.additional-ways tr th {
@@ -1354,31 +1510,31 @@
         white-space: normal !important;
     }
 
-        section.add-new-coaches table tr td:not(:last-child) {
-            padding-right: 0;
-        }
+    section.add-new-coaches table tr td:not(:last-child) {
+        padding-right: 0;
+    }
 
-        section.notifications-references div.additional-ways tr td label i,
-        section.notifications-references div.additional-ways tr td label i:before,
-        section.add-new-coaches table tr td label i,
-        section.notifications-references div.additional-ways tr td label i:before {
-            width: 15px;
-            height: 15px;
-            line-height: 16px;
-        }
+    section.notifications-references div.additional-ways tr td label i,
+    section.notifications-references div.additional-ways tr td label i:before,
+    section.add-new-coaches table tr td label i,
+    section.notifications-references div.additional-ways tr td label i:before {
+        width: 15px;
+        height: 15px;
+        line-height: 16px;
+    }
 
     section.all-coaches {
         padding: 10px 0 25px 0;
     }
 
-        section.all-coaches h2 {
-            font-size: 30px;
-        }
+    section.all-coaches h2 {
+        font-size: 30px;
+    }
 
-        section.all-coaches h6 {
-            font-size: 18px;
-            margin-bottom: 0;
-        }
+    section.all-coaches h6 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
 
     section.add-new-coaches h2 {
         font-size: 20px;
@@ -1446,31 +1602,31 @@
         text-align: center;
     }
 
-        section.partners h2 {
-            font-size: 20px;
-            line-height: 30px;
-        }
+    section.partners h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
 
-        section.partners div.partners-carousel {
-            margin-top: 35px;
-        }
+    section.partners div.partners-carousel {
+        margin-top: 35px;
+    }
 
-        section.partners ul.partners-links {
-            margin: 30px auto 0px auto;
-        }
+    section.partners ul.partners-links {
+        margin: 30px auto 0px auto;
+    }
 
-        section.partners ul.partners-links {
-            display: block;
-        }
+    section.partners ul.partners-links {
+        display: block;
+    }
 
-            section.partners ul.partners-links li {
-                margin-bottom: 20px;
-                margin: 20px 40px;
-            }
+    section.partners ul.partners-links li {
+        margin-bottom: 20px;
+        margin: 20px 40px;
+    }
 
-                section.partners ul.partners-links li a {
-                    font-size: 14px;
-                }
+    section.partners ul.partners-links li a {
+        font-size: 14px;
+    }
 
     section.glazier div.glazier-item {
         margin-bottom: 15px;
@@ -1563,44 +1719,43 @@
         overflow: hidden;
     }
 
-        section.youth div.youth-left ul li {
-            display: block;
-            margin-bottom: 20px;
-        }
+    section.youth div.youth-left ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
 
     section.about {
         padding: 130px 0 30px 0;
     }
 
-        section.about h1 {
-            font-size: 22px;
-        }
+    section.about h1 {
+        font-size: 22px;
+    }
 
-        section.about div.about-slider-indicators {
-            margin-top: 0px;
-            height: 300px;
-        }
+    section.about div.about-slider-indicators {
+        margin-top: 0px;
+        height: 300px;
+    }
 
-            section.about div.about-slider-indicators div.carousel-inner div.item {
-                height: 300px;
-                margin-top: 0px;
-            }
+    section.about div.about-slider-indicators div.carousel-inner div.item {
+        margin-top: 0px;
+    }
 
-                section.about div.about-slider-indicators div.carousel-inner div.item div.caption-info h2 {
-                    font-size: 20px;
-                }
+    section.about div.about-slider-indicators div.carousel-inner div.item div.caption-info h2 {
+        font-size: 20px;
+    }
 
-            section.about div.about-slider-indicators .fa-angle-left {
-                font-size: 79px;
-                left: -21%;
-                position: relative;
-            }
+    section.about div.about-slider-indicators .fa-angle-left {
+        font-size: 79px;
+        left: -21%;
+        position: relative;
+    }
 
-            section.about div.about-slider-indicators .fa-angle-right {
-                font-size: 79px;
-                left: 21%;
-                position: relative;
-            }
+    section.about div.about-slider-indicators .fa-angle-right {
+        font-size: 79px;
+        left: 21%;
+        position: relative;
+    }
 
     section.championship h2 {
         margin-bottom: 0;
@@ -1631,13 +1786,13 @@
         width: 100%;
     }
 
-        div.Rogers-drill div.Rogers-info h2 {
-            font-size: 25px;
-        }
+    div.Rogers-drill div.Rogers-info h2 {
+        font-size: 25px;
+    }
 
-        div.Rogers-drill div.Rogers-info h4 {
-            font-size: 16px;
-        }
+    div.Rogers-drill div.Rogers-info h4 {
+        font-size: 16px;
+    }
 
     section.Rogers-drills-detail div.Rogers-detail-background h1 {
         font-size: 32px;
@@ -1732,51 +1887,65 @@
         padding: 25px 0;
     }
 
-        section.prices h2 {
-            font-size: 30px;
-        }
+    section.prices h2 {
+        font-size: 30px;
+    }
 
     section.p-benefits {
         padding: 10px 0;
     }
 
-        section.p-benefits div.benef-grid div.benef-item {
-            margin-bottom: 23px;
-        }
+    section.p-benefits div.benef-grid div.benef-item {
+        margin-bottom: 23px;
+    }
 
-            section.p-benefits div.benef-grid div.benef-item h3 {
-                margin-bottom: 18px;
-                margin-top: 0;
-            }
+    section.p-benefits div.benef-grid div.benef-item h3 {
+        margin-bottom: 18px;
+        margin-top: 0;
+    }
 
-        section.p-benefits h2 {
-            font-size: 30px;
-            margin-bottom: 0px;
-        }
+    section.p-benefits h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
 
     section.unlimited-clinics {
         padding: 30px;
     }
 
-        section.unlimited-clinics div.ul-contain {
-            margin-top: 20px;
-        }
+    section.unlimited-clinics div.ul-contain {
+        margin-top: 20px;
+    }
 
-        section.unlimited-clinics div.clinics-grid div.clinics-item {
-            margin: 0;
-        }
+    section.unlimited-clinics div.clinics-grid div.clinics-item {
+        margin: 0;
+    }
 
-        section.unlimited-clinics div.unlimited-grid {
-            margin-bottom: 10px;
-        }
+    section.unlimited-clinics div.unlimited-grid {
+        margin-bottom: 10px;
+    }
 
-            section.unlimited-clinics div.unlimited-grid div.unlimited-detail h2 {
-                font-size: 20px;
-            }
+    section.unlimited-clinics div.unlimited-grid div.unlimited-detail h2 {
+        font-size: 20px;
+    }
 
-        section.unlimited-clinics div.ul-contain ul li {
-            font-size: 18px;
-        }
+    section.unlimited-clinics div.ul-contain ul li {
+        font-size: 18px;
+    }
+
+    section.system a {
+        font-size: 16px;
+    }
+    section.system div.item:nth-child(2) {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    section.system div.row {
+        margin-bottom: 20px;
+    }
+
+
 
     section.top-speakers div.top-speakers-grid div.top-speakers-info h3 {
         font-size: 30px;
@@ -1791,15 +1960,15 @@
         padding-top: 10px;
     }
 
-        section.top-speakers div.top-speakers-grid div.top-speakers-imgs div.row img {
-            width: 48%;
-            float: none;
-        }
+    section.top-speakers div.top-speakers-grid div.top-speakers-imgs div.row img {
+        width: 48%;
+        float: none;
+    }
 
-        section.top-speakers div.top-speakers-grid div.top-speakers-imgs img:nth-child(1),
-        section.top-speakers div.top-speakers-grid div.top-speakers-imgs img:nth-child(2) {
-            margin-bottom: 5px;
-        }
+    section.top-speakers div.top-speakers-grid div.top-speakers-imgs img:nth-child(1),
+    section.top-speakers div.top-speakers-grid div.top-speakers-imgs img:nth-child(2) {
+        margin-bottom: 5px;
+    }
 
     section.vault h3 {
         font-size: 20px;
@@ -1809,33 +1978,33 @@
         height: 385px;
     }
 
-        section.season-pass div.video-buttons {
-            width: 100%;
-            height: 230px;
-            left: 0;
-        }
+    section.season-pass div.video-buttons {
+        width: 100%;
+        height: 230px;
+        left: 0;
+    }
 
-        section.season-pass div.pause {
-            height: 170px;
-            left: 0;
-            margin-left: 0%;
-            margin-top: 60px;
-        }
+    section.season-pass div.pause {
+        height: 170px;
+        left: 0;
+        margin-left: 0%;
+        margin-top: 60px;
+    }
 
-        section.season-pass div.video-buttons button {
-            width: 90px;
-            margin-bottom: 0;
-            margin-left: 0;
-            margin-right: 0;
-            margin-top: 48px;
-            display: inline;
-        }
+    section.season-pass div.video-buttons button {
+        width: 90px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 48px;
+        display: inline;
+    }
 
-        section.season-pass iframe {
-            height: 300px;
-            margin-top: -8px;
-            width: 300px;
-        }
+    section.season-pass iframe {
+        height: 300px;
+        margin-top: -8px;
+        width: 300px;
+    }
     section.choose-season h1 span {
         padding: 2px 5px;
     }
@@ -1885,10 +2054,10 @@
         margin: 0px;
     }
 
-        section.contact-us div.contact-faq div.contact-form div.contact-fields.g-2 div.contact-field:last-child {
-            width: 100%;
-            margin: 20px 0px;
-        }
+    section.contact-us div.contact-faq div.contact-form div.contact-fields.g-2 div.contact-field:last-child {
+        width: 100%;
+        margin: 20px 0px;
+    }
 
     section.contact-us div.contact-faq div.contact-questions div.panel-group div.panel div.panel-body {
         margin-left: 0px;
@@ -2009,3 +2178,4 @@
         height: 230px;
     }
 }
+

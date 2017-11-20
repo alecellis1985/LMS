@@ -1,0 +1,713 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Glazier Specs">
+    <meta name="keywords" content="Glazier Specs">
+    <meta name="author" content="Alexander Ellis">
+    <title>Course Viewer</title>
+
+    <!-- Stylesheet Files -->
+
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="vendor/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="vendor/css/animate.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="vault/css/style-vault.css" rel="stylesheet" />
+    <link href="vault/css/media-vault.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow:400,700" rel="stylesheet">
+
+    <!-- For Internet Explorer Browser -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="vault.html"><img src="imgs/Vault-Logo-Header.png" alt="Logo"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="wow fadeInRight delay-01s">
+                        <a class="library" href="#" data-toggle="dropdown">LIBRARY</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">FOOTBALL</a></li>
+                            <li><a href="#">BASKETBALL</a></li>
+                            <li><a href="#">VOLLEYBALL</a></li>
+                            <li><a href="#">SOCCER</a></li>
+                            <li><a href="#">TRACK & FIELD</a></li>
+                            <li><a href="#">ATHLETIC PERFORMANCE</a></li>
+                            <li><a href="#">HEAD COACH ACADEMY</a></li>
+                        </ul>
+                    </li>
+                    <li class="wow fadeInRight delay-02s">
+                        <form class="form-inline">
+                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            <button class="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </li>
+                    <li class="login wow fadeInRight delay-03s"><a href="/#">LOGIN</a></li>
+                    <li class="buy-pass wow fadeInRight delay-04s"><a href="#">SIGN UP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Plan Section -->
+    <section class="plan-selection">
+        <div class="container">
+            <div class="col-md-offset-1 col-md-10">
+                <div class="plan-header">
+                    <button class="btn btn-primary">MONTHLY</button>
+                    <button class="btn btn-primary">ANNUAL</button>
+                </div>
+                <div class="compare-table">
+                    <table class="table table-responsive">
+                        <tr>
+                            <td class="benefit">Average monthly cost after free trial ends</td>
+                            <td>From $11.99</td>
+                            <td>From $9.92 <br /><span>*paid annually</span></td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Unlimited learning from all x,xxx courses</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Watch on your computer, phone, tablet or TV</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Cancel anytime</td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Assess your progress with quizzes</td>
+                            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">Access to unlimited clinics across the country</td>
+                            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="benefit">9 Championship Systems </td>
+                            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="benefit"></td>
+                            <td colspan="2">
+                                <a href="#">Continue <i class="fa fa-caret-right"></i></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="invite">
+                    <p>Need to train your team? Contact us to learn more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div id="testimonials" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+                <li data-target="#testimonials" data-slide-to="1"></li>
+                <li data-target="#testimonials" data-slide-to="2"></li>
+                <li data-target="#testimonials" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="col-sm-6">
+                        <img src="imgs/hp/Gary-Joseph.png" alt="testimonial" />
+                    </div>
+                    <div class="col-sm-6">
+                        <p>"Glazier Clinics give our coaches the opportunity to pick and choose the topics that most interest them. We attend the clinic for the quality of speakers and the variety offered."</p>
+                        <h3>-GARY JOSEPH <br /><span>HEAD COACH, KATY HS (TX)<br/>3-TIME STATE CHAMPION </span>
+                        </h3>
+
+                    </div>
+                </div>
+                <div class="item ">
+                    <div class="col-sm-6">
+                        <img src="imgs/hp/Jim-McElwain.png" alt="testimonial" />
+                    </div>
+                    <div class="col-sm-6">
+                        <p>"Whether you’re a first-year coach or you’ve been coaching for over 30 years, Glazier Clinics helps you become a better, more well prepared coach."</p>
+                        <h3>–Jim McElwain<br /><span> Former Florida Gators Head Coach,<br /> Glazier Attendee Since '85</span></h3>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="col-sm-6">
+                        <img src="imgs/hp/Mike-Smith.png" alt="testimonial" />
+                    </div>
+                    <div class="col-sm-6">
+                        <p>"Glazier Clinics are by far the best football coaching clinics. Here, you can learn the real X’s and O’s that make you a better coach."</p>
+                        <h3>-MIKE SMITH<br /><span> DEFENSIVE COORDINATOR,<br /> TAMPA BAY BUCCANEERS SUPER BOWL XXXV CHAMPION</span></h3>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="col-sm-6">
+                        <img src="imgs/hp/Urban-Meyer.jpg" alt="testimonial" />
+                    </div>
+                    <div class="col-sm-6">
+                        <p>"I cut my teeth and grew up on the Glazier Clinics. [Missing out] was never an option for me or my staff."</p>
+                        <h3>-URBAN MEYER <br /><span>HEAD COACH,<br /> OSU 3-TIME NATIONAL CHAMPION</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#testimonials" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#testimonials" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="container">
+            <h1>Need to train your team?</h1>
+            <p>We offer flexibel, cost-effictive group membership for your business, school, or government organization.<br class="hidden-sm hidden-lg hidden-md"/><a href="#"> Click here to sign up your staff.</a></p>
+            
+            <img src="imgs/IMG_Academy_Logo.jpg" alt="logo" />
+            <img src="imgs/am-heritage3-logo.png" alt="logo" />
+            <img src="imgs/Mater_Dei_logo.jpg" alt="logo" />
+        </div>
+    </section>
+    <!-- prices section -->
+    <section class="prices">
+        <div class="container">
+            <h2>SEASON PASS PRICING</h2>
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <div class="price one">
+                        <h5>1 COACH</h5>
+                        <h6>$119</h6>
+                        <a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/individual-all">SELECT <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="price two">
+                        <h5>4 COACHES</h5>
+                        <h6>$299</h6>
+                        <a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/staff-medium">SELECT <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="price three">
+                        <h5>ENTIRE STAFF</h5>
+                        <h6>$479</h6>
+                        <a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/staff-all">SELECT <i class="fa fa-caret-right"></i></a>
+                        <br />
+                        <a class="systems" href="#system">9 FULL COACHING SYSTEMS INCLUDED <i class="fa fa-caret-right"></i><span>Available January 1, 2018</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pass benefits section -->
+    <section class="p-benefits">
+        <div class="container">
+            <h2>SEASON PASS BENEFITS</h2>
+            <div class="benef-grid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="benef-item">
+                            <h3>
+                                UNLIMITED<br>
+                                COACHES
+                            </h3>
+                            <a href="#all-coaches">VIEW DETAILS <i class="fa fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="benef-item">
+                            <h3>
+                                UNLIMITED<br>
+                                CLINICS
+                            </h3>
+                            <a href="#unlimited-clinics">VIEW DETAILS <i class="fa fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="benef-item">
+                            <h3>
+                                HUNDREDS OF<br>
+                                HOURS OF CONTENT
+                            </h3>
+                            <a href="#vault">VIEW DETAILS <i class="fa fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- all coaches section -->
+    <section class="all-coaches" style="position: relative">
+        <div id="all-coaches" style="position: absolute; top: -100px; width: 1px; height: 1px;"></div>
+        <div class="container">
+            <h2>ALL OF YOUR COACHES</h2>
+            <h6>* Available with the unlimited pass</h6>
+            <div class="all-coaches-grid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8">
+                        <div class="all-coaches-details">
+                            <h3>BRING YOUR ENTIRE STAFF</h3>
+                            <p>The Staff Season Pass allows your entire staff to attend any or all clinics. Bring your middle school coaches and solidify your program from the top down.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="all-coaches-img">
+                            <img src="imgs/coach-whiteboard-bw.png" alt="coaches">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- unlimited clinics section -->
+    <section class="unlimited-clinics" style="position: relative">
+        <div id="unlimited-clinics" style="position: absolute; top: -100px; width: 1px; height: 1px;"></div>
+        <div class="container">
+            <div class="unlimited-grid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="unlimited-img">
+                            <img src="imgs/america-bg.png" alt="america-map" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="unlimited-detail">
+                            <h2>
+                                <span>UNLIMITED</span> CLINICS
+                            </h2>
+                            <h4>33 Clinics Nationwide</h4>
+                            <ul>
+                                <li>Largest selection of dates</li>
+                                <li>100+ sessions per clinic</li>
+                                <li>750 Top Speakers</li>
+                                <li>15 Bonus Tracks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clinics-grid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="clinics-item">
+                            <ul>
+                                <li><a href="/Coaching_Clinics/Atlanta-Georgia-Football-Clinic">Atlanta</a></li>
+                                <li class="special"><a href="/Coaching_Clinics/Atlanta-150-Georgia-Football-Clinic">Atlanta 150</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty"><a href="/Coaching_Clinics/Atlanta-150-Georgia-Football-Clinic">&#9642 Option</a></li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/Atlanta-150-Georgia-Football-Clinic">&#9642 Special Teams</a></li>
+                                <li><a href="/Coaching_Clinics/Atlantic-City-New-Jersey-Football-Clinic">Atlantic City</a></li>
+                                <li><a href="/Coaching_Clinics/Baltimore-Maryland-Football-Clinic">Baltimore</a></li>
+                                <li><a href="/Coaching_Clinics/Boston-Massachusetts-Football-Clinic">Boston</a></li>
+                                <li><a href="/Coaching_Clinics/Charlotte-North-Carolina-Football-Clinic">Charlotte</a></li>
+                                <li><a href="/Coaching_Clinics/Chicago-Illinois-Football-Clinic-February">Chicago Feb.</a></li>
+                                <li><a href="/Coaching_Clinics/Chicago-Illinois-Football-Clinic-March">Chicago Mar.</a></li>
+                                <li class="special"><a href="/Coaching_Clinics/Cincinnati-Ohio-Football-Clinic">Cincinnati</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/Cincinnati-Ohio-Football-Clinic">&#9642 Head Coach Academy</a></li>
+                                <li><a href="/Coaching_Clinics/Cleveland-Ohio-Football-Clinic">Cleveland</a></li>
+                                <li><a href="/Coaching_Clinics/Dallas-Texas-Football-Clinic">Dallas</a></li>
+                                <li><a href="/Coaching_Clinics/Denver-Colorado-Football-Clinic">Denver</a></li>
+                                <li><a href="/Coaching_Clinics/Detroit-Michigan-Football-Clinic">Detroit</a></li>
+                                <li><a href="/Coaching_Clinics/Grand-Rapids-Michigan-Football-Clinic">Grand Rapids</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="clinics-item">
+                            <ul>
+                                <li class="special"><a href="/Coaching_Clinics/Houston-Texas-Football-Clinic">Houston</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/Houston-Texas-Football-Clinic">&#9642 O-Line</a></li>
+                                <li class="special"><a href="/Coaching_Clinics/Indianapolis-Indiana-Football-Clinic">Indianapolis 150</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty"><a href="/Coaching_Clinics/Indianapolis-Indiana-Football-Clinic">&#9642 3-3 Defense</a></li>
+                                <li class="specialty"><a href="/Coaching_Clinics/Indianapolis-Indiana-Football-Clinic">&#9642 Option</a></li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/Indianapolis-Indiana-Football-Clinic">&#9642 Special Teams</a></li>
+                                <li class="special"><a href="/Coaching_Clinics/Kansas-City-Missouri-Football-Clinic">Kansas City</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/Kansas-City-Missouri-Football-Clinic">&#9642 8-Man</a></li>
+                                <li class="special"><a href="/Coaching_Clinics/Las-Vegas-Nevada-Football-Clinic">Las Vegas</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/Las-Vegas-Nevada-Football-Clinic">&#9642 Option</a></li>
+                                <li><a href="/Coaching_Clinics/Los-Angeles-California-Football-Clinic">Los Angeles</a></li>
+                                <li class="special"><a href="/Coaching_Clinics/Minneapolis-Minnesota-Football-Clinic">Minneapolis</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/Minneapolis-Minnesota-Football-Clinic">&#9642 Head Coach Academy</a></li>
+                                <li><a href="/Coaching_Clinics/Nashville-Tennessee-Football-Clinic">Nashville</a></li>
+                                <li class="special"><a href="/coaching_clinics/new-england-regional-football-clinic">New England Regional</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/coaching_clinics/new-england-regional-football-clinic">&#9642 Special Teams</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="clinics-item">
+                            <ul>
+                                <li><a href="/coaching_clinics/northern-virginia-dc-football-clinic">Northern Virginia/D.C.</a></li>
+                                <li class="special"><a href="/Coaching_Clinics/North-Jersey-New-Jersey-Football-Clinic">NYC/North Jersey</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/North-Jersey-New-Jersey-Football-Clinic">&#9642 Option</a></li>
+                                <li class="special"><a href="/coaching_clinics/orlando-florida-football-clinic">Orlando</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/coaching_clinics/orlando-florida-football-clinic">&#9642 Head Coach Academy</a></li>
+                                <li><a href="/Coaching_Clinics/Phoenix-Arizona-Football-Clinic">Phoenix</a></li>
+                                <li><a href="/coaching_clinics/pittsburgh-pennsylvania-football-clinic">Pittsburgh</a></li>
+                                <li class="special"><a href="/coaching_clinics/texas-south-oklahoma-football-clinic">Red River OK/TX</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/coaching_clinics/texas-south-oklahoma-football-clinic">&#9642 Special Teams</a></li>
+                                <li><a href="/Coaching_Clinics/Reno-Nevada-Football-Clinic">Reno</a></li>
+                                <li><a href="/Coaching_Clinics/San-Francisco-California-Football-Clinic">San Francisco</a></li>
+                                <li class="special"><a href="/Coaching_Clinics/Seattle-Washington-Football-Clinic">Seattle</a></li>
+                                <li class="specialty">Bonus Tracks</li>
+                                <li class="specialty specialty-last"><a href="/Coaching_Clinics/Seattle-Washington-Football-Clinic">&#9642 Head Coach Academy</a></li>
+                                <li><a href="/Coaching_Clinics/St-Louis-Missouri-Football-Clinic">St. Louis</a></li>
+                                <li><a href="/Coaching_Clinics/Tampa-Florida-Football-Clinic">Tampa</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--9-system section-->
+    <section class="system" id="system">
+        <div class="container">
+            <div class="row">
+                <h1>9 FULL <span>COACHING</span> SYSTEMS</h1>
+                <p class="header-description">Purchase an Entire Staff Season Pass ($479) and receive access to 9 full Championship Systems valued at over $5,400. The Entire Staff Season Pass is the best value for you and your coaching staff.</p>
+                <a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/staff-all">BUY AN ENTIRE STAFF PASS <i class="fa fa-caret-right"></i></a>
+            </div>        <div class="row">
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="zonesystem" src="imgs/9system/NZoneSystem.png" />
+                    </div>                <p class="title">NZone System</p>
+                    <p>Coach Noel Mazzone teaches how to run the Spread Offense just like a top Southeastern Conference team.</p>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="pistol" src="imgs/9system/pistol-logo.png" />
+                    </div>                <p class="title">Pistol Offense</p>
+                    <p>Chris Ault the former Head Coach of the University of Nevada, member of the College Football Hall of Fame &epsilon; NFL consultant, shows off his powerful winning Pistol Offense.</p>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="zonesystem" src="imgs/9system/logo_33_site_300 px.png" />
+                    </div>                <p class="title">3-3 Defense</p>
+                    <p>The 3-3 Defense to stop any opponent taught by Coach Chad Hetlet.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="xfactor" src="imgs/9system/X-FACTOR-Logo.png" />
+                    </div>                <p class="title">X-Factor</p>
+                    <p>The comprehensive wide receiver coaching system by Coach Bobby Acosta.</p>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="triple" src="imgs/9system/triple-threat.png" />
+                    </div>                <p class="title">Triple Threat</p>
+                    <p>Stress any defense with Paul Golla's Triple Threat Spread Option Offense.</p>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="jet" src="imgs/9system/jet-offense-wing-t-logo.png" />
+                    </div>                <p class="title">Jet Offense</p>
+                    <p>Learn how to run Coach Bruce Cobleigh's Hybrid Wing-T Offense and score more points.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="total" src="imgs/9system/totaldefense.png" />
+                    </div>                <p class="title">Total Defensive System</p>
+                    <p>Coach Hunter Hughes teaches how to shut down any offense with his national champoinship.</p>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="m43" src="imgs/9system/m43-for-web.png" />
+                    </div>                <p class="title">M43 Defensive System</p>
+                    <p>Complete install and execution of the Multiple 4-3 Defense from Coach Greg Vandagriff.</p>
+                </div>
+                <div class="col-md-4 item">
+                    <div class="img-container">
+                        <img class="gdefense" src="imgs/9system/GDefense.png" />
+                    </div>                <p class="title">G Defensive System</p>
+                    <p>The comprehensive Pressure G Defense taught by Coach Pat Fox.</p>
+                </div>
+            </div>
+            <div class="row">
+                <a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/staff-all">BUY AN ENTIRE STAFF PASS <i class="fa fa-caret-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- new in 2018 section -->
+    <section class="new-in">
+        <div class="container">
+            <h2>WHAT’S <span>NEW</span> IN 2018</h2>
+            <div class="new-in-grid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="new-in-item">
+                            <h3>CHALK WARS</h3>
+                            <img src="imgs/Blackboard-3.png" alt="img">
+                            <p>Watch top speakers pit their best offense against another coach’s winning defense.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="new-in-item">
+                            <h3>BLITZ SESSIONS</h3>
+                            <img src="imgs/clinic-video-bg.png" alt="img">
+                            <p>Hear from multiple speakers in a rapid-fire format. 25 minutes of ideas followed by 25 minutes of Q&amp;A</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="new-in-item">
+                            <h3>COACH MEET-UPS</h3>
+                            <img src="imgs/CoachMeetups.jpg" alt="img">
+                            <p>Direct coach-to-coach communication. Network with other coaches and learn from each other. Discuss strategies, drills, plays and more. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- top speakers -->
+    <section class="top-speakers">
+        <div class="container">
+            <h2><span>TOP</span> SPEAKERS</h2>
+            <div class="top-speakers-grid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8">
+                        <div class="top-speakers-info">
+                            <h3>LEARN FROM:</h3>
+                            <div>
+                                <h4>NFL COACHES</h4>
+                            </div>
+                            <div>
+                                <h4>COLLEGE COACHES</h4>
+                            </div>
+                            <div>
+                                <h4>TOP HIGH SCHOOL COACHES</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="top-speakers-imgs">
+                            <div class="row">
+                                <img alt="Gary-Joseph" src="imgs/seasonpass/Gary-Joseph.png" />
+                                <img alt="Jim-McElwain" src="imgs/seasonpass/Jim-McElwain.png" />
+                            </div>
+                            <div class="row">
+                                <img alt="Mike-Smith" src="imgs/seasonpass/Mike-Smith.png" />
+                                <img alt="Urban-Meyer" src="imgs/seasonpass/Urban-Meyer.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- vault section -->
+    <section class="vault in-season-pass" style="position: relative;">
+        <div id="vault" style="position: absolute; top: -100px; width: 1px; height: 1px;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-5">
+                    <div class="vault-info">
+                        <img src="imgs/Vault-Logo.png" />
+                        <h3>Anytime. </h3>
+                        <h3>Anywhere.</h3>
+                        <h3>On any device.</h3>
+                        <p>Winning coaches train year-round. Unlimited access to Glazier’s digital library - over 6,000 coaching resources and 1,100 hours of video training.</p>
+                        <a href="http://vault.glazierclinics.com">BUY YOUR PASS <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                    <div class="vault-video">
+                        <iframe src="https://player.vimeo.com/video/204964658" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Partners -->
+<section class="partners in-season-pass">
+    <div class="container">
+        <div class="row">
+            <h2><span>TRUSTED</span> GLAZIER PARTNERS</h2>
+            <div class="owl-carousel owl-carousel-partners owl-theme partners-carousel">
+                <div class="item">
+                    <img src="imgs/partners/cai.png" alt="logo">
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/Gatorade-Logo-Black.png" alt="logo">
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/CoachComm.png" alt="logo">
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/fca.png" alt="logo">
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/Protuff_logo_Black_and_White.png" alt="logo" />
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/Adrenaline-Logo-Normal-Size-Black-and-White-logo.png" alt="logo" />
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/hudl.png" alt="logo">
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/Marines.png" alt="logo">
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/AFCA-B&W.png" alt="logo" />
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/rogers_bw.png" alt="logo">
+                </div>
+                <div class="item">
+                    <img src="imgs/partners/coachtube black.png" alt="logo" />
+                </div>
+            </div>
+            <ul class="partners-links">
+                <li><a href="/vendor-discounts">OFFERS & DISCOUNTS <i class="fa fa-caret-right"></i></a></li>
+                <li><a href="/partners_exhibitors">BECOME AN EXHIBITOR <i class="fa fa-caret-right"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+        <!-- footer -->
+        <footer>
+            <div ID="Footer" runat="server"></div>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="footer-links">
+                            <div class="links-left">
+                                <a href="/season_pass">SEASON PASS</a>
+                                <a href="/coaching_clinics/cities_and_dates">CLINIC LOCATIONS</a>
+                                <a href="http://vault.glazierclinics.com">GLAZIER VAULT</a>
+                                <a href="/exhibit">BECOME AN EXHIBITOR</a>
+                            </div>
+                            <div class="links-right">
+                                <a href="/contact_faq/contact_us">CONTACT</a>
+                                <a href="/contact_faq/contact_us">FAQ</a>
+                                <a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/youth">SCHOLARSHIP</a>
+                                <a href="/coach_resources/football_drills">RESOURCES</a>
+                            </div>
+                            <a href="/season_pass" class="buy-your-pass">BUY YOUR PASS</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="glazier-clinics">
+                            <a href="" class="footer-logo"><img src="imgs/Vault-Logo.png" alt="logo-footer"></a>
+                            <div class="sign-clinic">
+                                <span>GLAZIER Vault Sign up for Daily Drills</span>
+                                <div style="display: inline;">
+                                    <input id="subscribe" type="email" placeholder="Email" required="required">
+                                    <a id="sendEmail" href="javascript:;">Send</a>
+                                    <div id="subscribeError" class="alert alert-danger" style="display: none">
+                                        <strong>Danger!</strong> Email is not valid.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="company-word">
+                            <p>"Whether you’re a first-year coach or you’ve been coaching for over 30 years, Glazier Clinics helps you become a better, more well prepared coach."</p>
+                            <span>–Jim McElwain</span>
+                            <i>Florida Gators, Glazier Attendee Since '85</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="footer-bottom-left">
+                            <ul>
+                                <li><a href="https://www.facebook.com/glazierclinics/"><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a href="https://twitter.com/GlazierClinics"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/glazier.clinics/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/user/GlazierClinics"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a href="https://plus.google.com/106084411420016451435"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-8">
+                        <div class="footer-bottom-right">
+                            <div class="footer-bottom-right-one">
+                                <ul>
+                                    <li>Phone: (888) 755-6427 | </li>
+                                    <li><a href="http://www.glazierclinics.com/privacy">Privacy Statement</a> | </li>
+                                    <li><a href="http://www.glazierclinics.com/terms">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-bottom-right-two">
+                                1880 Office Club Pointe, Suite 2480, Colorado Springs, CO 80920
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alert signup-home-alert alert-dismissible" style="display: none" role="alert">
+                    <button id="selectContentPopup" type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <h2>  FREE COACH TRAINING</h2>
+                    <p> Get position specific training sent to your inbox each week. </p>
+                    <div class="margin-top-lg">
+                        <button class="btn btn-outline-white"> SELECT CONTENT <i class="fa fa-caret-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="vendor/js/jquery.min.js"></script>
+        <script src="vendor/js/bootstrap.min.js"></script>
+        <script src="vendor/js/owl.carousel.min.js"></script>
+        <script src="vendor/js/waypoints.min.js"></script>
+        <script src="vendor/js/counterup.min.js"></script>
+        <script src="vendor/js/wow.js"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>

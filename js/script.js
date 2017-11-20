@@ -97,25 +97,4 @@ $(document).ready(function () {
     $('#close-modal-buttom').click(function () {
         $('.removemodal').css({ display: 'none' });
     });
-    /* Dynamic Schedule Height Adjustment */
-    /* set height on page load for active item */
-    $('.carousel-inner .active').each(function() {
-      adj_height = 0;
-      $(this).children().children().each(function() {  
-        adj_height = adj_height + $(this).innerHeight();
-      });
-      $(this).css("height", adj_height + "px");
-    });
-    /* set height on items that become active from click event */
-    $('#carousel-sched li').click(function() {
-		setTimeout(function() {
-		  $('.carousel-inner .active').each(function() {
-			adj_height = 0;
-			$(this).children().children().each(function() {  
-			  adj_height = adj_height + $(this).innerHeight();
-			});
-			$(this).css("height", adj_height + "px");
-		  });},
-	  1000);
-    });
 });

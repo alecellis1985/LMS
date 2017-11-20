@@ -1,11 +1,11 @@
 /* Large Devices, Wide Screens */
-
 @media only screen and (max-width: 1200px) {
 
     nav.navbar ul.navbar-left li form input.form-control {
         font-size: 15px;
         width: 290px;
     }
+
     nav.navbar ul.navbar-left {
         margin-left: 16px;
     }
@@ -29,12 +29,14 @@
 
     footer div.footer-top div.glazier-clinics div.sign-clinic input {
         width: 192px;
-     }
+    }
+    section.testimonials div.carousel div.item div p {
+        padding-right: 100px;
+    }
+
 }
 
-
 /* Medium Devices, Desktops */
-
 @media only screen and (max-width: 992px) {
     section.pass-offer div.container div {
         font-size: 12px;
@@ -86,12 +88,14 @@
     section.video-explorer div.video-result div.results div.card-body a img.video-thumbnail {
         width: 33%;
     }
+
     section.video-explorer div.video-result div.results p.card-details {
         font-size: 14px;
         float: right;
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
     section.video-explorer div.video-result div.results div.card-body {
         margin-bottom: 50px;
     }
@@ -99,80 +103,174 @@
     section.video-viewer div.course-player div.video {
         margin-bottom: 5px;
     }
+
     section.video-viewer div.panel-group {
         padding-right: 0px;
     }
+    section.plan-selection div.compare-table table tr td.benefit {
+        font-size: 19px;
+    }
+    section.plan-selection div.compare-table table tr td {
+        width: 25%;
+    }
+    section.plan-selection div.compare-table table tr td a {
+        font-size: 21px;
+        width: 90%;
+    }
+    section.plan-selection div.invite p {
+        font-size: 25px;
+    }
+    section.testimonials div.carousel div.item div img {
+        width: 60%;
+    }
+    section.testimonials div.carousel div.item div p {
+        padding-right: 40px;
+    }
+    section.testimonials div.carousel div.item div p {
+        font-size: 18px;
+    }
+    section.offer h1 {
+        font-size: 35px;
+    }
+    section.offer p {
+        font-size: 18px;
+        padding: 0;
+    }
 }
 
-    /* Small Devices, Tablets */
-    @media only screen and (max-width: 768px) {
-        section.pass-offer div.container div {
-            font-size: 11px;
-        }
-
-        section.pass h1 {
-            margin-top: -87px;
-        }
-
-        section.pass h3 {
-            font-size: 15px;
-        }
-
-        section.pass ul li a {
-            font-size: 20px;
-        }
-
-        section.pass {
-            padding: 115px 0 0px 0;
-        }
-
-        section.clinics-sports div.clinics-sports-item p {
-            font-size: 23px;
-        }
-
-        section.vault-benefits div.item p {
-            font-size: 17px;
-        }
-
-        section.vault-benefits div.item {
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        section.clinics-sports div.clinics-sports-item p {
-            width: 97%;
-        }
-
-        section.clinics-sports div.clinics-sports-item img {
-            width: 70%;
-            display: inline;
-        }
-        section.library-featured ul.nav-tabs li.nav-tabs a.nav-link {
-            padding: 5px;
-            font-size: 18px;
-        }
-        section.video-explorer div.topic-header, section.video-explorer div.topic-content {
-            text-align: center;
-        }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .navbar-brand img {
+        width: 252px;
+        margin-top: 4px;
     }
-    /* Extra Small Devices, Phones */
+    section.pass-offer div.container div {
+        font-size: 11px;
+    }
+
+    section.pass h1 {
+        margin-top: -87px;
+    }
+
+    section.pass h3 {
+        font-size: 15px;
+    }
+
+    section.pass ul li a {
+        font-size: 20px;
+    }
+
+    section.pass {
+        padding: 115px 0 0px 0;
+    }
+
+    section.clinics-sports div.clinics-sports-item p {
+        font-size: 23px;
+    }
+
+    section.vault-benefits div.item p {
+        font-size: 17px;
+    }
+
+    section.vault-benefits div.item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    section.clinics-sports div.clinics-sports-item p {
+        width: 97%;
+    }
+
+    section.clinics-sports div.clinics-sports-item img {
+        width: 70%;
+        display: inline;
+    }
+
+    section.library-featured ul.nav-tabs li.nav-tabs a.nav-link {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    section.video-explorer div.topic-header, section.video-explorer div.topic-content {
+        text-align: center;
+    }
+    section.plan-selection div.compare-table table tr td.benefit {
+        font-size: 17px;
+    }
+    section.plan-selection div.plan-header button {
+        padding: 17px 3px;
+        margin-bottom: 8px;
+        letter-spacing: 0px;
+    }
+    section.plan-selection div.compare-table table tr td {
+        font-size: 17px;
+    }
+    section.plan-selection div.compare-table table tr td span {
+        font-size: 15px;
+    }
+    section.plan-selection div.compare-table table tr td i {
+        font-size: 19px;
+    }
+    section.plan-selection div.invite p {
+        font-size: 22px;
+    }
+    section.testimonials div.carousel div.carousel-inner {
+        height: 560px;
+    }
+    section.testimonials div.carousel div.item div {
+        padding-top: 4%;
+        height: 300px;
+    }
+    section.testimonials div.carousel div.item div img {
+        width: 60%;
+        max-width: 290px;
+    }
+    section.offer {
+        padding: 20px;
+    }
+    section.offer img {
+        max-width: 15%;
+        max-height: 150px;
+        margin: 15px;
+        max-width: 67%;
+        max-height: 200px;
+        margin-left: 70px;
+        display: inline-block;
+        margin-right: 70px;
+    }
+}
+
+/* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-    .navbar-brand img { width: 252px; }
+    .navbar-brand img {
+        width: 252px;
+        margin-top: 4px;
+    }
 
-    section.pass-offer div.container div { font-size: 10px; }
+    section.pass-offer div.container div {
+        font-size: 10px;
+    }
 
-    section.pass h1 { font-size: 34px; }
+    section.pass h1 {
+        font-size: 34px;
+    }
 
-    section.pass h3 { margin-bottom: 0; }
+    section.pass h3 {
+        margin-bottom: 0;
+    }
 
     section.pass ul {
         margin-top: 0px;
         margin-bottom: 12px;
     }
 
-    section.pass ul li a { font-size: 15px; }
+        section.pass ul li a {
+            font-size: 15px;
+        }
 
-    section.pass ul li:first-child { padding-bottom: 34px; }
+        section.pass ul li:first-child {
+            padding-bottom: 34px;
+        }
 
     section.clinics-sports div.clinics-sports-item p {
         font-size: 21px;
@@ -180,33 +278,117 @@
     }
 
     footer div.footer-top div.glazier-clinics div.sign-clinic span {
-         font-size: 18px;
+        font-size: 18px;
     }
 
     footer div.footer-top div.glazier-clinics div.sign-clinic input {
-         margin-bottom: 15px;
+        margin-bottom: 15px;
     }
 
     section.bread-crumb h1 {
         font-size: 25px;
-    } 
-    
+    }
+
     div.bread-crumb i {
         font-size: 14px;
     }
+
     div.bread-crumb a {
         font-size: 14px;
         margin-left: 5px;
         margin-right: 5px;
     }
+    section.plan-selection div.col-md-offset-1.col-md-10 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    section.plan-selection div.compare-table table tr td.benefit {
+        font-size: 15px;
+    }
+    section.plan-selection div.plan-header {
+        width: 54%;
+    }
+    section.plan-selection div.plan-header button {
+        padding: 12px 3px;
+        font-size: 14px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    section.plan-selection div.compare-table table tr td {
+        font-size: 16px;
+        padding: 2px;
+    }
+    section.plan-selection div.compare-table table tr td span {
+        font-size: 12px;
+    }
+    section.plan-selection div.compare-table table tr td a {
+        font-size: 18px;
+        width: 100%;
+    }
+    section.plan-selection div.invite p {
+        font-size: 24px;
+    }
+    section.testimonials div.carousel div.item div {
+        padding-top: 7%;
+        height: 200px;
+    }
+    section.testimonials div.carousel div.item div p {
+        padding: 18px;
+        margin: 0;
+
+    }
+    section.testimonials div.carousel div.item div h3 {
+        margin: 0;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    section.testimonials div.carousel div.item div img {
+        width: 60%;
+        max-width: 210px;
+    }
+    section.offer {
+        padding: 0;
+    }
+
+    section.offer h1 {
+        font-size: 30px;
+    }
+    section.offer p {
+        font-size: 16px;
+    }
+    section.offer a {
+        font-size: 17px;
+    }
+    section.offer img {
+        max-width: 50%;
+        max-height: 200px;
+        margin: 15px;
+        display: inline-block;
+    }
+    section.plan-selection div.plan-header button {
+        font-size: 12px;
+        width: 48%;
+    }
+
 }
 
-
-        /* Custom, iPhone Retina */
-
-        @media only screen and (max-width: 320px) {
-            .navbar-brand img {
-                width: 230px;
-            }
-
-        }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .navbar-brand img {
+        width: 230px;
+    }
+    section.plan-selection div.plan-header {
+        width: 53%;
+        padding: 8px;
+    }
+    section.plan-selection div.plan-header button {
+        font-size: 14px;
+    }
+    section.plan-selection div.compare-table table tr td span {
+        font-size: 11px;
+    }
+    section.offer a {
+        font-size: 16px;
+    }
+}
