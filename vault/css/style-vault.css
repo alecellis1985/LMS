@@ -1043,6 +1043,10 @@ section.plan-selection {
         padding: 6px;
     }
 
+section.testimonials {
+    background: #DCDDDE;
+}
+
 section.testimonials div.carousel div.item {
     text-align: center;
 }
@@ -1089,6 +1093,19 @@ section.testimonials div.carousel ol.carousel-indicators li.active{
 
 section.testimonials div.carousel div.carousel-inner {
     height: 350px;
+}
+
+section.testimonials div.carousel a.carousel-control {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 80px;
+    background: none;
+    border-radius: 0;
+    color: #00ADEF;
+    text-shadow: none;
 }
 
 section.offer {
