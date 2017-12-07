@@ -30,23 +30,128 @@
     <![endif]-->
 </head>
 <body>
-    <!-- header -->
+<!--Mobile Menu-->
+<div id="mobile-menu" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" id="mobile-menu-close">&times;</a>
+    <ul>
+        <li class="wow fadeInRight delay-02s">
+            <a class="library" href="#">LIBRARY</a>
+            <ul>
+                <li>
+                    <a class="title" href="#" tabindex="-1">FOOTBALL</a>
+                    <ul>
+                        <li><h4>Seclect a sub-course</h4></li>
+                        <li><a href="#">Football 1</a></li>
+                        <li><a href="#">Football 2</a></li>
+                        <li><a href="#">Football 3</a></li>
+                        <li><a class="last" href="#">Football 4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="title" href="#">BASKETBALL</a>
+                    <ul>
+                        <li><h4>Seclect a sub-course</h4></li>
+                        <li><a href="#">Basketball 1</a></li>
+                        <li><a href="#">Basketball 2</a></li>
+                        <li><a href="#">Basketball 3</a></li>
+                        <li><a href="#">Basketball 4</a></li>
+                        <li><a href="#">Basketball 5</a></li>
+                        <li><a class="last" href="#">Basketball 6</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="title" href="#">VOLLEYBALL</a>
+                    <ul>
+                        <li><h4>Seclect a sub-course</h4></li>
+                        <li><a href="#">Volleyball 1</a></li>
+                        <li><a href="#">Volleyball 2</a></li>
+                        <li><a href="#">Volleyball 3</a></li>
+                        <li><a href="#">Volleyball 4</a></li>
+                        <li><a href="#">Volleyball 5</a></li>
+                        <li><a href="#">Volleyball 6</a></li>
+                        <li><a class="last" href="#">Volleyball 7</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="title" href="#">SOCCER</a>
+                    <ul>
+                        <li><h4>Seclect a sub-course</h4></li>
+                        <li><a href="#">Soccer 1</a></li>
+                        <li><a href="#">Soccer 2</a></li>
+                        <li><a class="last" href="#">Soccer 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="title" href="#">TRACK & FIELD</a>
+                    <ul>
+                        <li><h4>Seclect a sub-course</h4></li>
+                        <li><a href="#">Track & Field 1</a></li>
+                        <li><a href="#">Track & Field 2</a></li>
+                        <li><a class="last" href="#">Track & Field 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="title" href="#">ATHLETIC PERFORMANCE</a>
+                    <ul>
+                        <li><h4>Seclect a sub-course</h4></li>
+                        <li><a href="#">Athletic Performance 1</a></li>
+                        <li><a href="#">Athletic Performance 2</a></li>
+                        <li><a href="#">Athletic Performance 3</a></li>
+                        <li><a href="#">Athletic Performance 4</a></li>
+                        <li><a href="#">Athletic Performance 5</a></li>
+                        <li><a href="#">Athletic Performance 6</a></li>
+                        <li><a href="#">Athletic Performance 7</a></li>
+                        <li><a href="#">Athletic Performance 8</a></li>
+                        <li><a href="#">Athletic Performance 9</a></li>
+                        <li><a class="last" href="#">Athletic Performance 10</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="title" href="#">HEAD COACH ACADEMY</a>
+                    <ul>
+                        <li><h4>Seclect a sub-course</h4></li>
+                        <li><a href="#">Head Coach Academy 1</a></li>
+                        <li><a href="#">Head Coach Academy 2</a></li>
+                        <li><a href="#">Head Coach Academy 3</a></li>
+                        <li><a class="last" href="#">Head Coach Academy 4</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li class="login"><a href="/#">LOGIN</a></li>
+        <li class="buy-pass"><a href="#">SIGN UP</a></li>
+    </ul>
+</div>
+
+<!-- header  -->
+<div id="main">
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" id="mobile-menu-open">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <button class="search hidden-lg hidden-md" type="button" id="mobile-search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
             <a class="navbar-brand" href="vault.html"><img src="imgs/Vault-Logo-Header.png" alt="Logo"></a>
         </div>
+        <form class="wow fadeInDown form-inline hidden-lg hidden-md hide" id="mobile-search-field">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
-                <li class="wow fadeInRight delay-01s">
+                <li class="wow fadeInRight delay-01s hidden-sm hidden-xs">
+                    <form class="form-inline">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        <button class="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </li>
+                <li class="wow fadeInRight delay-02s">
                     <a class="library" href="#" data-toggle="dropdown">LIBRARY</a>
                     <ul class="dropdown-menu">
                         <li class="open">
@@ -130,12 +235,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="wow fadeInRight delay-02s">
-                    <form class="form-inline">
-                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                        <button class="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                    </form>
-                </li>
+
                 <li class="login wow fadeInRight delay-03s"><a href="/#">LOGIN</a></li>
                 <li class="buy-pass wow fadeInRight delay-04s"><a href="#">SIGN UP</a></li>
             </ul>
@@ -689,91 +789,92 @@
     </div>
 </section>
         <!-- footer -->
-        <footer>
-            <div ID="Footer" runat="server"></div>
-            <div class="footer-top">
-                <div class="container">
-                    <div class="col-xs-12 col-md-4">
-                        <div class="footer-links">
-                            <div class="links-left">
-                                <a href="/season_pass">SEASON PASS</a>
-                                <a href="/coaching_clinics/cities_and_dates">CLINIC LOCATIONS</a>
-                                <a href="http://vault.glazierclinics.com">GLAZIER VAULT</a>
-                                <a href="/exhibit">BECOME AN EXHIBITOR</a>
-                            </div>
-                            <div class="links-right">
-                                <a href="/contact_faq/contact_us">CONTACT</a>
-                                <a href="/contact_faq/contact_us">FAQ</a>
-                                <a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/youth">SCHOLARSHIP</a>
-                                <a href="/coach_resources/football_drills">RESOURCES</a>
-                            </div>
-                            <a href="/season_pass" class="buy-your-pass">BUY YOUR PASS</a>
-                        </div>
+<footer>
+    <div ID="Footer" runat="server"></div>
+    <div class="footer-top">
+        <div class="container">
+            <div class="col-xs-12 col-md-4">
+                <div class="footer-links">
+                    <div class="links-left">
+                        <a href="/season_pass">SEASON PASS</a>
+                        <a href="/coaching_clinics/cities_and_dates">CLINIC LOCATIONS</a>
+                        <a href="http://vault.glazierclinics.com">GLAZIER VAULT</a>
+                        <a href="/exhibit">BECOME AN EXHIBITOR</a>
                     </div>
-                    <div class="col-xs-12 col-md-4">
-                        <div class="glazier-clinics">
-                            <a href="" class="footer-logo"><img src="imgs/Vault-Logo.png" alt="logo-footer"></a>
-                            <div class="sign-clinic">
-                                <span>GLAZIER Vault Sign up for Daily Drills</span>
-                                <div style="display: inline;">
-                                    <input id="subscribe" type="email" placeholder="Email" required="required">
-                                    <a id="sendEmail" href="javascript:;">Send</a>
-                                    <div id="subscribeError" class="alert alert-danger" style="display: none">
-                                        <strong>Danger!</strong> Email is not valid.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="links-right">
+                        <a href="/contact_faq/contact_us">CONTACT</a>
+                        <a href="/contact_faq/contact_us">FAQ</a>
+                        <a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/youth">SCHOLARSHIP</a>
+                        <a href="/coach_resources/football_drills">RESOURCES</a>
                     </div>
-                    <div class="col-xs-12 col-md-4">
-                        <div class="company-word">
-                            <p>"Whether you’re a first-year coach or you’ve been coaching for over 30 years, Glazier Clinics helps you become a better, more well prepared coach."</p>
-                            <span>–Jim McElwain</span>
-                            <i>Florida Gators, Glazier Attendee Since '85</i>
+                    <a href="/season_pass" class="buy-your-pass">BUY YOUR PASS</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="glazier-clinics">
+                    <a href="" class="footer-logo"><img src="imgs/Vault-Logo.png" alt="logo-footer"></a>
+                    <div class="sign-clinic">
+                        <span>GLAZIER Vault Sign up for Daily Drills</span>
+                        <div style="display: inline;">
+                            <input id="subscribe" type="email" placeholder="Email" required="required">
+                            <a id="sendEmail" href="javascript:;">Send</a>
+                            <div id="subscribeError" class="alert alert-danger" style="display: none">
+                                <strong>Danger!</strong> Email is not valid.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="col-xs-12 col-md-4">
-                        <div class="footer-bottom-left">
-                            <ul>
-                                <li><a href="https://www.facebook.com/glazierclinics/"><i class="fa fa-facebook-square"></i></a></li>
-                                <li><a href="https://twitter.com/GlazierClinics"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.instagram.com/glazier.clinics/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.youtube.com/user/GlazierClinics"><i class="fa fa-youtube-play"></i></a></li>
-                                <li><a href="https://plus.google.com/106084411420016451435"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-8">
-                        <div class="footer-bottom-right">
-                            <div class="footer-bottom-right-one">
-                                <ul>
-                                    <li>Phone: (888) 755-6427 | </li>
-                                    <li><a href="http://www.glazierclinics.com/privacy">Privacy Statement</a> | </li>
-                                    <li><a href="http://www.glazierclinics.com/terms">Terms of Use</a></li>
-                                </ul>
-                            </div>
-                            <div class="footer-bottom-right-two">
-                                1880 Office Club Pointe, Suite 2480, Colorado Springs, CO 80920
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="company-word">
+                    <p>"Whether you’re a first-year coach or you’ve been coaching for over 30 years, Glazier Clinics helps you become a better, more well prepared coach."</p>
+                    <span>–Jim McElwain</span>
+                    <i>Florida Gators, Glazier Attendee Since '85</i>
                 </div>
-                <div class="alert signup-home-alert alert-dismissible" style="display: none" role="alert">
-                    <button id="selectContentPopup" type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                    </button>
-                    <h2>  FREE COACH TRAINING</h2>
-                    <p> Get position specific training sent to your inbox each week. </p>
-                    <div class="margin-top-lg">
-                        <button class="btn btn-outline-white"> SELECT CONTENT <i class="fa fa-caret-right" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="col-xs-12 col-md-4">
+                <div class="footer-bottom-left">
+                    <ul>
+                        <li><a href="https://www.facebook.com/glazierclinics/"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="https://twitter.com/GlazierClinics"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/glazier.clinics/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/GlazierClinics"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://plus.google.com/106084411420016451435"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-8">
+                <div class="footer-bottom-right">
+                    <div class="footer-bottom-right-one">
+                        <ul>
+                            <li>Phone: (888) 755-6427 | </li>
+                            <li><a href="http://www.glazierclinics.com/privacy">Privacy Statement</a> | </li>
+                            <li><a href="http://www.glazierclinics.com/terms">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-bottom-right-two">
+                        1880 Office Club Pointe, Suite 2480, Colorado Springs, CO 80920
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+        <div class="alert signup-home-alert alert-dismissible" style="display: none" role="alert">
+            <button id="selectContentPopup" type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+            <h2>  FREE COACH TRAINING</h2>
+            <p> Get position specific training sent to your inbox each week. </p>
+            <div class="margin-top-lg">
+                <button class="btn btn-outline-white"> SELECT CONTENT <i class="fa fa-caret-right" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
         <script src="vendor/js/jquery.min.js"></script>
         <script src="vendor/js/bootstrap.min.js"></script>
         <script src="vendor/js/owl.carousel.min.js"></script>

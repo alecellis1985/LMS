@@ -38,6 +38,25 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+    nav.navbar ul.navbar-left {
+        margin-top: 0px;
+        width: 40%;
+        margin-left: 0px;
+        background-color: #00adef;
+    }
+    .navbar-inverse form#mobile-search-field input {
+        width: 100%;
+        margin-top: 11px;
+    }
+    nav.navbar ul.navbar-left li.login a {
+         margin-left: 0px; 
+        padding: 0px 9px;
+    }
+
+    nav.navbar ul.navbar-left li:last-child {
+        padding-right: 5px;
+    }
+    
     section.pass-offer div.container div {
         font-size: 12px;
     }
@@ -243,8 +262,8 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
     .navbar-brand img {
-        width: 252px;
-        margin-top: 4px;
+        width: 66%;
+        margin-top: 5px;
     }
 
     section.pass-offer div.container div {
@@ -376,7 +395,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
     .navbar-brand img {
-        width: 230px;
+        width: 200px;
     }
     section.plan-selection div.plan-header {
         width: 53%;
@@ -392,3 +411,5 @@
         font-size: 16px;
     }
 }
+
+

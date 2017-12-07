@@ -6,23 +6,26 @@ $(document).ready(function () {
     }
     //show on hover for coaches
 
-    $('.collapse.navbar-collapse ul>li').on('mouseover', function (e) {
-        if ($(this).find('li').length > 0) {
-            $(this).addClass('open');
-        }
-    });
+    $('.collapse.navbar-collapse ul>li').on('mouseover',
+        function (e) {
+            if ($(this).find('li').length > 0) {
+                $(this).addClass('open');
+            }
+        });
 
-    $('.collapse.navbar-collapse ul>li').on('mouseleave', function (e) {
-        if ($(this).find('li').length > 0) {
-            $(this).removeClass('open');
-        }
-    });
+    $('.collapse.navbar-collapse ul>li').on('mouseleave',
+        function (e) {
+            if ($(this).find('li').length > 0) {
+                $(this).removeClass('open');
+            }
+        });
 
     $(".go-next-section").click(function (e) {
         e.preventDefault();
         $('html, body').stop().animate({
             scrollTop: $("#clinic").offset().top - 90
-        }, 1500);
+        },
+            1500);
     });
     $(".setDate").text(new Date().getFullYear());
     $('.counter').counterUp({
@@ -97,4 +100,31 @@ $(document).ready(function () {
     $('#close-modal-buttom').click(function () {
         $('.removemodal').css({ display: 'none' });
     });
+
+    $('#mobile-search-button').on('click',
+        function () {
+            if ($('#mobile-search-field').hasClass('hide')) {
+                $('#mobile-search-field').removeClass('hide');
+                $('section.pass-offer').css('margin-top', '106px');
+                $('nav.navbar').css('height', '106px');
+            } else {
+                $('#mobile-search-field').addClass('hide');
+                $('section.pass-offer').css('margin-top', '73px');
+                $('nav.navbar').css('height', '73px');
+
+            };
+        });
+    $('#mobile-menu-open').on('click',
+        function () {
+            document.getElementById("mobile-menu").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        });
+
+    $('#mobile-menu-close').on('click',
+        function () {
+            document.getElementById("mobile-menu").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        });
 });

@@ -30,304 +30,404 @@
     <![endif]-->
 </head>
 <body>
-    <!-- header -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="vault.html"><img src="imgs/Vault-Logo-Header.png" alt="Logo"></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
-                <li class="wow fadeInRight delay-01s">
-                    <a class="library" href="#" data-toggle="dropdown">LIBRARY</a>
-                    <ul class="dropdown-menu">
-                        <li class="open">
-                            <a href="#" tabindex="-1">FOOTBALL</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><h4>Seclect a sub-course</h4></li>
-                                <li><a href="#">Football 1</a></li>
-                                <li><a href="#">Football 2</a></li>
-                                <li><a href="#">Football 3</a></li>
-                                <li><a href="#">Football 4</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">BASKETBALL</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><h4>Seclect a sub-course</h4></li>
-                                <li><a href="#">Basketball 1</a></li>
-                                <li><a href="#">Basketball 2</a></li>
-                                <li><a href="#">Basketball 3</a></li>
-                                <li><a href="#">Basketball 4</a></li>
-                                <li><a href="#">Basketball 5</a></li>
-                                <li><a href="#">Basketball 6</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">VOLLEYBALL</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><h4>Seclect a sub-course</h4></li>
-                                <li><a href="#">Volleyball 1</a></li>
-                                <li><a href="#">Volleyball 2</a></li>
-                                <li><a href="#">Volleyball 3</a></li>
-                                <li><a href="#">Volleyball 4</a></li>
-                                <li><a href="#">Volleyball 5</a></li>
-                                <li><a href="#">Volleyball 6</a></li>
-                                <li><a href="#">Volleyball 7</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">SOCCER</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><h4>Seclect a sub-course</h4></li>
-                                <li><a href="#">Soccer 1</a></li>
-                                <li><a href="#">Soccer 2</a></li>
-                                <li><a href="#">Soccer 3</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">TRACK & FIELD</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><h4>Seclect a sub-course</h4></li>
-                                <li><a href="#">Track &  Field 1</a></li>
-                                <li><a href="#">Track &  Field 2</a></li>
-                                <li><a href="#">Track &  Field 3</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">ATHLETIC PERFORMANCE</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><h4>Seclect a sub-course</h4></li>
-                                <li><a href="#">Athletic Performance 1</a></li>
-                                <li><a href="#">Athletic Performance 2</a></li>
-                                <li><a href="#">Athletic Performance 3</a></li>
-                                <li><a href="#">Athletic Performance 4</a></li>
-                                <li><a href="#">Athletic Performance 5</a></li>
-                                <li><a href="#">Athletic Performance 6</a></li>
-                                <li><a href="#">Athletic Performance 7</a></li>
-                                <li><a href="#">Athletic Performance 8</a></li>
-                                <li><a href="#">Athletic Performance 9</a></li>
-                                <li><a href="#">Athletic Performance 10</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">HEAD COACH ACADEMY</a>
-                            <ul class="dropdown-menu submenu">
-                                <li><h4>Seclect a sub-course</h4></li>
-                                <li><a href="#">Head Coach Academy 1</a></li>
-                                <li><a href="#">Head Coach Academy 2</a></li>
-                                <li><a href="#">Head Coach Academy 3</a></li>
-                                <li><a href="#">Head Coach Academy 4</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="wow fadeInRight delay-02s">
-                    <form class="form-inline">
-                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                        <button class="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                    </form>
-                </li>
-                <li class="login wow fadeInRight delay-03s"><a href="/#">LOGIN</a></li>
-                <li class="buy-pass wow fadeInRight delay-04s"><a href="#">SIGN UP</a></li>
-            </ul>
-        </div>
+    <!--Mobile Menu-->
+    <div id="mobile-menu" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" id="mobile-menu-close">&times;</a>
+        <ul>
+            <li class="wow fadeInRight delay-02s">
+                <a class="library" href="#">LIBRARY</a>
+                <ul>
+                    <li>
+                        <a class="title" href="#" tabindex="-1">FOOTBALL</a>
+                        <ul>
+                            <li><h4>Seclect a sub-course</h4></li>
+                            <li><a href="#">Football 1</a></li>
+                            <li><a href="#">Football 2</a></li>
+                            <li><a href="#">Football 3</a></li>
+                            <li><a class="last" href="#">Football 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="title" href="#">BASKETBALL</a>
+                        <ul>
+                            <li><h4>Seclect a sub-course</h4></li>
+                            <li><a href="#">Basketball 1</a></li>
+                            <li><a href="#">Basketball 2</a></li>
+                            <li><a href="#">Basketball 3</a></li>
+                            <li><a href="#">Basketball 4</a></li>
+                            <li><a href="#">Basketball 5</a></li>
+                            <li><a class="last" href="#">Basketball 6</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="title" href="#">VOLLEYBALL</a>
+                        <ul>
+                            <li><h4>Seclect a sub-course</h4></li>
+                            <li><a href="#">Volleyball 1</a></li>
+                            <li><a href="#">Volleyball 2</a></li>
+                            <li><a href="#">Volleyball 3</a></li>
+                            <li><a href="#">Volleyball 4</a></li>
+                            <li><a href="#">Volleyball 5</a></li>
+                            <li><a href="#">Volleyball 6</a></li>
+                            <li><a class="last" href="#">Volleyball 7</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="title" href="#">SOCCER</a>
+                        <ul>
+                            <li><h4>Seclect a sub-course</h4></li>
+                            <li><a href="#">Soccer 1</a></li>
+                            <li><a href="#">Soccer 2</a></li>
+                            <li><a class="last" href="#">Soccer 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="title" href="#">TRACK & FIELD</a>
+                        <ul>
+                            <li><h4>Seclect a sub-course</h4></li>
+                            <li><a href="#">Track & Field 1</a></li>
+                            <li><a href="#">Track & Field 2</a></li>
+                            <li><a class="last" href="#">Track & Field 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="title" href="#">ATHLETIC PERFORMANCE</a>
+                        <ul>
+                            <li><h4>Seclect a sub-course</h4></li>
+                            <li><a href="#">Athletic Performance 1</a></li>
+                            <li><a href="#">Athletic Performance 2</a></li>
+                            <li><a href="#">Athletic Performance 3</a></li>
+                            <li><a href="#">Athletic Performance 4</a></li>
+                            <li><a href="#">Athletic Performance 5</a></li>
+                            <li><a href="#">Athletic Performance 6</a></li>
+                            <li><a href="#">Athletic Performance 7</a></li>
+                            <li><a href="#">Athletic Performance 8</a></li>
+                            <li><a href="#">Athletic Performance 9</a></li>
+                            <li><a class="last" href="#">Athletic Performance 10</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="title" href="#">HEAD COACH ACADEMY</a>
+                        <ul>
+                            <li><h4>Seclect a sub-course</h4></li>
+                            <li><a href="#">Head Coach Academy 1</a></li>
+                            <li><a href="#">Head Coach Academy 2</a></li>
+                            <li><a href="#">Head Coach Academy 3</a></li>
+                            <li><a class="last" href="#">Head Coach Academy 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="login"><a href="/#">LOGIN</a></li>
+            <li class="buy-pass"><a href="#">SIGN UP</a></li>
+        </ul>
     </div>
-</nav>
-    <!-- Pass Section -->
-    <section class="pass-offer">
-        <div class="container">
-            <div class="col-md-12">
-                <p>Purchase a <b>SEASON PASS</b> for your entire staff for just $119! | <a>Learn more here.</a></p>
-            </div>
-        </div>
-    </section>
-    <section class="course-detail">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="course-data">
-                        <h1 class="animated">Title of the course<span> (55hs)</span></h1>
-                        <h3>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </h3>
-                        <a href="#">Buy USD 39 <i class="fa fa-caret-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="video-preview">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LBnFqt2K4cw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <h4><span>Key</span> Topics</h4>
-                <div class="col-md-4">
-                    <div class="topic">
-                        <h1>Topic 1</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="topic">
-                        <h1>Topic 2</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="topic">
-                        <h1>Topic 3</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="details">
-        <div class="container">
-            <div class="col-md-4">
-                <i class="fa fa-users" aria-hidden="true"></i>
-                <p>Lorem ipsum dolor sit amet</p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-check" aria-hidden="true"></i>
-                <p>Lorem ipsum dolor sit amet</p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-trophy" aria-hidden="true"></i>
-                <p>Lorem ipsum dolor sit amet</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- clinics section -->
-    <section class="course-content">
-        <div class="container">
-            <div class="row">
+    <!-- header  -->
+    <div id="main">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" id="mobile-menu-open">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <button class="search hidden-lg hidden-md" type="button" id="mobile-search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <a class="navbar-brand" href="vault.html"><img src="imgs/Vault-Logo-Header.png" alt="Logo"></a>
+                </div>
+                <form class="wow fadeInDown form-inline hidden-lg hidden-md hide" id="mobile-search-field">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </form>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="wow fadeInRight delay-01s hidden-sm hidden-xs">
+                            <form class="form-inline">
+                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                                <button class="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                        </li>
+                        <li class="wow fadeInRight delay-02s">
+                            <a class="library" href="#" data-toggle="dropdown">LIBRARY</a>
+                            <ul class="dropdown-menu">
+                                <li class="open">
+                                    <a href="#" tabindex="-1">FOOTBALL</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><h4>Seclect a sub-course</h4></li>
+                                        <li><a href="#">Football 1</a></li>
+                                        <li><a href="#">Football 2</a></li>
+                                        <li><a href="#">Football 3</a></li>
+                                        <li><a href="#">Football 4</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">BASKETBALL</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><h4>Seclect a sub-course</h4></li>
+                                        <li><a href="#">Basketball 1</a></li>
+                                        <li><a href="#">Basketball 2</a></li>
+                                        <li><a href="#">Basketball 3</a></li>
+                                        <li><a href="#">Basketball 4</a></li>
+                                        <li><a href="#">Basketball 5</a></li>
+                                        <li><a href="#">Basketball 6</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">VOLLEYBALL</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><h4>Seclect a sub-course</h4></li>
+                                        <li><a href="#">Volleyball 1</a></li>
+                                        <li><a href="#">Volleyball 2</a></li>
+                                        <li><a href="#">Volleyball 3</a></li>
+                                        <li><a href="#">Volleyball 4</a></li>
+                                        <li><a href="#">Volleyball 5</a></li>
+                                        <li><a href="#">Volleyball 6</a></li>
+                                        <li><a href="#">Volleyball 7</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">SOCCER</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><h4>Seclect a sub-course</h4></li>
+                                        <li><a href="#">Soccer 1</a></li>
+                                        <li><a href="#">Soccer 2</a></li>
+                                        <li><a href="#">Soccer 3</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">TRACK & FIELD</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><h4>Seclect a sub-course</h4></li>
+                                        <li><a href="#">Track &  Field 1</a></li>
+                                        <li><a href="#">Track &  Field 2</a></li>
+                                        <li><a href="#">Track &  Field 3</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">ATHLETIC PERFORMANCE</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><h4>Seclect a sub-course</h4></li>
+                                        <li><a href="#">Athletic Performance 1</a></li>
+                                        <li><a href="#">Athletic Performance 2</a></li>
+                                        <li><a href="#">Athletic Performance 3</a></li>
+                                        <li><a href="#">Athletic Performance 4</a></li>
+                                        <li><a href="#">Athletic Performance 5</a></li>
+                                        <li><a href="#">Athletic Performance 6</a></li>
+                                        <li><a href="#">Athletic Performance 7</a></li>
+                                        <li><a href="#">Athletic Performance 8</a></li>
+                                        <li><a href="#">Athletic Performance 9</a></li>
+                                        <li><a href="#">Athletic Performance 10</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">HEAD COACH ACADEMY</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><h4>Seclect a sub-course</h4></li>
+                                        <li><a href="#">Head Coach Academy 1</a></li>
+                                        <li><a href="#">Head Coach Academy 2</a></li>
+                                        <li><a href="#">Head Coach Academy 3</a></li>
+                                        <li><a href="#">Head Coach Academy 4</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="login wow fadeInRight delay-03s"><a href="/#">LOGIN</a></li>
+                        <li class="buy-pass wow fadeInRight delay-04s"><a href="#">SIGN UP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Pass Section -->
+        <section class="pass-offer">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>Purchase a <b>SEASON PASS</b> for your entire staff for just $119! | <a>Learn more here.</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="course-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="course-data">
+                            <h1 class="animated">Title of the course<span> (55hs)</span></h1>
+                            <h3>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </h3>
+                            <a href="#">Buy USD 39 <i class="fa fa-caret-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="video-preview">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LBnFqt2K4cw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h4><span>Key</span> Topics</h4>
+                    <div class="col-md-4">
+                        <div class="topic">
+                            <h1>Topic 1</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="topic">
+                            <h1>Topic 2</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="topic">
+                            <h1>Topic 3</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="details">
+            <div class="container">
                 <div class="col-md-4">
-                    <div class="left-menu">
-                        <h1>First LMS Course</h1>
-                        <h3>Course Comments</h3>
-                        <div class="comment">
-                            <div class="col-md-12">
-                                <div class="championship-item">
-                                    <p>"I cut my teeth and grew up on the Glazier Clinics. [Missing out] was never an option for me or my staff."</p>
-                                    <div class="championship-item-person">
-                                        <img src="imgs/hp/Urban-Meyer.jpg" alt="Urban-Meyer">
-                                        <div class="championship-item-person-right">
-                                            <h3>-URBAN MEYER</h3>
-                                            <p>
-                                                HEAD COACH, OSU<br>
-                                                3-TIME NATIONAL CHAMPION
-                                            </p>
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- clinics section -->
+        <section class="course-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="left-menu">
+                            <h1>First LMS Course</h1>
+                            <h3>Course Comments</h3>
+                            <div class="comment">
+                                <div class="col-md-12">
+                                    <div class="championship-item">
+                                        <p>"I cut my teeth and grew up on the Glazier Clinics. [Missing out] was never an option for me or my staff."</p>
+                                        <div class="championship-item-person">
+                                            <img src="imgs/hp/Urban-Meyer.jpg" alt="Urban-Meyer">
+                                            <div class="championship-item-person-right">
+                                                <h3>-URBAN MEYER</h3>
+                                                <p>
+                                                    HEAD COACH, OSU<br>
+                                                    3-TIME NATIONAL CHAMPION
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="championship-item">
+                                        <p>"I cut my teeth and grew up on the Glazier Clinics. [Missing out] was never an option for me or my staff."</p>
+                                        <div class="championship-item-person">
+                                            <img src="imgs/hp/Urban-Meyer.jpg" alt="Urban-Meyer">
+                                            <div class="championship-item-person-right">
+                                                <h3>-URBAN MEYER</h3>
+                                                <p>
+                                                    HEAD COACH, OSU<br>
+                                                    3-TIME NATIONAL CHAMPION
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="championship-item">
+                                        <p>"I cut my teeth and grew up on the Glazier Clinics. [Missing out] was never an option for me or my staff."</p>
+                                        <div class="championship-item-person">
+                                            <img src="imgs/hp/Urban-Meyer.jpg" alt="Urban-Meyer">
+                                            <div class="championship-item-person-right">
+                                                <h3>-URBAN MEYER</h3>
+                                                <p>
+                                                    HEAD COACH, OSU<br>
+                                                    3-TIME NATIONAL CHAMPION
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-md-12">
-                                <div class="championship-item">
-                                    <p>"I cut my teeth and grew up on the Glazier Clinics. [Missing out] was never an option for me or my staff."</p>
-                                    <div class="championship-item-person">
-                                        <img src="imgs/hp/Urban-Meyer.jpg" alt="Urban-Meyer">
-                                        <div class="championship-item-person-right">
-                                            <h3>-URBAN MEYER</h3>
-                                            <p>
-                                                HEAD COACH, OSU<br>
-                                                3-TIME NATIONAL CHAMPION
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="championship-item">
-                                    <p>"I cut my teeth and grew up on the Glazier Clinics. [Missing out] was never an option for me or my staff."</p>
-                                    <div class="championship-item-person">
-                                        <img src="imgs/hp/Urban-Meyer.jpg" alt="Urban-Meyer">
-                                        <div class="championship-item-person-right">
-                                            <h3>-URBAN MEYER</h3>
-                                            <p>
-                                                HEAD COACH, OSU<br>
-                                                3-TIME NATIONAL CHAMPION
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="course-curriculum col-sm-8 col-xs-12">
-                    <div class="">
-                        <h1>Course Curriculum</h1>
-                        <h4>Introduction</h4>
-                        <div class="module">
-                            <ul>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                            </ul>
-                        </div>
-                        <h4>Part 1</h4>
-                        <div class="module">
-                            <ul>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                            </ul>
-                        </div>
-                        <h4>Part 2</h4>
-                        <div class="module">
-                            <ul>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                                <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
-                            </ul>
+                    <div class="course-curriculum col-sm-8 col-xs-12">
+                        <div class="">
+                            <h1>Course Curriculum</h1>
+                            <h4>Introduction</h4>
+                            <div class="module">
+                                <ul>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4>Part 1</h4>
+                            <div class="module">
+                                <ul>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4>Part 2</h4>
+                            <div class="module">
+                                <ul>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                    <li><i class="fa fa-play-circle"></i> How LMS Courses work for you <span> Duration: 10min</span> <a class="btn-play" data-toggle="modal" data-target="#video">Play <i class="fa fa-caret-right"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="modal fade bd-example-modal-lg" id="video" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="card-title">Video Title1</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LBnFqt2K4cw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <div class="modal fade bd-example-modal-lg" id="video" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="card-title">Video Title1</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LBnFqt2K4cw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
+    </div>
+    </div>
 
     </section>
 
@@ -417,6 +517,7 @@
             </div>
         </div>
     </footer>
+    </div>
     <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/bootstrap.min.js"></script>
     <script src="vendor/js/owl.carousel.min.js"></script>
