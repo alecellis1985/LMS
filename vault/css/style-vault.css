@@ -9,8 +9,8 @@
 
 nav.navbar ul.navbar-left {
     margin-top: 10px;
-    width: 70%;
-    margin-left: 60px;
+    width: 76%;
+    margin-left: 0px;
 }
 
     nav.navbar ul.navbar-left li form input.form-control {
@@ -56,14 +56,14 @@ nav.navbar ul.navbar-left {
     }
 
     nav.navbar ul.navbar-left li ul.submenu {
-        left: -265px;
+        left: 262px;
         width: 265px;
         background: rgba(0, 173, 239, 0.93);
         top: -3px;
         z-index: -1;
         box-shadow: none;
         border-radius: 0;
-        border-right: none;
+        border-left: none;
         min-height: 250px;
         padding-left: 10px;
         height: auto;
@@ -97,7 +97,7 @@ nav.navbar ul.navbar-left {
     }
 
     nav.navbar ul.navbar-left li.login a {
-        margin-left: 78px;
+        margin-left: 0px;
         padding: 0px 9px;
     }
 
@@ -1179,4 +1179,71 @@ section.offer {
 div.pagerWrapper ul li {
     display: inline-block;
     margin: 7px;
+}
+@media only screen and (max-width: 6000px) {
+    .glazier-football-menu .navbar-header {
+        float: none;
+    }
+
+    .glazier-football-menu .navbar-toggle {
+        display: block;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .glazier-football-menu .collapse {
+        position: absolute;
+        margin-top: 42px;
+        background: #00adef;
+        width: 220px;
+    }
+
+    .glazier-football-menu .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+        .glazier-football-menu .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+    .glazier-football-menu .navbar-nav {
+        float: none !important;
+        margin: 5px;
+    }
+
+        .glazier-football-menu .navbar-nav > li {
+            float: none;
+        }
+
+            .glazier-football-menu .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .glazier-football-menu .navbar-nav > li ul.dropdown-menu {
+                position: absolute;
+                left: -261px;
+                top: -73px;
+                box-shadow: none;
+            }
+
+
+    .glazier-football-menu .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .glazier-football-menu .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .glazier-football-menu .collapsing {
+        overflow: hidden !important;
+    }
+    .glazier-football-menu .collapsing {
+        position: absolute !important;
+        top: 42px;
+        background: #00adef;
+        width: 220px;
+    }
 }
