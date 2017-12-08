@@ -1175,3 +1175,8 @@ section.offer {
         max-height: 150px;
         margin: 15px;
     }
+
+div.pagerWrapper ul li {
+    display: inline-block;
+    margin: 7px;
+}
