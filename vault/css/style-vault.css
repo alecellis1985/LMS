@@ -620,6 +620,7 @@ section.video-explorer {
         section.video-explorer div.video-result div.results {
             padding-left: 20px;
             padding-right: 20px;
+            margin-top: 10px;
         }
 
             section.video-explorer div.video-result div.results div.card-body {

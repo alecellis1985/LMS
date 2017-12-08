@@ -100,12 +100,22 @@
     }
 
     section.video-explorer div.video-result div.results div.card-body a div.play {
-        margin-top: 32px;
-        left: 92px;
+        margin-top: 0;
+        left: 22px;
+        width: 175px;
+        height: 98px;
+        text-align: center;
     }
+        section.video-explorer div.video-result div.results div.card-body a div.play img {
+            max-width: 100%;
+            height: auto;
+            max-height: 100%;
+            padding: 11%;
+            display: unset;
+        }
 
     section.video-explorer div.video-result div.results div.card-body a img.video-thumbnail {
-        width: 33%;
+        width: 175px;
     }
 
     section.video-explorer div.video-result div.results p.card-details {
@@ -257,6 +267,9 @@
         display: inline-block;
         margin-right: 70px;
     }
+    section.video-explorer div.video-result div.results h4.card-title {
+        font-size: 14px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -388,6 +401,21 @@
     section.plan-selection div.plan-header button {
         font-size: 12px;
         width: 48%;
+    }
+    section.video-explorer div.video-result div.results div.card-body a img.video-thumbnail {
+        width: 100%;
+    }
+    section.video-explorer div.video-result div.results div.card-body a div.play {
+        width: 90%;
+        padding-right: 15px;
+    }
+            section.video-explorer div.video-result div.results div.card-body a div.play img {
+                padding: 0;
+                margin-top: 15%;
+                max-width: 25%;
+            }
+    section.video-explorer div.video-result div.results div.card-body {
+        display: inline-block;
     }
 
 }
