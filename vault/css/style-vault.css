@@ -2,15 +2,23 @@
     border-radius: 0px;
 }
 
+nav.navbar {
+    background: #231F20;
+    border-bottom: 3px solid #00ADEF;
+
+    padding: 7px 0;
+    height: 115px;
+}
+
 .navbar-brand img {
-    width: 265px;
-    margin-top: 10px;
+    width: 200px;
+    margin-top: 0px;
 }
 
 nav.navbar ul.navbar-left {
-    margin-top: 10px;
-    width: 76%;
-    margin-left: 0px;
+    margin-top: 30px;
+    width: 79%;
+    margin-left: 25px;
 }
 
     nav.navbar ul.navbar-left li form input.form-control {
@@ -97,13 +105,67 @@ nav.navbar ul.navbar-left {
     }
 
     nav.navbar ul.navbar-left li.login a {
-        margin-left: 0px;
+        margin-left: 60px;
         padding: 0px 9px;
     }
 
 .nav-tabs {
     border-bottom: none;
 }
+.collapse.navbar-collapse ul > li > a + ul {
+    left: 5px;
+    width: 265px;
+    background: #00ADEF;
+    top: 40px;
+    z-index: -1;
+}
+nav.navbar ul.navbar-left li a {
+    text-transform: Uppercase;
+}
+nav.navbar ul.navbar-left li {
+    padding: 0 5px;
+}
+
+nav.navbar ul.navbar-left li:last-child {
+    padding-right: 0px;
+}
+
+nav.navbar ul.navbar-left li a {
+    padding: 0;
+    color: #fff;
+    margin: 7px 0;
+    padding: 2px 5px;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+}
+
+nav.navbar ul.navbar-left li a:hover {
+    color: #00ADEF;
+}
+
+nav.navbar ul.navbar-left li.login a {
+    margin-top: 6px;
+    border: 2px solid #00ADEF;
+}
+
+nav.navbar ul.navbar-left li.login a:hover {
+    background: #00ADEF;
+    color: #fff;
+}
+
+nav.navbar ul.navbar-left li.buy-pass a {
+    margin-top: 6px;
+    background: #00ADEF;
+    padding: 4px 5px;
+}
+
+nav.navbar ul.navbar-left li.buy-pass a:hover {
+    color: #fff;
+}
+
 
 .modal-header {
     padding: 15px;
@@ -337,6 +399,35 @@ footer div.footer-top div.glazier-clinics div.sign-clinic input {
     height: 35px;
     width: 240px;
     top: -1px;
+}
+footer div.footer-top div.glazier-clinics a.footer-logo img {
+    margin: 0 auto;
+}
+
+footer div.footer-top div.glazier-clinics div.sign-clinic span {
+    color: #A7A9AC;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+footer div.footer-top div.glazier-clinics div.sign-clinic input {
+    align-items: center;
+    margin-top: 15px;
+    padding: 6px;
+    height: 35px;
+    width: 240px;
+    top: -1px;
+}
+
+footer div.footer-top div.glazier-clinics div.sign-clinic a {
+    align-items: center;
+    margin-left: 10px;
+    border: 2px solid #00ADEF;
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 18px;
 }
 
 section.library {
@@ -1180,6 +1271,7 @@ div.pagerWrapper ul li {
     display: inline-block;
     margin: 7px;
 }
+
 @media only screen and (max-width: 6000px) {
     .glazier-football-menu .navbar-header {
         float: none;
@@ -1219,13 +1311,15 @@ div.pagerWrapper ul li {
             .glazier-football-menu .navbar-nav > li > a {
                 padding-top: 10px;
                 padding-bottom: 10px;
+                margin-left: 0px !important;
             }
-            .glazier-football-menu .navbar-nav > li ul.dropdown-menu {
-                position: absolute;
-                left: -261px;
-                top: -73px;
-                box-shadow: none;
-            }
+
+    .glazier-football-menu .navbar-nav > li ul.dropdown-menu {
+        position: absolute;
+        left: -261px;
+        top: -73px;
+        box-shadow: none;
+    }
 
 
     .glazier-football-menu .navbar-text {
@@ -1240,10 +1334,90 @@ div.pagerWrapper ul li {
     .glazier-football-menu .collapsing {
         overflow: hidden !important;
     }
+
     .glazier-football-menu .collapsing {
         position: absolute !important;
         top: 42px;
         background: #00adef;
         width: 220px;
+    }
+}
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 5000; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #231f20;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+div#main {
+    padding: 0;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 6px 0px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 500;
+}
+
+.sidenav a.last {
+    border-bottom: 1px solid white;
+}
+
+.sidenav a.title {
+    font-weight: bold
+}
+
+.sidenav a:hover {
+    background-color: #818181;
+}
+
+.sidenav h4 {
+    font-size: 12px;
+    color: #818181;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 8px 8px 8px 32px;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
     }
 }

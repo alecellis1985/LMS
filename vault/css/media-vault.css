@@ -7,7 +7,8 @@
     }
 
     nav.navbar ul.navbar-left {
-        margin-left: 16px;
+        margin-left: 10px;
+        width: 74%;
     }
 
     section.pass h1 {
@@ -44,9 +45,45 @@
         margin-left: 0px;
         background-color: #00adef;
     }
+    .navbar-inverse .navbar-toggle {
+        border-color: #00ADEF;
+        border-width: 2px;
+        margin-top: 0px;
+        background: none;
+        border-radius: 0;
+        float: left;
+        margin-left: 5px;
+        position: absolute;
+    }
+    .navbar-inverse button.search {
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 20px;
+        float: right;
+    }
+
+    .navbar-inverse a.navbar-brand {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        margin-left: 0 !important;
+    }
+
+    .navbar-brand img {
+        margin-top: 3px;
+        display: inline;
+    }
+    
     .navbar-inverse form#mobile-search-field input {
         width: 100%;
-        margin-top: 11px;
+        margin-top: 42px;
     }
     nav.navbar ul.navbar-left li.login a {
          margin-left: 0px; 
@@ -55,6 +92,12 @@
 
     nav.navbar ul.navbar-left li:last-child {
         padding-right: 5px;
+    }
+    .navbar-inverse .navbar-toggle {
+        margin-top: 30px;
+    }
+    .navbar-inverse button.search {
+        margin-top: 30px;
     }
     
     section.pass-offer div.container div {
@@ -165,12 +208,22 @@
         font-size: 18px;
         padding: 0;
     }
+    footer div.footer-top div.glazier-clinics div.sign-clinic span {
+        display: block;
+    }
+    footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-one ul {
+        float: left;
+    }
+    footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-two {
+        float: left;
+    }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
     .navbar-brand img {
-        width: 252px;
+        width: 191px;
         margin-top: 4px;
     }
     section.pass-offer div.container div {
@@ -270,13 +323,24 @@
     section.video-explorer div.video-result div.results h4.card-title {
         font-size: 14px;
     }
+    
+    footer div.footer-bottom div.footer-bottom-right {
+        text-align: left;
+    }
+
+    footer div.footer-bottom div.footer-bottom-right div.footer-bottom-right-one ul {
+        float: left;
+    }
+
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
     .navbar-brand img {
-        width: 66%;
+        width: 185px;
         margin-top: 5px;
+        margin-left: 10px;
     }
 
     section.pass-offer div.container div {
@@ -429,7 +493,8 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
     .navbar-brand img {
-        width: 200px;
+        width: 180px;
+        margin-left: 21px;
     }
     section.plan-selection div.plan-header {
         width: 53%;

@@ -105,19 +105,19 @@ $(document).ready(function () {
         function () {
             if ($('#mobile-search-field').hasClass('hide')) {
                 $('#mobile-search-field').removeClass('hide');
-                $('section.pass-offer').css('margin-top', '106px');
-                $('nav.navbar').css('height', '106px');
+                $('section.pass-offer').css('margin-top', '157px');
+                $('nav.navbar').css('height', '157px');
             } else {
                 $('#mobile-search-field').addClass('hide');
-                $('section.pass-offer').css('margin-top', '73px');
-                $('nav.navbar').css('height', '73px');
+                $('section.pass-offer').css('margin-top', '115px');
+                $('nav.navbar').css('height', '115px');
 
             };
         });
     $('#mobile-menu-open').on('click',
         function () {
-            document.getElementById("mobile-menu").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById("mobile-menu").style.width = "80%";
+            document.getElementById("main").style.marginLeft = "80%";
             document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
         });
 
