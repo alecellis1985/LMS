@@ -1401,9 +1401,13 @@ div#main {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 33px;
     margin-left: 50px;
+    padding: 0px 19px;
 }
+    .sidenav .closebtn:hover {
+        background: #00adef;
+    }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -1421,3 +1425,51 @@ div#main {
         font-size: 18px;
     }
 }
+
+div#mobile-menu {
+    padding-top: 0px;
+}
+
+    div#mobile-menu ul.nav-tabs {
+        padding-top: 0px;
+        border-bottom: 2px solid #00adef;
+    }
+div#mobile-menu ul.nav-tabs li a{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
+    border-radius: 0;
+    color: #FFFFFF;
+    border: none;
+
+}
+        div#mobile-menu ul.nav-tabs li a:hover {
+            background: none;
+        }
+    div#mobile-menu ul.nav-tabs li.active a{
+        background: #00adef;
+    }
+
+    div#mobile-menu div#galzier-clinics-mobile-menu ul.navbar-nav {
+        margin: 0;
+    }
+
+        div#mobile-menu div#galzier-clinics-mobile-menu ul.navbar-nav li a {
+            padding: 10px 30px;
+        }
+            div#mobile-menu div#galzier-clinics-mobile-menu ul.navbar-nav li a:hover, div#mobile-menu div#galzier-clinics-mobile-menu ul.navbar-nav li a:focus {
+                background-color: #00adef;
+            }
+        div#mobile-menu div#galzier-clinics-mobile-menu ul.navbar-nav li ul.dropdown-menu {
+            border-bottom: 2px solid #00adef;
+            position: static;
+            float: none;
+            background-color: transparent;
+            -webkit-box-shadow: none;
+        }
+            div#mobile-menu div#galzier-clinics-mobile-menu ul.navbar-nav li ul.dropdown-menu li a {
+                font-family: 'Archivo Narrow', sans-serif;
+                color: #FFFFFF;
+                font-size: 18px;
+            }
+
+

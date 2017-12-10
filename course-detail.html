@@ -31,251 +31,287 @@
 </head>
 <body>
     <!--Mobile Menu-->
-    <div id="mobile-menu" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" id="mobile-menu-close">&times;</a>
-        <ul>
-            <li class="wow fadeInRight delay-02s">
-                <a class="library" href="#">LIBRARY</a>
-                <ul>
-                    <li>
-                        <a class="title" href="#" tabindex="-1">FOOTBALL</a>
-                        <ul>
-                            <li><h4>Seclect a sub-course</h4></li>
-                            <li><a href="#">Football 1</a></li>
-                            <li><a href="#">Football 2</a></li>
-                            <li><a href="#">Football 3</a></li>
-                            <li><a class="last" href="#">Football 4</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="title" href="#">BASKETBALL</a>
-                        <ul>
-                            <li><h4>Seclect a sub-course</h4></li>
-                            <li><a href="#">Basketball 1</a></li>
-                            <li><a href="#">Basketball 2</a></li>
-                            <li><a href="#">Basketball 3</a></li>
-                            <li><a href="#">Basketball 4</a></li>
-                            <li><a href="#">Basketball 5</a></li>
-                            <li><a class="last" href="#">Basketball 6</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="title" href="#">VOLLEYBALL</a>
-                        <ul>
-                            <li><h4>Seclect a sub-course</h4></li>
-                            <li><a href="#">Volleyball 1</a></li>
-                            <li><a href="#">Volleyball 2</a></li>
-                            <li><a href="#">Volleyball 3</a></li>
-                            <li><a href="#">Volleyball 4</a></li>
-                            <li><a href="#">Volleyball 5</a></li>
-                            <li><a href="#">Volleyball 6</a></li>
-                            <li><a class="last" href="#">Volleyball 7</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="title" href="#">SOCCER</a>
-                        <ul>
-                            <li><h4>Seclect a sub-course</h4></li>
-                            <li><a href="#">Soccer 1</a></li>
-                            <li><a href="#">Soccer 2</a></li>
-                            <li><a class="last" href="#">Soccer 3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="title" href="#">TRACK & FIELD</a>
-                        <ul>
-                            <li><h4>Seclect a sub-course</h4></li>
-                            <li><a href="#">Track & Field 1</a></li>
-                            <li><a href="#">Track & Field 2</a></li>
-                            <li><a class="last" href="#">Track & Field 3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="title" href="#">ATHLETIC PERFORMANCE</a>
-                        <ul>
-                            <li><h4>Seclect a sub-course</h4></li>
-                            <li><a href="#">Athletic Performance 1</a></li>
-                            <li><a href="#">Athletic Performance 2</a></li>
-                            <li><a href="#">Athletic Performance 3</a></li>
-                            <li><a href="#">Athletic Performance 4</a></li>
-                            <li><a href="#">Athletic Performance 5</a></li>
-                            <li><a href="#">Athletic Performance 6</a></li>
-                            <li><a href="#">Athletic Performance 7</a></li>
-                            <li><a href="#">Athletic Performance 8</a></li>
-                            <li><a href="#">Athletic Performance 9</a></li>
-                            <li><a class="last" href="#">Athletic Performance 10</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="title" href="#">HEAD COACH ACADEMY</a>
-                        <ul>
-                            <li><h4>Seclect a sub-course</h4></li>
-                            <li><a href="#">Head Coach Academy 1</a></li>
-                            <li><a href="#">Head Coach Academy 2</a></li>
-                            <li><a href="#">Head Coach Academy 3</a></li>
-                            <li><a class="last" href="#">Head Coach Academy 4</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
+<!--Mobile Menu-->
+<div id="mobile-menu" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" id="mobile-menu-close">&times;</a>
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#vault-menu">Vault</a></li>
+        <li><a data-toggle="tab" href="#galzier-clinics-mobile-menu">Galzier Clinics</a></li>
+    </ul>
 
-            <li class="login"><a href="/#">LOGIN</a></li>
-            <li class="buy-pass"><a href="#">SIGN UP</a></li>
-        </ul>
-    </div>
-
-    <!-- header  -->
-    <div id="main">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" id="mobile-menu-open">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <button class="search hidden-lg hidden-md" type="button" id="mobile-search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
-                <a class="navbar-brand" href="vault.html"><img src="imgs/Vault-Logo.png" alt="Logo"></a>
-            </div>
-            <form class="wow fadeInDown form-inline hidden-lg hidden-md hide" id="mobile-search-field">
-                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-            </form>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="wow fadeInRight delay-01s">
-                        <a class="library" href="#" data-toggle="dropdown">LIBRARY</a>
-                        <ul class="dropdown-menu">
-                            <li class="open">
-                                <a href="#" tabindex="-1">FOOTBALL</a>
-                                <ul class="dropdown-menu submenu">
-                                    <li><h4>Seclect a sub-course</h4></li>
-                                    <li><a href="#">Football 1</a></li>
-                                    <li><a href="#">Football 2</a></li>
-                                    <li><a href="#">Football 3</a></li>
-                                    <li><a href="#">Football 4</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">BASKETBALL</a>
-                                <ul class="dropdown-menu submenu">
-                                    <li><h4>Seclect a sub-course</h4></li>
-                                    <li><a href="#">Basketball 1</a></li>
-                                    <li><a href="#">Basketball 2</a></li>
-                                    <li><a href="#">Basketball 3</a></li>
-                                    <li><a href="#">Basketball 4</a></li>
-                                    <li><a href="#">Basketball 5</a></li>
-                                    <li><a href="#">Basketball 6</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">VOLLEYBALL</a>
-                                <ul class="dropdown-menu submenu">
-                                    <li><h4>Seclect a sub-course</h4></li>
-                                    <li><a href="#">Volleyball 1</a></li>
-                                    <li><a href="#">Volleyball 2</a></li>
-                                    <li><a href="#">Volleyball 3</a></li>
-                                    <li><a href="#">Volleyball 4</a></li>
-                                    <li><a href="#">Volleyball 5</a></li>
-                                    <li><a href="#">Volleyball 6</a></li>
-                                    <li><a href="#">Volleyball 7</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">SOCCER</a>
-                                <ul class="dropdown-menu submenu">
-                                    <li><h4>Seclect a sub-course</h4></li>
-                                    <li><a href="#">Soccer 1</a></li>
-                                    <li><a href="#">Soccer 2</a></li>
-                                    <li><a href="#">Soccer 3</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">TRACK & FIELD</a>
-                                <ul class="dropdown-menu submenu">
-                                    <li><h4>Seclect a sub-course</h4></li>
-                                    <li><a href="#">Track &  Field 1</a></li>
-                                    <li><a href="#">Track &  Field 2</a></li>
-                                    <li><a href="#">Track &  Field 3</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">ATHLETIC PERFORMANCE</a>
-                                <ul class="dropdown-menu submenu">
-                                    <li><h4>Seclect a sub-course</h4></li>
-                                    <li><a href="#">Athletic Performance 1</a></li>
-                                    <li><a href="#">Athletic Performance 2</a></li>
-                                    <li><a href="#">Athletic Performance 3</a></li>
-                                    <li><a href="#">Athletic Performance 4</a></li>
-                                    <li><a href="#">Athletic Performance 5</a></li>
-                                    <li><a href="#">Athletic Performance 6</a></li>
-                                    <li><a href="#">Athletic Performance 7</a></li>
-                                    <li><a href="#">Athletic Performance 8</a></li>
-                                    <li><a href="#">Athletic Performance 9</a></li>
-                                    <li><a href="#">Athletic Performance 10</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">HEAD COACH ACADEMY</a>
-                                <ul class="dropdown-menu submenu">
-                                    <li><h4>Seclect a sub-course</h4></li>
-                                    <li><a href="#">Head Coach Academy 1</a></li>
-                                    <li><a href="#">Head Coach Academy 2</a></li>
-                                    <li><a href="#">Head Coach Academy 3</a></li>
-                                    <li><a href="#">Head Coach Academy 4</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="wow fadeInRight delay-02s hidden-sm hidden-xs">
-                        <form class="form-inline">
-                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                            <button class="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                        </form>
-                    </li>
-                    <li class="glazier-football-menu wow fadeInRight delay-03s">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="collapse" id="bs-example-navbar-collapse-2">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class=""><a href="/season_pass">SEASON PASS</a></li>
-                                <li class=""><a href="/coaching_clinics/cities_and_dates">CLINIC LOCATIONS</a></li>
-                                <li class="">
-                                    <a href="#" data-toggle="dropdown">RESOURCES</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://vault.glazierclinics.com">VAULT</a></li>
-                                        <li><a href="/glazier_clinic_online/eclinics">GLAZIER ECLINICS</a></li>
-                                        <li><a href="/directory">VENDOR DIRECTORY</a></li>
-                                        <li><a href="/vendor-discounts">VENDOR DISCOUNTS</a></li>
-                                        <li><a href="/coach_resources/webinar_schedule">WEBINAR SCHEDULE </a></li>
-                                        <li><a href="/coach_resources/usmc_combat_fitness">USMC FITNESS TEST</a></li>
-                                        <li><a href="/coach_resources/football_drills">FOOTBALL DRILLS</a></li>
-                                        <li><a href="/coach_resources/coaching_websites">COACHING WEBSITES</a></li>
-                                        <li><a href="/top-football-products">TOP FOOTBALL PRODUCTS</a></li>
-                                        <li><a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/youth">YOUTH COACH SCHOLORSHIPS</a></li>
-                                        <li><a href="/coaching_clinics/college-continuing_ed_credits">CONTINUING ED</a></li>
-                                    </ul>
-                                </li>
-                                <li class=""><a href="/coaching_clinics/frank_glaziers_biography">ABOUT</a></li>
-                                <li class=""><a href="/partners_exhibitors">EXHIBIT</a></li>
-                                <li class="login"><a href="/login?returnurl=/coaching_clinics/register">LOGIN</a></li>
-                                <li class="buy-pass"><a href="/register">BUY YOUR PASS</a></li>
+    <div class="tab-content">
+        <div id="vault-menu" class="tab-pane fade in active">
+            <ul>
+                <li class="wow fadeInRight delay-02s">
+                    <a class="library" href="#">LIBRARY</a>
+                    <ul>
+                        <li>
+                            <a class="title" href="#" tabindex="-1">FOOTBALL</a>
+                            <ul>
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Football 1</a></li>
+                                <li><a href="#">Football 2</a></li>
+                                <li><a href="#">Football 3</a></li>
+                                <li><a class="last" href="#">Football 4</a></li>
                             </ul>
-                        </div>
-                    </li>
-                    <li class="login wow fadeInRight delay-04s"><a href="/#">LOGIN</a></li>
-                    <li class="buy-pass wow fadeInRight delay-05s"><a href="#">SIGN UP</a></li>
-                </ul>
-            </div>
+                        </li>
+                        <li>
+                            <a class="title" href="#">BASKETBALL</a>
+                            <ul>
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Basketball 1</a></li>
+                                <li><a href="#">Basketball 2</a></li>
+                                <li><a href="#">Basketball 3</a></li>
+                                <li><a href="#">Basketball 4</a></li>
+                                <li><a href="#">Basketball 5</a></li>
+                                <li><a class="last" href="#">Basketball 6</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="title" href="#">VOLLEYBALL</a>
+                            <ul>
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Volleyball 1</a></li>
+                                <li><a href="#">Volleyball 2</a></li>
+                                <li><a href="#">Volleyball 3</a></li>
+                                <li><a href="#">Volleyball 4</a></li>
+                                <li><a href="#">Volleyball 5</a></li>
+                                <li><a href="#">Volleyball 6</a></li>
+                                <li><a class="last" href="#">Volleyball 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="title" href="#">SOCCER</a>
+                            <ul>
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Soccer 1</a></li>
+                                <li><a href="#">Soccer 2</a></li>
+                                <li><a class="last" href="#">Soccer 3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="title" href="#">TRACK & FIELD</a>
+                            <ul>
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Track & Field 1</a></li>
+                                <li><a href="#">Track & Field 2</a></li>
+                                <li><a class="last" href="#">Track & Field 3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="title" href="#">ATHLETIC PERFORMANCE</a>
+                            <ul>
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Athletic Performance 1</a></li>
+                                <li><a href="#">Athletic Performance 2</a></li>
+                                <li><a href="#">Athletic Performance 3</a></li>
+                                <li><a href="#">Athletic Performance 4</a></li>
+                                <li><a href="#">Athletic Performance 5</a></li>
+                                <li><a href="#">Athletic Performance 6</a></li>
+                                <li><a href="#">Athletic Performance 7</a></li>
+                                <li><a href="#">Athletic Performance 8</a></li>
+                                <li><a href="#">Athletic Performance 9</a></li>
+                                <li><a class="last" href="#">Athletic Performance 10</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="title" href="#">HEAD COACH ACADEMY</a>
+                            <ul>
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Head Coach Academy 1</a></li>
+                                <li><a href="#">Head Coach Academy 2</a></li>
+                                <li><a href="#">Head Coach Academy 3</a></li>
+                                <li><a class="last" href="#">Head Coach Academy 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="login"><a href="/#">LOGIN</a></li>
+                <li class="buy-pass"><a href="#">SIGN UP</a></li>
+            </ul>
         </div>
-    </nav>
+        <div id="galzier-clinics-mobile-menu" class="tab-pane fade">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="wow fadeInRight delay-01s"><a href="/season_pass">SEASON PASS</a></li>
+                <li class="wow fadeInRight delay-02s"><a href="/coaching_clinics/cities_and_dates">CLINIC LOCATIONS</a></li>
+                <li class="wow fadeInRight delay-03s">
+                    <a href="#" data-toggle="dropdown">RESOURCES</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://vault.glazierclinics.com">VAULT</a></li>
+                        <li><a href="/glazier_clinic_online/eclinics">GLAZIER ECLINICS</a></li>
+                        <li><a href="/directory">VENDOR DIRECTORY</a></li>
+                        <li><a href="/vendor-discounts">VENDOR DISCOUNTS</a></li>
+                        <li><a href="/coach_resources/webinar_schedule">WEBINAR SCHEDULE </a></li>
+                        <li><a href="/coach_resources/usmc_combat_fitness">USMC FITNESS TEST</a></li>
+                        <li><a href="/coach_resources/football_drills">FOOTBALL DRILLS</a></li>
+                        <li><a href="/coach_resources/coaching_websites">COACHING WEBSITES</a></li>
+                        <li><a href="/top-football-products">TOP FOOTBALL PRODUCTS</a></li>
+                        <li><a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/youth">YOUTH COACH SCHOLORSHIPS</a></li>
+                        <li><a href="/coaching_clinics/college-continuing_ed_credits">CONTINUING ED</a></li>
+                    </ul>
+                </li>
+                <li class="wow fadeInRight delay-04s"><a href="/coaching_clinics/frank_glaziers_biography">ABOUT</a></li>
+                <li class="wow fadeInRight delay-05s"><a href="/partners_exhibitors">EXHIBIT</a></li>
+                <li class="wow fadeInRight delay-06s login"><a href="/login?returnurl=/coaching_clinics/register">LOGIN</a></li>
+                <li class="wow fadeInRight delay-07s buy-pass"><a href="/register">BUY YOUR PASS</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- header  -->
+<div id="main">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" id="mobile-menu-open">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <button class="search hidden-lg hidden-md" type="button" id="mobile-search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <a class="navbar-brand" href="vault.html"><img src="imgs/Vault-Logo.png" alt="Logo"></a>
+        </div>
+        <form class="wow fadeInDown form-inline hidden-lg hidden-md hide" id="mobile-search-field">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="wow fadeInRight delay-01s">
+                    <a class="library" href="#" data-toggle="dropdown">LIBRARY</a>
+                    <ul class="dropdown-menu">
+                        <li class="open">
+                            <a href="#" tabindex="-1">FOOTBALL</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Football 1</a></li>
+                                <li><a href="#">Football 2</a></li>
+                                <li><a href="#">Football 3</a></li>
+                                <li><a href="#">Football 4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">BASKETBALL</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Basketball 1</a></li>
+                                <li><a href="#">Basketball 2</a></li>
+                                <li><a href="#">Basketball 3</a></li>
+                                <li><a href="#">Basketball 4</a></li>
+                                <li><a href="#">Basketball 5</a></li>
+                                <li><a href="#">Basketball 6</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">VOLLEYBALL</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Volleyball 1</a></li>
+                                <li><a href="#">Volleyball 2</a></li>
+                                <li><a href="#">Volleyball 3</a></li>
+                                <li><a href="#">Volleyball 4</a></li>
+                                <li><a href="#">Volleyball 5</a></li>
+                                <li><a href="#">Volleyball 6</a></li>
+                                <li><a href="#">Volleyball 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">SOCCER</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Soccer 1</a></li>
+                                <li><a href="#">Soccer 2</a></li>
+                                <li><a href="#">Soccer 3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">TRACK & FIELD</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Track &  Field 1</a></li>
+                                <li><a href="#">Track &  Field 2</a></li>
+                                <li><a href="#">Track &  Field 3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">ATHLETIC PERFORMANCE</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Athletic Performance 1</a></li>
+                                <li><a href="#">Athletic Performance 2</a></li>
+                                <li><a href="#">Athletic Performance 3</a></li>
+                                <li><a href="#">Athletic Performance 4</a></li>
+                                <li><a href="#">Athletic Performance 5</a></li>
+                                <li><a href="#">Athletic Performance 6</a></li>
+                                <li><a href="#">Athletic Performance 7</a></li>
+                                <li><a href="#">Athletic Performance 8</a></li>
+                                <li><a href="#">Athletic Performance 9</a></li>
+                                <li><a href="#">Athletic Performance 10</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">HEAD COACH ACADEMY</a>
+                            <ul class="dropdown-menu submenu">
+                                <li><h4>Seclect a sub-course</h4></li>
+                                <li><a href="#">Head Coach Academy 1</a></li>
+                                <li><a href="#">Head Coach Academy 2</a></li>
+                                <li><a href="#">Head Coach Academy 3</a></li>
+                                <li><a href="#">Head Coach Academy 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="wow fadeInRight delay-02s hidden-sm hidden-xs">
+                    <form class="form-inline">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        <button class="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </li>
+                <li class="glazier-football-menu wow fadeInRight delay-03s">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse" id="bs-example-navbar-collapse-2">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class=""><a href="/season_pass">SEASON PASS</a></li>
+                            <li class=""><a href="/coaching_clinics/cities_and_dates">CLINIC LOCATIONS</a></li>
+                            <li class="">
+                                <a href="#" data-toggle="dropdown">RESOURCES</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://vault.glazierclinics.com">VAULT</a></li>
+                                    <li><a href="/glazier_clinic_online/eclinics">GLAZIER ECLINICS</a></li>
+                                    <li><a href="/directory">VENDOR DIRECTORY</a></li>
+                                    <li><a href="/vendor-discounts">VENDOR DISCOUNTS</a></li>
+                                    <li><a href="/coach_resources/webinar_schedule">WEBINAR SCHEDULE </a></li>
+                                    <li><a href="/coach_resources/usmc_combat_fitness">USMC FITNESS TEST</a></li>
+                                    <li><a href="/coach_resources/football_drills">FOOTBALL DRILLS</a></li>
+                                    <li><a href="/coach_resources/coaching_websites">COACHING WEBSITES</a></li>
+                                    <li><a href="/top-football-products">TOP FOOTBALL PRODUCTS</a></li>
+                                    <li><a href="https://www.glazierclinics.com/coaching_clinics/register/ctl/registration1/mid/703/regtype/youth">YOUTH COACH SCHOLORSHIPS</a></li>
+                                    <li><a href="/coaching_clinics/college-continuing_ed_credits">CONTINUING ED</a></li>
+                                </ul>
+                            </li>
+                            <li class=""><a href="/coaching_clinics/frank_glaziers_biography">ABOUT</a></li>
+                            <li class=""><a href="/partners_exhibitors">EXHIBIT</a></li>
+                            <li class="login"><a href="/login?returnurl=/coaching_clinics/register">LOGIN</a></li>
+                            <li class="buy-pass"><a href="/register">BUY YOUR PASS</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="login wow fadeInRight delay-04s"><a href="/#">LOGIN</a></li>
+                <li class="buy-pass wow fadeInRight delay-05s"><a href="#">SIGN UP</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
         <!-- Pass Section -->
         <section class="pass-offer">
             <div class="container">

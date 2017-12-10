@@ -116,9 +116,15 @@ $(document).ready(function () {
         });
     $('#mobile-menu-open').on('click',
         function () {
-            document.getElementById("mobile-menu").style.width = "80%";
-            document.getElementById("main").style.marginLeft = "80%";
+            if ($(window).width() > 480) {
+                document.getElementById("mobile-menu").style.width = "80%";
+                document.getElementById("main").style.marginLeft = "80%";
+            } else {
+                document.getElementById("mobile-menu").style.width = $(window).width() + "px";
+                document.getElementById("main").style.marginLeft = $(window).width() + "px";
+            }
             document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+
         });
 
     $('#mobile-menu-close').on('click',
